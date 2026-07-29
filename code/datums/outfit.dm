@@ -125,11 +125,9 @@
 	var/preload = FALSE
 
 	/// Any undershirt. While on humans it is a string, here we use paths to stay consistent with the rest of the equips.
-	// SPLURT EDIT - Extra Inventory - use the correct paths
-	var/datum/sprite_accessory/undershirt/undershirt = null
-	var/datum/sprite_accessory/underwear/underwear = null
-	var/datum/sprite_accessory/socks/socks = null
-	// SPLURT EDIT END
+	var/datum/sprite_accessory/clothing/undershirt = null
+	var/datum/sprite_accessory/clothing/underwear = null
+	var/datum/sprite_accessory/clothing/socks = null
 
 /**
  * Called at the start of the equip proc
@@ -548,7 +546,7 @@
 
 /datum/outfit/vv_get_dropdown()
 	. = ..()
-	VV_DROPDOWN_OPTION("", "---")
+	VV_DROPDOWN_OPTION("", "--- /outfit ---")
 	VV_DROPDOWN_OPTION(VV_HK_TO_OUTFIT_EDITOR, "Outfit Editor")
 
 /datum/outfit/vv_do_topic(list/href_list)
@@ -558,6 +556,4 @@
 		return
 
 	if(href_list[VV_HK_TO_OUTFIT_EDITOR])
-		if(!check_rights(NONE))
-			return
 		usr.client.open_outfit_editor(src)

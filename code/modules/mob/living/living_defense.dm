@@ -227,9 +227,9 @@
 	. = combat_mode
 	combat_mode = new_mode
 	SEND_SIGNAL(src, COMSIG_COMBAT_MODE_TOGGLED)
-	if(hud_used?.action_intent)
-		hud_used.action_intent.update_appearance()
+	hud_used?.screen_objects[HUD_MOB_INTENTS]?.update_appearance()
 	//SPLURT EDIT START - Combat mode and intents
+	// Classic intent UI replaces combat-mode face-cursor / toggle sounds when the intents preference is on.
 	if(!client?.prefs?.read_preference(/datum/preference/toggle/intents))
 		face_mouse = (client?.prefs?.read_preference(/datum/preference/toggle/face_cursor_combat_mode) && combat_mode) ? TRUE : FALSE // BUBBER EDIT
 		if(silent || !client?.prefs.read_preference(/datum/preference/toggle/sound_combatmode))
@@ -238,7 +238,6 @@
 			SEND_SOUND(src, sound('sound/misc/ui_togglecombat.ogg', volume = 25)) //Sound from interbay!
 		else
 			SEND_SOUND(src, sound('sound/misc/ui_toggleoffcombat.ogg', volume = 25)) //Slightly modified version of the above
-
 	//SPLURT EDIT END
 
 /mob/living/hitby(atom/movable/AM, skipcatch, hitpush = TRUE, blocked = FALSE, datum/thrownthing/throwingdatum)
@@ -338,13 +337,13 @@
  */
 /mob/living/proc/grab(mob/living/target)
 	if(!istype(target))
-		return FALSE
+		return GRAB_SKIP
 	if(SEND_SIGNAL(src, COMSIG_LIVING_GRAB, target) & (COMPONENT_CANCEL_ATTACK_CHAIN|COMPONENT_SKIP_ATTACK))
-		return FALSE
+		return GRAB_FAILURE
 	if(target.check_block(src, 0, "[src]'s grab", UNARMED_ATTACK))
-		return FALSE
+		return GRAB_FAILURE
 	target.grabbedby(src)
-	return TRUE
+	return GRAB_SUCCESS
 
 /**
  * Called when this mob is grabbed by another mob.
@@ -600,7 +599,7 @@
 	shock_damage *= siemens_coeff
 	if((flags & SHOCK_TESLA) && HAS_TRAIT(src, TRAIT_TESLA_SHOCKIMMUNE))
 		return FALSE
-	if(HAS_TRAIT(src, TRAIT_SHOCKIMMUNE))
+	if(!(flags & SHOCK_IGNORE_IMMUNITY) && HAS_TRAIT(src, TRAIT_SHOCKIMMUNE))
 		return FALSE
 	if(shock_damage < 1)
 		return FALSE
