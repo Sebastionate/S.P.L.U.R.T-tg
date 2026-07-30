@@ -289,7 +289,7 @@
 	message = "mutters swaos."
 	message_mime = "imitates swaos."
 	sound = 'modular_zzplurt/sound/voice/swaos.ogg'
-	manual_	manual_specific_emote_audio_cooldown = 0.7 SECONDS
+	manual_specific_emote_audio_cooldown = 0.7 SECONDS
 	emote_type = EMOTE_AUDIBLE
 
 /datum/emote/living/eyebrow2
