@@ -372,7 +372,7 @@
 			// update this shit
 			alterer.dna.update_ui_block(/datum/dna_block/identity/gender)
 			alterer.update_body(is_creating = TRUE)
-			alterer.update_mutations_overlay()
+			alterer.update_appearance(UPDATE_OVERLAYS)
 			alterer.update_clothing(ITEM_SLOT_ICLOTHING)
 		// SPLURT EDIT ADD END
 		if("Genitals")

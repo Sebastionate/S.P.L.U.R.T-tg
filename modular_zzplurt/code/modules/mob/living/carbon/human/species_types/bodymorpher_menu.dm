@@ -302,7 +302,7 @@
 	alterer.mutant_renderkey = ""
 	alterer.update_body(is_creating = TRUE)
 	alterer.update_body_parts()
-	alterer.update_mutations_overlay()
+	alterer.update_appearance(UPDATE_OVERLAYS)
 	alterer.update_clothing(ALL)
 	return TRUE
 

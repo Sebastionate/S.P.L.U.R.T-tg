@@ -97,7 +97,7 @@
 
 	var/stamp_icon_state = get_paper_stamp_icon_state()
 	var/stamp_scale = (stamp_mode == "paw") ? 5 : 0.5
-	var/datum/asset/spritesheet_batched/sheet = get_asset_datum(/datum/asset/spritesheet/simple/paper)
+	var/datum/asset/spritesheet/simple/sheet = get_asset_datum(/datum/asset/spritesheet/simple/stamps)
 	var/stamp_icon = 'modular_skyrat/master_files/icons/obj/bureaucracy.dmi'
 	if(stamp_mode == "kiss")
 		stamp_icon = 'modular_zzplurt/icons/effects/kissmark.png'

@@ -19,9 +19,16 @@
 	if(usr.hud_used.inventory_shown && targetmob.hud_used)
 		usr.hud_used.inventory_shown = FALSE
 		usr.client.screen -= targetmob.hud_used.screen_groups[HUD_GROUP_TOGGLEABLE_INVENTORY]
+		// SPLURT EDIT - Extra inventory
+		usr.client.screen -= targetmob.hud_used.screen_groups[HUD_GROUP_EXTRA_INVENTORY]
+		//
 	else
 		usr.hud_used.inventory_shown = TRUE
 		usr.client.screen += targetmob.hud_used.screen_groups[HUD_GROUP_TOGGLEABLE_INVENTORY]
+		// SPLURT EDIT - Extra inventory
+		if(usr.hud_used.extra_shown)
+			usr.client.screen += targetmob.hud_used.screen_groups[HUD_GROUP_EXTRA_INVENTORY]
+		//
 
 	update_appearance()
 

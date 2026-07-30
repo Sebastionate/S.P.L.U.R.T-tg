@@ -125,9 +125,11 @@
 	var/preload = FALSE
 
 	/// Any undershirt. While on humans it is a string, here we use paths to stay consistent with the rest of the equips.
-	var/datum/sprite_accessory/clothing/undershirt = null
-	var/datum/sprite_accessory/clothing/underwear = null
-	var/datum/sprite_accessory/clothing/socks = null
+	// SPLURT EDIT - Undershirt, underwear, and socks are now separate slots
+	var/datum/sprite_accessory/clothing/undershirt/undershirt = null
+	var/datum/sprite_accessory/clothing/underwear/underwear = null
+	var/datum/sprite_accessory/clothing/socks/socks = null
+	// SPLURT EDIT END
 
 /**
  * Called at the start of the equip proc

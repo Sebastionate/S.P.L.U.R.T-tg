@@ -25,7 +25,7 @@
 					if(ORG.written_text)
 						bodywriting = ". It has \"[html_encode(ORG.written_text)]\" written on it."
 					if(HAS_TRAIT(usr, TRAIT_GFLUID_DETECT))
-						var/datum/reagent/cummies = find_reagent_object_from_type(ORG.internal_fluid_datum)
+						var/datum/reagent/cummies = GLOB.chemical_reagents_list[ORG.internal_fluid_datum]
 						genital_sniff = cummies ? ". You smell <span style='color:[cummies.color]';>[cummies.name]</span> brewing inside..." : ""
 					line += ORG.get_description_string(G) + genital_sniff + bodywriting
 					//SPLURT EDIT END

@@ -4,7 +4,6 @@
 	title = ROLE_ALLAMERICAN
 	policy_index = ROLE_ALLAMERICAN
 	akula_outfit = /datum/outfit/akula
-	antagonist_restricted = TRUE
 
 /obj/effect/mob_spawn/ghost_role/human/allamerican
 	name = "All-American Diner Employee"

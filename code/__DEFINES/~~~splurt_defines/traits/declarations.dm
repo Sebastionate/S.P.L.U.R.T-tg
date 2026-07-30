@@ -49,8 +49,6 @@
 #define TRAIT_UNDEAD			"Undead"
 /// Trait for quirk: Illuminated
 #define TRAIT_COSGLOW			"cosmetic_glow"
-/// Trait for quirk: Body Morpher
-#define TRAIT_BODY_MORPHER		"body_morpher"
 /// Trait for quirk: Hallowed
 #define TRAIT_HALLOWED			"hallowed"
 /// Trait for quirk: Messy

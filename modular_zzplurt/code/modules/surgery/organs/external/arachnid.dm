@@ -18,10 +18,8 @@
 	layers = EXTERNAL_FRONT|EXTERNAL_ADJACENT
 	feature_key = "mandibles"
 
-/datum/bodypart_overlay/mutant/mandibles/can_draw_on_bodypart(obj/item/bodypart/bodypart_owner)
-	if(bodypart_owner.owner.head?.flags_inv & HIDESNOUT)
-		return FALSE
-	return TRUE
+/datum/bodypart_overlay/mutant/mandibles/can_draw_on_bodypart(obj/item/bodypart/bodypart_owner, mob/living/carbon/owner, is_husked = FALSE)
+	return ..() && !(owner?.obscured_slots & HIDESNOUT)
 
 /datum/bodypart_overlay/mutant/mandibles/get_global_feature_list()
 	return SSaccessories.sprite_accessories["mandibles"]
@@ -47,13 +45,8 @@
 	layers = ALL_EXTERNAL_OVERLAYS
 	feature_key = "spinneret"
 
-/datum/bodypart_overlay/mutant/spinneret/can_draw_on_bodypart(obj/item/bodypart/bodypart_owner)
-	var/mob/living/carbon/human/human = bodypart_owner.owner
-	if(!istype(human))
-		return FALSE
-	if((human.w_uniform?.flags_inv | human.wear_suit?.flags_inv) & HIDEMUTWINGS) //sure ig
-		return FALSE
-	return TRUE
+/datum/bodypart_overlay/mutant/spinneret/can_draw_on_bodypart(obj/item/bodypart/bodypart_owner, mob/living/carbon/owner, is_husked = FALSE)
+	return ..() && !(owner?.obscured_slots & HIDEMUTWINGS)
 
 /datum/bodypart_overlay/mutant/spinneret/get_global_feature_list()
 	return SSaccessories.sprite_accessories["spinneret"]
@@ -79,13 +72,8 @@
 	layers = ALL_EXTERNAL_OVERLAYS
 	feature_key = "arachnid_legs"
 
-/datum/bodypart_overlay/mutant/arachnid_legs/can_draw_on_bodypart(obj/item/bodypart/bodypart_owner)
-	var/mob/living/carbon/human/human = bodypart_owner.owner
-	if(!istype(human))
-		return FALSE
-	if((human.w_uniform?.flags_inv | human.wear_suit?.flags_inv) & HIDEMUTWINGS) //sure ig
-		return FALSE
-	return TRUE
+/datum/bodypart_overlay/mutant/arachnid_legs/can_draw_on_bodypart(obj/item/bodypart/bodypart_owner, mob/living/carbon/owner, is_husked = FALSE)
+	return ..() && !(owner?.obscured_slots & HIDEMUTWINGS)
 
 /datum/bodypart_overlay/mutant/arachnid_legs/get_global_feature_list()
 	return SSaccessories.sprite_accessories["arachnid_legs"]

@@ -35,8 +35,10 @@
 #define HUD_GROUP_HOTKEYS 5
 /// Open storages and items in them
 #define HUD_GROUP_STORAGE 6
+/// SPLURT EDIT - Extra inventory (underwear/socks/etc), toggled separately while inventory is shown
+#define HUD_GROUP_EXTRA_INVENTORY 7
 /// Total amount of screen groups in use
-#define SCREEN_GROUP_AMT 6
+#define SCREEN_GROUP_AMT 7 // SPLURT EDIT - was 6
 
 // Hud keys for accessing hud objects
 #define HUD_MOB_TOGGLE_PALETTE "mob_toggle_palette"
@@ -74,6 +76,7 @@
 #define HUD_OOZE_NUTRITION_DISPLAY "ooze_nutrition_display"
 
 #define HUD_HUMAN_TOGGLE_INVENTORY "human_toggle_inventory"
+#define HUD_HUMAN_TOGGLE_EXTRA_INVENTORY "human_toggle_extra_inventory" // SPLURT EDIT - Extra inventory
 
 #define HUD_NEW_PLAYER_START_NOW "new_player_start_now"
 #define HUD_NEW_PLAYER_SIGN_UP "newp_layer_sign_up"

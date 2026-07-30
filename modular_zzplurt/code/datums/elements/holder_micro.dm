@@ -295,7 +295,16 @@
 	transform = null
 
 // And right here i throw all of those error sprites in the trash
-/obj/item/mob_holder/micro/build_worn_icon(default_layer, default_icon_file, isinhands, female_uniform, override_state, override_file, mutant_styles)
+/obj/item/mob_holder/micro/build_worn_icon(
+	default_layer = 0,
+	default_icon_file = null,
+	isinhands = FALSE,
+	female_uniform = NO_FEMALE_UNIFORM,
+	override_state = null,
+	override_file = null,
+	bodyshape = NONE,
+	mutant_styles = NONE,
+)
 	return null
 
 /obj/item/mob_holder/micro/verb/interact_with_held()
