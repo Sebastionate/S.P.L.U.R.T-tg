@@ -113,3 +113,7 @@
 	safe_plasma_min = 16
 	safe_plasma_max = 0
 	breathgas = "plasma"
+
+#undef RESPIRATION_BZ
+#undef RESPIRATION_NITROUS
+#undef RESPIRATION_CARBON

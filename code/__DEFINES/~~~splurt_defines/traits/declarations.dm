@@ -118,3 +118,8 @@
 
 /// Trait that makes you unable to get pregnant, make people pregnant, and triggers abortions too
 #define TRAIT_INFERTILE "pregnancy_infertile"
+
+/// Trait for quirk: Skub Fan (pro-skub)
+#define TRAIT_PRO_SKUB "pro_skub"
+/// Trait for quirk: Skub Fan (anti-skub)
+#define TRAIT_ANTI_SKUB "anti_skub"

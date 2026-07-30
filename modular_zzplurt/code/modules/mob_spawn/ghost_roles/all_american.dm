@@ -182,3 +182,5 @@
 /obj/item/paper/fluff/ruins/allamericandiner/better/manager
 	name = "Notice for Managers"
 	default_raw_text = "Welcome to your new position of Manager! Remember to PAY YOUR EMPLOYEES A SALARY! Giving them a constant paycheck makes sure that they stay loyal to your leadership, we won't want a mutiny within one of our diners now would we? So, keep paying them. - REGIONAL MANAGER."
+
+#undef ROLE_ALLAMERICAN

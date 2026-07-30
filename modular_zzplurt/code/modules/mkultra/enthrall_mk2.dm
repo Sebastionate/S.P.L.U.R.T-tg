@@ -113,3 +113,5 @@
 			break
 
 	return ..()
+
+#undef FULLY_ENTHRALLED

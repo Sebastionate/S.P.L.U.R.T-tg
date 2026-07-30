@@ -109,3 +109,5 @@
 			continue
 		movedelay *= mech_armor.move_slowdown
 
+#undef MECHA_SNOWFLAKE_ID_ARMOR
+
