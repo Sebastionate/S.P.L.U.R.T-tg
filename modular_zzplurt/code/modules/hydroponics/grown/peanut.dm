@@ -7,7 +7,7 @@
 /obj/item/seeds/peanut/packing
 	name = "package peanut seed pack"
 	desc = "These seeds grow into package peanut plants."
-	icon = 'modular_zzplurt/icons/obj/service/hydroponics/seeds.dmi'
+	icon = 'icons/obj/service/hydroponics/seeds.dmi'
 	icon_state = "seed-peanut"
 	species = "package peanut"
 	plantname = "Package Peanut Plant"
@@ -29,10 +29,12 @@
 	icon = 'modular_zzplurt/icons/obj/service/hydroponics/harvest.dmi'
 	icon_state = "package_peanut"
 	foodtypes = GRAIN | NUTS | CLOTH
-	grind_results = list(/datum/reagent/consumable/peanut_butter/packing = 0)
 	tastes = list("starchy peanuts" = 1)
 	var/packing_type = /obj/item/stack/packing_peanuts
 	var/packing_name = "packing peanuts"
+
+/obj/item/food/grown/peanut/packing/grind_results()
+	return list(/datum/reagent/consumable/peanut_butter/packing = 0)
 
 // Copypasta from cotton, bite me
 /obj/item/food/grown/peanut/packing/attack_self(mob/user)
@@ -45,7 +47,7 @@
 	qdel(src)
 
 // Override to make it so cargo techs love package peanuts
-/obj/item/food/grown/peanut/packing/proc/make_edible()
+/obj/item/food/grown/peanut/packing/make_edible()
 	AddComponentFrom(
 		SOURCE_EDIBLE_INNATE,\
 		/datum/component/edible,\
