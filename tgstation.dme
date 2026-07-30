@@ -10553,7 +10553,6 @@
 #include "modular_zzplurt\code\_defines.dm"
 #include "modular_zzplurt\code\_globalvars\mobs.dm"
 #include "modular_zzplurt\code\_globalvars\lists\global_lewd.dm"
-#include "modular_zzplurt\code\_globalvars\traits\perma_arousal.dm"
 #include "modular_zzplurt\code\_globalvars\traits\skub_fan.dm"
 #include "modular_zzplurt\code\_helpers\preferences.dm"
 #include "modular_zzplurt\code\_onclick\observer.dm"
