@@ -2,14 +2,17 @@
 /datum/sprite_accessory/genital/breasts/pair
 	icon = 'modular_zzplurt/icons/mob/sprite_accessories/genitals/breasts_onmob.dmi'
 	color_src = USE_MATRIXED_COLORS
+	max_size = BREASTS_MAX_SIZE
 
 /datum/sprite_accessory/genital/breasts/quad
 	icon = 'modular_zzplurt/icons/mob/sprite_accessories/genitals/breasts_onmob.dmi'
 	color_src = USE_MATRIXED_COLORS
+	max_size = BREASTS_MAX_SIZE
 
 /datum/sprite_accessory/genital/breasts/sextuple
 	icon = 'modular_zzplurt/icons/mob/sprite_accessories/genitals/breasts_onmob.dmi'
 	color_src = USE_MATRIXED_COLORS
+	max_size = BREASTS_MAX_SIZE
 
 /datum/sprite_accessory/genital/breasts/pair_old
 	icon_state = /datum/sprite_accessory/genital/breasts/pair::icon_state
