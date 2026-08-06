@@ -343,8 +343,10 @@
 /obj/item/organ/genital/testicles/update_genital_icon_state()
 	var/measured_size = FLOOR(genital_size,1)
 	var/max_size = TESTICLES_MAX_SIZE
+	/* SPLURT EDIT - Removed -2 for non-alt types since SPLURT DMIs have full sprite range (0-8)
 	if(genital_name != "Pair (Alt)" && genital_name != "Sheathed Pair")
 		max_size -= 2
+	*/ /* SPLURT EDIT END */
 	measured_size = clamp(measured_size, 1, max_size)
 	var/passed_string = "testicles_[genital_type]_[measured_size]"
 	if(uses_skintones)
@@ -370,8 +372,10 @@
 /obj/item/organ/genital/testicles/get_sprite_size_string()
 	var/measured_size = FLOOR(genital_size,1)
 	var/max_size = TESTICLES_MAX_SIZE
+	/* SPLURT EDIT - Removed -2 for non-alt types since SPLURT DMIs have full sprite range (0-8)
 	if(genital_name != "Pair (Alt)" && genital_name != "Sheathed Pair")
 		max_size -= 2
+	*/ /* SPLURT EDIT END */
 	measured_size = clamp(measured_size, 0, max_size)
 	var/passed_string = "[genital_type]_[measured_size]"
 	if(uses_skintones)
