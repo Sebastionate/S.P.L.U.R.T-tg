@@ -804,7 +804,7 @@
 	codes_txt = "patrol;next_patrol=evac-5";
 	location = "evac-4"
 	},
-/mob/living/basic/bot/honkbot{
+/mob/living/basic/bot/secbot/honkbot{
 	name = "Jester Jingles"
 	},
 /turf/open/floor/wood/parquet,
@@ -1426,7 +1426,7 @@
 "mU" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/mob/living/simple_animal/bot/secbot/beepsky/armsky{
+/mob/living/basic/bot/secbot/beepsky/armsky{
 	name = "Lieutenant Olesky";
 	desc = "It's Lieutenant Olesky! He's a disgruntled security lieutenant that would probably shoot you if he had hands."
 	},
