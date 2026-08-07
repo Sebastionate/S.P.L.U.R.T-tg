@@ -305,7 +305,10 @@
  * It lets you pick between a few options for DNA specifics
  */
 /datum/action/innate/alter_form/proc/alter_dna(mob/living/carbon/human/alterer)
+	//SPLURT EDIT CHANGE BEGIN - ALTER_FORM_GENDER
+	//var/list/key_list = list("Body Size", "Genitals", "Mutant Parts") - SPLURT EDIT - ORIGINAL
 	var/list/key_list = list("Body Size", "Gender", "Genitals", "Mutant Parts")
+	//SPLURT EDIT CHANGE END
 	if(CONFIG_GET(flag/disable_erp_preferences))
 		key_list.Remove("Genitals")
 	var/dna_alteration = tgui_input_list(
@@ -324,14 +327,24 @@
 					alterer.add_quirk(/datum/quirk/oversized)
 					return
 
+			//SPLURT EDIT CHANGE BEGIN - SIZECODE - Use SPLURT body size range + update_size hooks
+			//var/new_body_size = tgui_input_number(
+			//	alterer,
+			//	"Choose your desired sprite size: ([(RESIZE_DEFAULT_SIZE * 0.8) * 100]% to [(RESIZE_DEFAULT_SIZE * 1.5) * 100]%). Warning: May make your character look distorted",
+			//	"Size Change",
+			//	default = min(alterer.current_size * 100, (RESIZE_DEFAULT_SIZE * 1.5) * 100),
+			//	max_value = (RESIZE_DEFAULT_SIZE * 1.5) * 100,
+			//	min_value = (RESIZE_DEFAULT_SIZE * 0.8) * 100,
+			//) - SPLURT EDIT - ORIGINAL
 			var/new_body_size = tgui_input_number(
 				alterer,
 				"Choose your desired sprite size: ([BODY_SIZE_MIN * 100]% to [BODY_SIZE_MAX * 100]%). Warning: May make your character look distorted",
 				"Size Change",
-				default = min(alterer.dna.features["body_size"] * 100, BODY_SIZE_MAX * 100),
+				default = min(alterer.current_size * 100, BODY_SIZE_MAX * 100),
 				max_value = BODY_SIZE_MAX * 100,
 				min_value = BODY_SIZE_MIN * 100,
 			)
+			//SPLURT EDIT CHANGE END
 			if(!new_body_size)
 				return
 
@@ -340,14 +353,14 @@
 				alterer.remove_quirk(/datum/quirk/oversized)
 
 			new_body_size = new_body_size * 0.01
-			//SPLURT EDIT CHANGE - Sizecode
-			/*
-			alterer.dna.features["body_size"] = new_body_size
-			alterer.dna.update_body_size()
-			*/
+			//SPLURT EDIT CHANGE BEGIN - SIZECODE - Prefer update_size over update_transform
+			//if(new_body_size == RESIZE_DEFAULT_SIZE)
+			//	alterer.update_transform(RESIZE_DEFAULT_SIZE / alterer.current_size)
+			//else
+			//	alterer.update_transform(new_body_size) - SPLURT EDIT - ORIGINAL
 			alterer.update_size(new_body_size)
 			//SPLURT EDIT CHANGE END
-		// SPLURT EDIT ADD
+		//SPLURT EDIT ADDITION BEGIN - ALTER_FORM_GENDER
 		if("Gender")
 			var/new_gender = tgui_input_list(
 				alterer,
@@ -374,7 +387,7 @@
 			alterer.update_body(is_creating = TRUE)
 			alterer.update_appearance(UPDATE_OVERLAYS)
 			alterer.update_clothing(ITEM_SLOT_ICLOTHING)
-		// SPLURT EDIT ADD END
+		//SPLURT EDIT ADDITION END
 		if("Genitals")
 			alter_genitals(alterer)
 		if("Mutant Parts")

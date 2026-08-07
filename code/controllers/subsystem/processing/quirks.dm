@@ -50,7 +50,8 @@ GLOBAL_LIST_INIT_TYPED(quirk_blacklist, /list/datum/quirk, list(
 	list(/datum/quirk/equipping/entombed, /datum/quirk/badback),
 	list(/datum/quirk/unblinking, /datum/quirk/item_quirk/fluoride_stare),
 	list(/datum/quirk/micro, /datum/quirk/micro/smaller, /datum/quirk/micro/smallest, /datum/quirk/oversized),
-	list(/datum/quirk/psionic_dampener, /datum/quirk/telepathic), // SPLURT EDIT - Addition
+	list(/datum/quirk/psionic_dampener, /datum/quirk/telepathic),
+	list(/datum/quirk/hemophage, /datum/quirk/prosthetic_organ, /datum/quirk/tin_man),
 	//BUBBER EDIT ADDITION END
 	//SPLURT EDIT ADDITION BEGIN
 
