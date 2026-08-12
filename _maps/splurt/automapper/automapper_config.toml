@@ -362,9 +362,9 @@ directory = "_maps/splurt/automapper/templates/CatwalkStation/"
 map_files = ["deltastation_ntrep_office.dmm"]
 directory = "_maps/splurt/automapper/templates/deltastation/"
 
-[template_overrides.iceboxstation_ntrep_office]
-map_files = ["iceboxstation_ntrep_office.dmm"]
-directory = "_maps/splurt/automapper/templates/iceboxstation/"
+# [template_overrides.iceboxstation_ntrep_office]
+# map_files = ["iceboxstation_ntrep_office.dmm"]
+# directory = "_maps/splurt/automapper/templates/iceboxstation/"
 
 [template_overrides.metastation_ntrep_office]
 map_files = ["metastation_ntrep_office.dmm"]
