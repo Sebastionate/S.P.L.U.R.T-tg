@@ -158,7 +158,9 @@
 		mutant_bodyparts[key][MUTANT_INDEX_COLOR_LIST] = SA.get_default_color(features, pref_species)
 
 /datum/preferences/proc/set_new_species(new_species_path)
-	pref_species = new new_species_path()
+	if(pref_species && GLOB.species_prototypes[pref_species.type] != pref_species)
+		qdel(pref_species)
+	pref_species = GLOB.species_prototypes[new_species_path]
 	var/list/new_features = pref_species.get_random_features() //We do this to keep flavor text, genital sizes etc.
 	for(var/key in new_features)
 		features[key] = new_features[key]

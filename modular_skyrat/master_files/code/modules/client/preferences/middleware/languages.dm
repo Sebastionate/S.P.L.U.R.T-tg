@@ -41,18 +41,13 @@
 		return
 	preferences.languages = list()
 	var/species_type = preferences.read_preference(/datum/preference/choiced/species)
-	var/datum/species/species = new species_type()
+	var/datum/species/species = GLOB.species_prototypes[species_type]
 	var/datum/language_holder/lang_holder = new species.species_language_holder()
-	for(var/language in preferences.get_adjusted_language_holder())
+	for(var/language in lang_holder.understood_languages)
 		preferences.languages[language] = UNDERSTOOD_LANGUAGE | SPOKEN_LANGUAGE
-	qdel(lang_holder)
-	qdel(species)
-
 	for(var/language in lang_holder.spoken_languages)
 		preferences.languages[language] = UNDERSTOOD_LANGUAGE | SPOKEN_LANGUAGE
-
 	qdel(lang_holder)
-	qdel(species)
 
 	return ..()
 
@@ -68,7 +63,7 @@
 	if(/datum/quirk/bilingual::name in preferences.all_quirks)
 		max_languages++
 	var/species_type = preferences.read_preference(/datum/preference/choiced/species)
-	var/datum/species/species = new species_type()
+	var/datum/species/species = GLOB.species_prototypes[species_type]
 	var/datum/language_holder/lang_holder = preferences.get_adjusted_language_holder()
 	if(!preferences.languages || !preferences.languages.len || (preferences.languages && preferences.languages.len > max_languages)) // Too many languages, or no languages.
 		preferences.languages = list()
@@ -104,7 +99,6 @@
 			))
 
 	qdel(lang_holder)
-	qdel(species)
 
 	data["total_language_points"] = max_languages
 	data["selected_languages"] = selected_languages

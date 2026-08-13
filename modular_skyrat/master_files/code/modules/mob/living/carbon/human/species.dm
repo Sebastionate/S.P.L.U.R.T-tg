@@ -29,4 +29,8 @@
 		OFFSET_NECK = list(0,0),
 		OFFSET_ACCESSORY = list(0, 0),
 		OFFSET_HAIR = list(0, 0),
+		OFFSET_UNDERWEAR = list(0, 0), // SPLURT EDIT - Extra Inventory
+		OFFSET_SOCKS = list(0, 0), // SPLURT EDIT - Extra Inventory
+		OFFSET_SHIRT = list(0, 0), // SPLURT EDIT - Extra Inventory
+		OFFSET_WRISTS = list(0, 0), // SPLURT EDIT - Extra Inventory
 	) //Extra inventory

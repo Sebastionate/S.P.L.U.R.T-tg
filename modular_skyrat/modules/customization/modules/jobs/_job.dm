@@ -31,7 +31,7 @@
 
 /datum/job/proc/has_banned_species(datum/preferences/pref)
 	var/species_type = pref.read_preference(/datum/preference/choiced/species)
-	var/datum/species/species = new species_type
+	var/datum/species/species = GLOB.species_prototypes[species_type]
 	var/my_id = species.id
 	if(species_whitelist && !species_whitelist[my_id])
 		return TRUE

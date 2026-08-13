@@ -200,9 +200,8 @@ GLOBAL_LIST_EMPTY(customizable_races)
 	var/list/customizable_races = list()
 
 	for(var/species_type in subtypesof(/datum/species))
-		var/datum/species/species = new species_type
-		if(species.always_customizable)
+		var/datum/species/species = GLOB.species_prototypes[species_type]
+		if(species?.always_customizable)
 			customizable_races += species.id
-			qdel(species)
 
 	return customizable_races
