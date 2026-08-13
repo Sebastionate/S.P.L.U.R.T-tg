@@ -5,6 +5,8 @@
  */
 
 /datum/species/hemophage/New()
+	. = ..()
+	inherent_traits = LAZYLISTDUPLICATE(inherent_traits)
 	// Remove traits
 	inherent_traits -= list(
 		TRAIT_NOBREATH,
@@ -16,9 +18,6 @@
 
 	// Disable veteran restriction
 	// /veteran_only = FALSE Veteran cut from the Bubberstation build.
-
-	// Return original
-	. = ..()
 
 // Disabled due to community feedback
 /*

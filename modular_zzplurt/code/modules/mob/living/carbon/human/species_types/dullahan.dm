@@ -1,8 +1,5 @@
 /datum/species/dullahan/New()
-	var/list/extra_inherent_traits = list(
-		TRAIT_NOTHIRST
-	)
-
-	LAZYADD(inherent_traits, extra_inherent_traits)
 	. = ..()
+	inherent_traits = LAZYLISTDUPLICATE(inherent_traits)
+	LAZYADD(inherent_traits, TRAIT_NOTHIRST)
 
