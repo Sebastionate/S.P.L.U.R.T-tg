@@ -1,8 +1,6 @@
 // Peanuts!
-/obj/item/seeds/peanut/Initialize(mapload, nogenes)
-	. = ..()
-	mutatelist ||= list()
-	mutatelist += /obj/item/seeds/peanut/packing
+/obj/item/seeds/peanut
+	mutatelist = list(/obj/item/seeds/peanut/packing)
 
 /obj/item/seeds/peanut/packing
 	name = "package peanut seed pack"
@@ -18,6 +16,8 @@
 	growing_icon = 'icons/obj/service/hydroponics/growing.dmi'
 	icon_grow = "peanut-grow"
 	icon_dead = "peanut-dead"
+	icon_harvest = "peanut-harvest"
+	mutatelist = null
 	genes = list(/datum/plant_gene/trait/one_bite)
 	// very bad nutritional profile
 	reagents_add = list(/datum/reagent/consumable/corn_starch = 0.1, /datum/reagent/consumable/nutriment/fat/oil/corn = 0.05)

@@ -362,17 +362,19 @@ directory = "_maps/splurt/automapper/templates/CatwalkStation/"
 map_files = ["deltastation_ntrep_office.dmm"]
 directory = "_maps/splurt/automapper/templates/deltastation/"
 
+# Icebox/Meta/Nebula NTR offices were replaced upstream with combined NTC+Blueshield templates
+# (iceboxstation_ntc_bs, metastation_ntc_bs, nebulastation_ntc_bs).
 # [template_overrides.iceboxstation_ntrep_office]
 # map_files = ["iceboxstation_ntrep_office.dmm"]
 # directory = "_maps/splurt/automapper/templates/iceboxstation/"
 
-[template_overrides.metastation_ntrep_office]
-map_files = ["metastation_ntrep_office.dmm"]
-directory = "_maps/splurt/automapper/templates/metastation/"
+# [template_overrides.metastation_ntrep_office]
+# map_files = ["metastation_ntrep_office.dmm"]
+# directory = "_maps/splurt/automapper/templates/metastation/"
 
-[template_overrides.nebulastation_ntrep_office]
-map_files = ["nebulastation_ntrep_office.dmm"]
-directory = "_maps/splurt/automapper/templates/nebulastation/"
+# [template_overrides.nebulastation_ntrep_office]
+# map_files = ["nebulastation_ntrep_office.dmm"]
+# directory = "_maps/splurt/automapper/templates/nebulastation/"
 
 [template_overrides.tramstation_ntrep_office]
 map_files = ["tramstation_ntrep_office.dmm"]
