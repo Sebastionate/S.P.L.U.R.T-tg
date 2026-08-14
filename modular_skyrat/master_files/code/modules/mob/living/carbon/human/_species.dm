@@ -31,7 +31,6 @@
 				ignore_digi = TRUE
 
 	if(!ignore_digi && ((digitigrade_customization == DIGITIGRADE_OPTIONAL && human_who_gained_species.dna.features[FEATURE_LEGS] == DIGITIGRADE_LEGS) || digitigrade_customization == DIGITIGRADE_FORCED))
-		bodypart_overrides = bodypart_overrides.Copy()
 		var/obj/item/bodypart/leg/right/r_leg = bodypart_overrides[BODY_ZONE_R_LEG]
 		if(r_leg)
 			bodypart_overrides[BODY_ZONE_R_LEG] = initial(r_leg.digitigrade_type)

@@ -52,7 +52,8 @@
 	var/mob/living/carbon/human/dummy/consistent/dummy = allocate(/mob/living/carbon/human/dummy/consistent)
 	dummy.set_species(species)
 	// SKYRAT EDIT ADDITION START - More consistent screenshots
-	dummy.dna.species.prepare_human_for_preview(dummy)
+	var/datum/species/dummy_species = new species
+	dummy_species.prepare_human_for_preview(dummy)
 	// SKYRAT EDIT ADDITION END
 	dummy.equipOutfit(job_outfit, visuals_only = TRUE)
 	return dummy
