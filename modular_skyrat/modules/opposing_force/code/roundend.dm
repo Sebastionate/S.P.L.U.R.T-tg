@@ -1,7 +1,7 @@
 /datum/controller/subsystem/ticker/proc/opfor_report()
 	var/list/result = list()
 
-	result += "<span class='header'>Opposing Force Report - <span style='color: green;'>Approved: [LAZYLEN(SSopposing_force.approved_applications)]</span>, <span style='color: red;'>Submitted: [LAZYLEN(SSopposing_force.submitted_applications)]</span></span><br>" // SPLURT EDIT - Add info about number of applications
+	result += "<span class='header'>Opposing Force Report - <span class='greentext header'>Approved: [LAZYLEN(SSopposing_force.approved_applications)]</span>, <span class='redtext header'>Submitted: [LAZYLEN(SSopposing_force.submitted_applications)]</span></span><br>" // SPLURT EDIT - Add info about number of applications
 
 	if(!SSopposing_force.approved_applications.len)
 		result += span_red("No applications were approved.")
