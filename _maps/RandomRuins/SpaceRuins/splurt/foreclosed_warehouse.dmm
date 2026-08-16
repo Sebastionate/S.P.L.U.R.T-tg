@@ -2493,7 +2493,7 @@
 /obj/machinery/atmospherics/components/unary/passive_vent{
 	dir = 8
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/foreclosed_warehouse/atmospherics)
 "Qo" = (
 /obj/structure/chair/comfy/black{

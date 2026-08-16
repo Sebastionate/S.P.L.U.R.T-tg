@@ -211,7 +211,7 @@
 	input_dir = 4
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/shuttle/ruin/cyborg_mothership)
 "mN" = (
 /obj/machinery/conveyor{
@@ -312,7 +312,7 @@
 	input_dir = 2
 	},
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/shuttle/ruin/cyborg_mothership)
 "qn" = (
 /obj/machinery/conveyor{

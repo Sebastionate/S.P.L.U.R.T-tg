@@ -139,9 +139,6 @@
 	},
 /turf/open/misc/asteroid/airless,
 /area/ruin/unpowered)
-"P" = (
-/turf/template_noop,
-/area/ruin/unpowered)
 "Q" = (
 /mob/living/basic/hivebot/strong,
 /turf/open/misc/asteroid/airless,
@@ -687,7 +684,7 @@ K
 W
 a
 a
-P
+a
 K
 a
 K
