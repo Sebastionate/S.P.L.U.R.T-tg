@@ -436,13 +436,14 @@ required_map = "MetaStation.dmm"
 coordinates = [86, 105, 1]
 trait_name = "Station"
 
+# SPLURT DISABLE
 # Metastation NTC and BS Office
-[templates.metastation_ntc_bs]
-map_files = ["metastation_ntc_bs.dmm"]
-directory = "_maps/bubber/automapper/templates/MetaStation/"
-required_map = "MetaStation.dmm"
-coordinates = [101, 115, 1]
-trait_name = "Station"
+#[templates.metastation_ntc_bs]
+#map_files = ["metastation_ntc_bs.dmm"]
+#directory = "_maps/bubber/automapper/templates/MetaStation/"
+#required_map = "MetaStation.dmm"
+#coordinates = [101, 115, 1]
+#trait_name = "Station"
 
 # MOONSTATION MAP EDITS
 # Moonstation Ashwalker nest
@@ -518,13 +519,14 @@ required_map = "NebulaStation.dmm"
 coordinates = [90, 132, 1]
 trait_name = "Station"
 
+# SPLURT DISABLE
 # Nebulastation NTC and Blueshield Office
-[templates.nebulastation_ntc_bs]
-map_files = ["nebulastation_ntc_bs.dmm"]
-directory = "_maps/bubber/automapper/templates/NebulaStation/"
-required_map = "NebulaStation.dmm"
-coordinates = [110, 113, 2]
-trait_name = "Station"
+#[templates.nebulastation_ntc_bs]
+#map_files = ["nebulastation_ntc_bs.dmm"]
+#directory = "_maps/bubber/automapper/templates/NebulaStation/"
+#required_map = "NebulaStation.dmm"
+#coordinates = [110, 113, 2]
+#trait_name = "Station"
 
 # Nebulastation Sauna
 [templates.nebulastation_sauna]
@@ -567,13 +569,14 @@ required_map = "tramstation.dmm"
 coordinates = [49, 103, 2]
 trait_name = "Station"
 
+# SPLURT DISABLE
 # Tramstation Blueshield
-[templates.tramstation_blueshield]
-map_files = ["tramstation_blueshield.dmm"]
-directory = "_maps/bubber/automapper/templates/tramstation/"
-required_map = "tramstation.dmm"
-coordinates = [85, 130, 2]
-trait_name = "Station"
+#[templates.tramstation_blueshield]
+#map_files = ["tramstation_blueshield.dmm"]
+#directory = "_maps/bubber/automapper/templates/tramstation/"
+#required_map = "tramstation.dmm"
+#coordinates = [85, 130, 2]
+#trait_name = "Station"
 
 # Tramstation Cryo
 [templates.tramstation_cryo]

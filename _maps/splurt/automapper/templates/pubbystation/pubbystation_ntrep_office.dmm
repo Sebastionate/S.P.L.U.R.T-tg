@@ -129,6 +129,15 @@
 /obj/effect/mapping_helpers/requests_console/information,
 /turf/open/floor/carpet/executive,
 /area/station/command/heads_quarters/nt_rep)
+"q" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/hallway/primary/central/fore)
 "r" = (
 /obj/structure/cable,
 /obj/structure/closet/secure_closet/nanotrasen_consultant,
@@ -142,6 +151,16 @@
 	},
 /turf/open/floor/carpet/executive,
 /area/station/command/heads_quarters/nt_rep)
+"u" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/green{
+	dir = 1
+	},
+/obj/machinery/status_display/evac/directional/north,
+/turf/open/floor/iron,
+/area/station/hallway/primary/central/fore)
 "v" = (
 /turf/closed/wall/r_wall,
 /area/station/command/heads_quarters/nt_rep)
@@ -223,6 +242,9 @@
 	},
 /turf/open/floor/carpet/executive,
 /area/station/command/heads_quarters/nt_rep)
+"Q" = (
+/turf/template_noop,
+/area/template_noop)
 "V" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -289,6 +311,7 @@ v
 v
 v
 v
+Q
 "}
 (2,1,1) = {"
 v
@@ -296,6 +319,7 @@ E
 Z
 o
 v
+Q
 "}
 (3,1,1) = {"
 v
@@ -303,6 +327,7 @@ s
 n
 m
 b
+Q
 "}
 (4,1,1) = {"
 v
@@ -310,6 +335,7 @@ P
 A
 r
 b
+q
 "}
 (5,1,1) = {"
 v
@@ -317,6 +343,7 @@ a
 G
 W
 v
+u
 "}
 (6,1,1) = {"
 v
@@ -324,6 +351,7 @@ F
 H
 X
 b
+Q
 "}
 (7,1,1) = {"
 v
@@ -331,6 +359,7 @@ x
 V
 c
 b
+Q
 "}
 (8,1,1) = {"
 v
@@ -338,6 +367,7 @@ f
 D
 h
 v
+Q
 "}
 (9,1,1) = {"
 v
@@ -345,4 +375,5 @@ z
 j
 z
 v
+Q
 "}

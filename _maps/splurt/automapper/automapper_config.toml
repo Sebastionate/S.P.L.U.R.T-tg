@@ -242,7 +242,7 @@ trait_name = "Station"
 map_files = ["tramstation_blueshield_office.dmm"]
 directory = "_maps/splurt/automapper/templates/tramstation/"
 required_map = "tramstation.dmm"
-coordinates = [86, 130, 2]
+coordinates = [85, 130, 2]
 trait_name = "Station"
 
 # Tramstation SecBar Maints
@@ -355,7 +355,23 @@ trait_name = "Station"
 map_files = ["pubbystation_ntrep_office.dmm"]
 directory = "_maps/splurt/automapper/templates/pubbystation/"
 required_map = "PubbyStation.dmm"
-coordinates = [142, 159, 1]
+coordinates = [142, 158, 1]
+trait_name = "Station"
+
+# Nebulastation NTC and Blueshield Office
+[templates.nebulastation_ntrep_blueshield_offices]
+map_files = ["nebulastation_ntrep_blueshield_offices.dmm"]
+directory = "_maps/splurt/automapper/templates/NebulaStation/"
+required_map = "NebulaStation.dmm"
+coordinates = [110, 113, 2]
+trait_name = "Station"
+
+# Metastation NTC and Blueshield Office
+[templates.metastation_ntrep_office]
+map_files = ["metastation_ntrep_office.dmm"]
+directory = "_maps/splurt/automapper/templates/metastation/"
+required_map = "MetaStation.dmm"
+coordinates = [101, 115, 1]
 trait_name = "Station"
 
 # Override upstream templates without redefining them in [templates].
@@ -387,15 +403,3 @@ directory = "_maps/splurt/automapper/templates/wawastation/"
 [template_overrides.deltastation_blueshield]
 map_files = ["deltastation_blueshield_office_new.dmm"]
 directory = "_maps/splurt/automapper/templates/deltastation/"
-
-[templates_overrides.metastation_ntc_bs]
-map_files = ["metastation_ntrep_office.dmm"]
-directory = "_maps/splurt/automapper/templates/metastation/"
-
-[templates_overrides.nebulastation_ntc_bs]
-map_files = ["nebulastation_ntrep_blueshield_offices.dmm"]
-directory = "_maps/splurt/automapper/templates/NebulaStation/"
-
-[templates_overrides.tramstation_blueshield]
-map_files = ["tramstation_blueshield_office.dmm"]
-directory = "_maps/splurt/automapper/templates/tramstation/"
