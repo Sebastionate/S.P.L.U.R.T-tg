@@ -7243,10 +7243,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold/scrubbers/visible{
 	dir = 8
 	},
-/obj/machinery/meter,
 /obj/effect/turf_decal/stripes{
 	dir = 8
 	},
+/obj/machinery/meter/monitored/waste_loop,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/atmos/pumproom)
 "buP" = (
@@ -43549,7 +43549,7 @@
 /obj/machinery/atmospherics/pipe/smart/simple/cyan/visible{
 	dir = 10
 	},
-/obj/machinery/meter/monitored/distro_loop,
+/obj/machinery/meter,
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
 "iqz" = (
@@ -114100,10 +114100,10 @@
 /area/station/maintenance/abandon_wrestle)
 "vKJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/visible,
-/obj/machinery/meter,
 /obj/effect/turf_decal/stripes{
 	dir = 4
 	},
+/obj/machinery/meter/monitored/distro_loop,
 /turf/open/floor/iron/smooth,
 /area/station/engineering/atmos/pumproom)
 "vKL" = (

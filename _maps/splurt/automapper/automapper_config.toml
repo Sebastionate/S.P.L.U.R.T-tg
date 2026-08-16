@@ -110,13 +110,6 @@ required_map = "moonstation.dmm"
 coordinates = [101, 154, 3]
 trait_name = "Station"
 
-[templates.nebulastation_blueshield_office]
-map_files = ["nebulastation_blueshield_office.dmm"]
-directory = "_maps/splurt/automapper/templates/nebulastation/"
-required_map = "NebulaStation.dmm"
-coordinates = [117, 113, 2]
-trait_name = "Station"
-
 # Biodome NTR Office
 [templates.biodome_ntrep_office]
 map_files = ["biodome_ntrep_office.dmm"]
@@ -358,7 +351,7 @@ required_map = "PubbyStation.dmm"
 coordinates = [142, 158, 1]
 trait_name = "Station"
 
-# Nebulastation NTC and Blueshield Office
+# Nebulastation NTR and Blueshield Office
 [templates.nebulastation_ntrep_blueshield_offices]
 map_files = ["nebulastation_ntrep_blueshield_offices.dmm"]
 directory = "_maps/splurt/automapper/templates/nebulastation/"
@@ -366,7 +359,7 @@ required_map = "NebulaStation.dmm"
 coordinates = [110, 113, 2]
 trait_name = "Station"
 
-# Metastation NTC and Blueshield Office
+# Metastation NTR and Blueshield Office
 [templates.metastation_ntrep_office]
 map_files = ["metastation_ntrep_office.dmm"]
 directory = "_maps/splurt/automapper/templates/metastation/"
@@ -384,9 +377,6 @@ directory = "_maps/splurt/automapper/templates/CatwalkStation/"
 [template_overrides.deltastation_ntrep_office]
 map_files = ["deltastation_ntrep_office.dmm"]
 directory = "_maps/splurt/automapper/templates/deltastation/"
-
-# Icebox/Meta/Nebula NTR offices were replaced upstream with combined NTC+Blueshield templates
-# (iceboxstation_ntc_bs, metastation_ntc_bs, nebulastation_ntc_bs).
 
 [template_overrides.iceboxstation_ntc_bs]
 map_files = ["iceboxstation_ntrep_office.dmm"]
