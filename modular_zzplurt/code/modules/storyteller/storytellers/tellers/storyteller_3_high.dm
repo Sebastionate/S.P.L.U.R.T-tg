@@ -19,9 +19,9 @@
 	storyteller_type = STORYTELLER_TYPE_INTENSE | STORYTELLER_TYPE_ANTAGS
 
 /datum/storyteller/high/opfor
-	name = /datum/storyteller/high::name + " (OPFOR)"
-	desc = /datum/storyteller/high::desc + " (antags are OPFOR-only)"
-	welcome_text = /datum/storyteller/high::welcome_text + span_bold(" (Open an OPFOR application if you're interested in becoming an antag for this round)")
+	name = /datum/storyteller/high::name + " with Opfor Antags"
+	desc = /datum/storyteller/high::desc + " (use opfor to become an antag!)"
+	welcome_text = /datum/storyteller/high::welcome_text + span_bold(" (Open an OPFOR application if you're interested in becoming an antag for this round!)")
 
 	track_data = /datum/storyteller_data/tracks/gamer/opfor
 
@@ -41,3 +41,4 @@
 
 /datum/storyteller_data/tracks/gamer/opfor
 	threshold_crewset = INFINITY
+	threshold_ghostset = INFINITY
