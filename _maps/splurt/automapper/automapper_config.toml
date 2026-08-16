@@ -202,7 +202,7 @@ trait_name = "Station"
 map_files = ["kilostation_blueshield_office.dmm"]
 directory = "_maps/splurt/automapper/templates/kilostation/"
 required_map = "KiloStation.dmm"
-coordinates = [125, 103, 1]
+coordinates = [102, 92, 1]
 trait_name = "Station"
 
 # Kilostation Security Medical Expansion
@@ -350,6 +350,13 @@ required_map = "Ouroboros.dmm"
 coordinates = [131, 131, 2]
 trait_name = "Station"
 
+# NorthStar NTR Office
+[templates.northstar_ntrep_office]
+map_files = ["northstar_ntrep_office.dmm"]
+directory = "_maps/splurt/automapper/templates/northstar/"
+required_map = "north_star.dmm"
+coordinates = [83, 119, 4]
+trait_name = "Station"
 
 # Override upstream templates without redefining them in [templates].
 # Useful when upstream keeps the same automap placement but Splurt wants to swap
@@ -364,17 +371,10 @@ directory = "_maps/splurt/automapper/templates/deltastation/"
 
 # Icebox/Meta/Nebula NTR offices were replaced upstream with combined NTC+Blueshield templates
 # (iceboxstation_ntc_bs, metastation_ntc_bs, nebulastation_ntc_bs).
-# [template_overrides.iceboxstation_ntrep_office]
-# map_files = ["iceboxstation_ntrep_office.dmm"]
-# directory = "_maps/splurt/automapper/templates/iceboxstation/"
 
-# [template_overrides.metastation_ntrep_office]
-# map_files = ["metastation_ntrep_office.dmm"]
-# directory = "_maps/splurt/automapper/templates/metastation/"
-
-# [template_overrides.nebulastation_ntrep_office]
-# map_files = ["nebulastation_ntrep_office.dmm"]
-# directory = "_maps/splurt/automapper/templates/nebulastation/"
+[template_overrides.iceboxstation_ntc_bs]
+map_files = ["iceboxstation_ntrep_office.dmm"]
+directory = "_maps/splurt/automapper/templates/iceboxstation/"
 
 [template_overrides.tramstation_ntrep_office]
 map_files = ["tramstation_ntrep_office.dmm"]
@@ -383,3 +383,19 @@ directory = "_maps/splurt/automapper/templates/tramstation/"
 [template_overrides.wawastation_ntrep_office]
 map_files = ["wawastation_ntrep_office.dmm"]
 directory = "_maps/splurt/automapper/templates/wawastation/"
+
+[template_overrides.deltastation_blueshield]
+map_files = ["deltastation_blueshield_office_new.dmm"]
+directory = "_maps/splurt/automapper/templates/deltastation/"
+
+[templates_overrides.metastation_ntc_bs]
+map_files = ["metastation_ntrep_office.dmm"]
+directory = "_maps/splurt/automapper/templates/metastation/"
+
+[templates_overrides.nebulastation_ntc_bs]
+map_files = ["nebulastation_ntrep_blueshield_offices.dmm"]
+directory = "_maps/splurt/automapper/templates/NebulaStation/"
+
+[templates_overrides.tramstation_blueshield]
+map_files = ["tramstation_blueshield_office.dmm"]
+directory = "_maps/splurt/automapper/templates/tramstation/"
