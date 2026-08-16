@@ -361,7 +361,7 @@ trait_name = "Station"
 # Nebulastation NTC and Blueshield Office
 [templates.nebulastation_ntrep_blueshield_offices]
 map_files = ["nebulastation_ntrep_blueshield_offices.dmm"]
-directory = "_maps/splurt/automapper/templates/NebulaStation/"
+directory = "_maps/splurt/automapper/templates/nebulastation/"
 required_map = "NebulaStation.dmm"
 coordinates = [110, 113, 2]
 trait_name = "Station"
