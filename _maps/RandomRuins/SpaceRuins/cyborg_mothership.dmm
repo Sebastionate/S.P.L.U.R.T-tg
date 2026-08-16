@@ -60,7 +60,7 @@
 "r" = (
 /obj/docking_port/stationary/cyborg_mothership,
 /turf/template_noop,
-/area/template_noop)
+/area/space/nearstation)
 "s" = (
 /obj/item/stock_parts/power_store/cell/high/empty,
 /turf/open/misc/asteroid/airless,
