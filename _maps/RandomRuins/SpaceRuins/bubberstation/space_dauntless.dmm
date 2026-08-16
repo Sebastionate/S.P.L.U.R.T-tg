@@ -101,7 +101,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/space/nearstation)
 "aR" = (
 /obj/machinery/power/rtg/advanced,
 /obj/effect/turf_decal/stripes/line{
@@ -800,8 +800,8 @@
 "dZ" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing/corner,
-/turf/open/space/basic,
-/area/ruin/space/has_grav/bubbers/dauntless/sec/interrogation)
+/turf/template_noop,
+/area/space/nearstation)
 "ea" = (
 /obj/effect/turf_decal/siding/dark_blue,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1215,7 +1215,7 @@
 	network = list("dauntless");
 	pixel_y = -31
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/command/vault)
 "fN" = (
 /obj/machinery/button/door/directional/south{
@@ -1809,8 +1809,8 @@
 /obj/machinery/camera/autoname/directional/south{
 	network = list("dauntless")
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/area/space/nearstation)
 "iv" = (
 /obj/structure/cable,
 /obj/structure/closet/secure_closet/interdynefob/brig_officer_locker,
@@ -2220,8 +2220,8 @@
 "ke" = (
 /obj/structure/marker_beacon/burgundy,
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/area/space/nearstation)
 "kf" = (
 /obj/structure/table,
 /obj/effect/turf_decal/bot_white,
@@ -2327,7 +2327,7 @@
 /turf/open/floor/engine/hull{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/space)
+/area/space/nearstation)
 "kH" = (
 /obj/machinery/atmospherics/components/unary/portables_connector{
 	dir = 8
@@ -2544,7 +2544,7 @@
 	network = list("dauntless");
 	pixel_y = -24
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/command/vault)
 "lG" = (
 /obj/effect/turf_decal/siding/wood{
@@ -2803,8 +2803,8 @@
 /obj/structure/railing{
 	dir = 10
 	},
-/turf/open/space/basic,
-/area/ruin/space/has_grav/bubbers/dauntless/sec/interrogation)
+/turf/template_noop,
+/area/space/nearstation)
 "mN" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/turf_decal/vg_decals/numbers/five{
@@ -2813,7 +2813,7 @@
 /turf/open/floor/engine/hull{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/space)
+/area/space/nearstation)
 "mO" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 9
@@ -3355,8 +3355,8 @@
 "pk" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/railing,
-/turf/open/space/basic,
-/area/ruin/space/has_grav/bubbers/dauntless/sec/interrogation)
+/turf/template_noop,
+/area/space/nearstation)
 "pl" = (
 /obj/effect/turf_decal/siding/dark,
 /obj/structure/chair/stool/directional/south,
@@ -3450,7 +3450,7 @@
 /turf/open/floor/iron/dark/small,
 /area/ruin/space/has_grav/bubbers/dauntless/sec/prison/rec)
 "pE" = (
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless/service/construct)
 "pG" = (
 /obj/structure/cable,
@@ -3509,7 +3509,7 @@
 /turf/open/floor/engine/hull{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/space)
+/area/space/nearstation)
 "pW" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/south,
 /turf/open/floor/plating,
@@ -3862,7 +3862,7 @@
 /area/ruin/space/has_grav/bubbers/dauntless_space/med)
 "rx" = (
 /obj/machinery/power/shuttle_engine/huge,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/engineering/turbine)
 "rA" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -3927,8 +3927,8 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/bubbers/dauntless_space/sci/xenobio)
 "rQ" = (
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/area/template_noop)
 "rS" = (
 /obj/effect/turf_decal/trimline/dark_blue/corner{
 	dir = 1
@@ -4789,7 +4789,7 @@
 /obj/machinery/camera/autoname/directional/south{
 	network = list("dauntless")
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/command/vault)
 "vx" = (
 /obj/effect/turf_decal/siding/dark,
@@ -4850,8 +4850,8 @@
 /area/ruin/space/has_grav/bubbers/dauntless/service/gym)
 "vE" = (
 /obj/effect/decal/fakelattice,
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/area/space/nearstation)
 "vG" = (
 /obj/structure/frame/machine/secured,
 /obj/item/circuitboard/machine/module_duplicator,
@@ -5074,8 +5074,8 @@
 	},
 /obj/structure/lattice/catwalk,
 /obj/structure/chair,
-/turf/open/space/basic,
-/area/ruin/space/has_grav/bubbers/dauntless/sec/interrogation)
+/turf/template_noop,
+/area/space/nearstation)
 "wv" = (
 /obj/machinery/door/airlock/wood{
 	name = "Dorm 1";
@@ -5135,7 +5135,7 @@
 /turf/open/floor/engine/hull{
 	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/area/space)
+/area/space/nearstation)
 "wP" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -5193,7 +5193,7 @@
 	network = list("dauntless");
 	pixel_y = 8
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/command/vault)
 "wZ" = (
 /obj/structure/disposalpipe/segment{
@@ -5418,7 +5418,7 @@
 	network = list("dauntless");
 	pixel_x = -8
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/command/vault)
 "xO" = (
 /obj/effect/turf_decal/stripes/red/line{
@@ -6093,8 +6093,8 @@
 /area/ruin/space/has_grav/bubbers/dauntless/command/maa)
 "AL" = (
 /obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/area/space/nearstation)
 "AO" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -7203,7 +7203,7 @@
 	},
 /obj/structure/lattice/catwalk,
 /obj/structure/marker_beacon/burgundy,
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/command/vault)
 "Fk" = (
 /obj/effect/turf_decal/trimline/dark_red/end{
@@ -7309,7 +7309,7 @@
 	network = list("dauntless");
 	pixel_x = 31
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/command/vault)
 "FK" = (
 /obj/machinery/door/airlock/engineering{
@@ -7424,8 +7424,8 @@
 /obj/machinery/camera/autoname/directional/north{
 	network = list("dauntless")
 	},
-/turf/open/space/basic,
-/area/space)
+/turf/template_noop,
+/area/space/nearstation)
 "Gg" = (
 /obj/machinery/computer/turbine_computer{
 	mapping_id = "dauntless_turbine";
@@ -8793,7 +8793,7 @@
 /obj/machinery/camera/autoname/directional/west{
 	network = list("dauntless")
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/command/vault)
 "LY" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/west,
@@ -9268,8 +9268,8 @@
 	pixel_y = 32
 	},
 /obj/structure/marker_beacon/burgundy,
-/turf/open/space/basic,
-/area/ruin/space/has_grav/bubbers/dauntless/sec/interrogation)
+/turf/template_noop,
+/area/space/nearstation)
 "Oc" = (
 /obj/machinery/light/warm/directional/north,
 /obj/effect/turf_decal/siding/wood{
@@ -9435,7 +9435,7 @@
 	network = list("dauntless");
 	pixel_y = -22
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/command/vault)
 "OZ" = (
 /obj/structure/chair/sofa/corp/right{
@@ -9466,7 +9466,7 @@
 	network = list("dauntless");
 	pixel_x = -8
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/command/vault)
 "Pf" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners{
@@ -9527,7 +9527,7 @@
 /turf/open/floor/engine,
 /area/ruin/space/has_grav/bubbers/dauntless_space/engineering/turbine)
 "Ps" = (
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/engineering/turbine)
 "Px" = (
 /obj/effect/turf_decal/siding/dark{
@@ -11276,7 +11276,7 @@
 /obj/machinery/camera/autoname/directional/east{
 	network = list("dauntless")
 	},
-/turf/open/space/basic,
+/turf/template_noop,
 /area/ruin/space/has_grav/bubbers/dauntless_space/command/vault)
 "Wu" = (
 /obj/structure/disposalpipe/segment,
@@ -11934,8 +11934,8 @@
 /obj/structure/railing{
 	dir = 6
 	},
-/turf/open/space/basic,
-/area/ruin/space/has_grav/bubbers/dauntless/sec/interrogation)
+/turf/template_noop,
+/area/space/nearstation)
 "Zq" = (
 /obj/machinery/light/cold/directional/south,
 /turf/open/floor/plating,

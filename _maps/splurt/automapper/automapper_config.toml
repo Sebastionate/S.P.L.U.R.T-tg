@@ -157,14 +157,6 @@ required_map = "MetaStation.dmm"
 coordinates = [91, 169, 1]
 trait_name = "Station"
 
-# Deltastation Blueshield Office
-[templates.deltastation_blueshield_office]
-map_files = ["deltastation_blueshield_office.dmm"]
-directory = "_maps/splurt/automapper/templates/deltastation/"
-required_map = "DeltaStation2.dmm"
-coordinates = [171, 75, 1]
-trait_name = "Station"
-
 # Deltastation Security Medical Expansion
 [templates.deltastation_security_medic_medbay]
 map_files = ["deltastation_security_medic_medbay.dmm"]
@@ -356,6 +348,14 @@ map_files = ["northstar_ntrep_office.dmm"]
 directory = "_maps/splurt/automapper/templates/northstar/"
 required_map = "north_star.dmm"
 coordinates = [83, 119, 4]
+trait_name = "Station"
+
+# Pubbystation NTR Office
+[templates.pubbystation_ntrep_office]
+map_files = ["pubbystation_ntrep_office.dmm"]
+directory = "_maps/splurt/automapper/templates/pubbystation/"
+required_map = "PubbyStation.dmm"
+coordinates = [142, 159, 1]
 trait_name = "Station"
 
 # Override upstream templates without redefining them in [templates].

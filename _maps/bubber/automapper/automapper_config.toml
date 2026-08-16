@@ -240,12 +240,14 @@ trait_name = "Station"
 
 # ICEBOXSTATION MAP EDITS
 # IceBoxStation Aux Tool Storage
-[templates.iceboxstation_aux_toolstorage]
-map_files = ["iceboxstation_aux_toolstorage.dmm"]
-directory = "_maps/bubber/automapper/templates/IceBoxStation/"
-required_map = "IceBoxStation.dmm"
-coordinates = [106, 142, 3]
-trait_name = "Station"
+
+# SPLURT DISABLE
+#[templates.iceboxstation_aux_toolstorage]
+#map_files = ["iceboxstation_aux_toolstorage.dmm"]
+#directory = "_maps/bubber/automapper/templates/IceBoxStation/"
+#required_map = "IceBoxStation.dmm"
+#coordinates = [106, 142, 3]
+#trait_name = "Station"
 
 # IceBoxStation Armory
 [templates.iceboxstation_armory]
