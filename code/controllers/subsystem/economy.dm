@@ -17,7 +17,6 @@ SUBSYSTEM_DEF(economy)
 										ACCOUNT_LIZ = ACCOUNT_LIZ_NAME,
 										ACCOUNT_TAR = ACCOUNT_TAR_NAME, // END BUBBER EDIT
 										ACCOUNT_AAD = ACCOUNT_AAD_NAME, // SPLURT EDIT
-										ACCOUNT_LZGAS = ACCOUNT_LZGAS_NAME, // SPLURT EDIT
 										ACCOUNT_SEC = ACCOUNT_SEC_NAME)
 	var/list/departmental_accounts = list()
 
