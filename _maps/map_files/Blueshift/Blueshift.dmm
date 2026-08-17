@@ -47109,13 +47109,9 @@
 /area/station/commons/dorms)
 "iZx" = (
 /obj/machinery/light/small/directional/south,
-/obj/machinery/atmospherics/components/binary/valve/digital/on/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/binary/valve/digital/on/layer2{
-	dir = 4
-	},
 /obj/structure/lattice/catwalk,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/openspace,
 /area/station/maintenance/department/medical/central)
 "iZC" = (
@@ -60871,12 +60867,8 @@
 	icon_state = "dirt-flat-1"
 	},
 /obj/machinery/light/small/directional/south,
-/obj/machinery/atmospherics/components/binary/valve/digital/on/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/binary/valve/digital/on/layer2{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/fore)
 "lEo" = (
@@ -65311,12 +65303,8 @@
 	icon_state = "dirt-flat-1"
 	},
 /obj/machinery/light/small/directional/south,
-/obj/machinery/atmospherics/components/binary/valve/digital/on/layer4{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/binary/valve/digital/on/layer2{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/station/maintenance/aft/upper)
 "myF" = (
@@ -118964,8 +118952,8 @@
 /obj/effect/decal/cleanable/dirt{
 	icon_state = "dirt-flat-1"
 	},
-/obj/machinery/atmospherics/components/binary/valve/digital/on/layer4,
-/obj/machinery/atmospherics/components/binary/valve/digital/on/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/maintenance/port/aft)
 "wEw" = (
@@ -120783,8 +120771,8 @@
 /turf/open/floor/iron,
 /area/station/hallway/secondary/service)
 "wXy" = (
-/obj/machinery/computer/rdconsole,
 /obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/machinery/computer/robotics,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "wXK" = (
@@ -124792,8 +124780,8 @@
 /area/station/medical/medbay/lobby)
 "xMM" = (
 /obj/structure/window/reinforced/spawner/directional/east,
-/obj/machinery/computer/rdservercontrol,
 /obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/machinery/computer/rdconsole/unlocked,
 /turf/open/floor/iron/dark,
 /area/station/command/bridge)
 "xMP" = (

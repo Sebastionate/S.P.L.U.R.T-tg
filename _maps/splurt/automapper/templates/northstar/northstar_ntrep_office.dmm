@@ -170,6 +170,7 @@
 /obj/structure/bed/double,
 /obj/item/bedsheet/nanotrasen/double,
 /obj/item/radio/intercom/directional/south,
+/obj/effect/landmark/start/nanotrasen_consultant,
 /turf/open/floor/carpet/royalblue,
 /area/station/command/heads_quarters/nt_rep)
 "t" = (

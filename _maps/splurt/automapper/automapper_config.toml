@@ -179,7 +179,7 @@ trait_name = "Station"
 map_files = ["kilostation_ntrep_office.dmm"]
 directory = "_maps/splurt/automapper/templates/kilostation/"
 required_map = "KiloStation.dmm"
-coordinates = [95, 154, 1]
+coordinates = [89, 147, 1]
 trait_name = "Station"
 
 # Kilostation Blueshield Office
@@ -187,7 +187,7 @@ trait_name = "Station"
 map_files = ["kilostation_blueshield_office.dmm"]
 directory = "_maps/splurt/automapper/templates/kilostation/"
 required_map = "KiloStation.dmm"
-coordinates = [102, 92, 1]
+coordinates = [102, 91, 1]
 trait_name = "Station"
 
 # Kilostation Security Medical Expansion
