@@ -177,3 +177,5 @@
 	new /obj/item/clothing/shoes/jackboots(src)
 	new /obj/item/clothing/gloves/color/black(src)
 	new /obj/item/clothing/neck/scarf/cyan(src)
+
+#undef ROLE_MOFFUCHIS
