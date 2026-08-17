@@ -3,7 +3,7 @@
 	desc = "Contains all the necessary parts, components and disposable tools. Feels strangely lightweight despite some of the titanium bits."
 	custom_materials = list(
 		/datum/material/plastic = SHEET_MATERIAL_AMOUNT * 20,
-		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 16,
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 15,
 		/datum/material/titanium = SHEET_MATERIAL_AMOUNT * 4,
 	)
 
