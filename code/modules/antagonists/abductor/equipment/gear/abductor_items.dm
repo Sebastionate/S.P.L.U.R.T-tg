@@ -575,6 +575,7 @@ Return to step 11 of normal process."}
 	icon_angle = 180
 	surgical_tray_overlay = "scalpel_alien"
 	toolspeed = 0.25
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT, /datum/material/silver = SHEET_MATERIAL_AMOUNT * 0.75, /datum/material/titanium = SHEET_MATERIAL_AMOUNT * 0.75, /datum/material/plasma = HALF_SHEET_MATERIAL_AMOUNT)
 
 /obj/item/hemostat/alien
 	name = "alien hemostat"
@@ -583,6 +584,7 @@ Return to step 11 of normal process."}
 	surgical_tray_overlay = "hemostat_alien"
 	icon_angle = 180
 	toolspeed = 0.25
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT, /datum/material/silver = SHEET_MATERIAL_AMOUNT * 0.75, /datum/material/titanium = SHEET_MATERIAL_AMOUNT * 0.75, /datum/material/plasma = HALF_SHEET_MATERIAL_AMOUNT)
 
 /obj/item/retractor/alien
 	name = "alien retractor"
@@ -591,6 +593,7 @@ Return to step 11 of normal process."}
 	surgical_tray_overlay = "retractor_alien"
 	icon_angle = 180
 	toolspeed = 0.25
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT, /datum/material/silver = SHEET_MATERIAL_AMOUNT * 0.75, /datum/material/titanium = SHEET_MATERIAL_AMOUNT * 0.75, /datum/material/plasma = HALF_SHEET_MATERIAL_AMOUNT)
 
 /obj/item/circular_saw/alien
 	name = "alien saw"
@@ -599,6 +602,7 @@ Return to step 11 of normal process."}
 	surgical_tray_overlay = "saw_alien"
 	icon_angle = 180
 	toolspeed = 0.25
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5, /datum/material/silver = SHEET_MATERIAL_AMOUNT * 1.25, /datum/material/titanium = SHEET_MATERIAL_AMOUNT * 0.75, /datum/material/plasma = HALF_SHEET_MATERIAL_AMOUNT)
 
 /obj/item/surgicaldrill/alien
 	name = "alien drill"
@@ -607,6 +611,7 @@ Return to step 11 of normal process."}
 	surgical_tray_overlay = "drill_alien"
 	icon_angle = 180
 	toolspeed = 0.25
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5, /datum/material/silver = SHEET_MATERIAL_AMOUNT * 1.25, /datum/material/titanium = SHEET_MATERIAL_AMOUNT * 0.75, /datum/material/plasma = HALF_SHEET_MATERIAL_AMOUNT)
 
 /obj/item/cautery/alien
 	name = "alien cautery"
@@ -616,6 +621,7 @@ Return to step 11 of normal process."}
 	surgical_tray_overlay = "cautery_alien"
 	icon_angle = 180
 	toolspeed = 0.25
+	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT, /datum/material/silver = SHEET_MATERIAL_AMOUNT * 0.75, /datum/material/titanium = SHEET_MATERIAL_AMOUNT * 0.75, /datum/material/plasma = HALF_SHEET_MATERIAL_AMOUNT)
 
 /obj/item/clothing/head/helmet/abductor
 	name = "agent headgear"

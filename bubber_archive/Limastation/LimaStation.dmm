@@ -12034,6 +12034,13 @@
 	},
 /turf/open/floor/carpet/royalblue,
 /area/station/command/heads_quarters/hop)
+"eOt" = (
+/mob/living/basic/bot/secbot/pingsky,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/station/ai_monitored/turret_protected/aisat_interior)
 "eOB" = (
 /obj/machinery/light/small/directional/north,
 /obj/structure/cable,
@@ -30506,12 +30513,6 @@
 /obj/item/storage/toolbox/mechanical,
 /turf/open/floor/plating,
 /area/station/maintenance/port/lower)
-"lDw" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/mob/living/basic/bot/secbot/beepsky/armsky,
-/turf/open/floor/iron/dark/smooth_large,
-/area/station/ai_monitored/security/armory)
 "lEp" = (
 /obj/machinery/plantgenes,
 /obj/effect/turf_decal/tile/green/opposingcorners,
@@ -30680,6 +30681,24 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/department/cargo)
+"lHQ" = (
+/obj/structure/table,
+/obj/item/food/grown/wheat,
+/obj/item/food/grown/melonlike/watermelon,
+/obj/item/food/grown/citrus/orange,
+/obj/item/food/grown/grapes,
+/obj/item/food/grown/cocoapod,
+/obj/item/food/grown/apple,
+/obj/item/food/grown/chili,
+/obj/item/food/grown/cherries,
+/obj/item/food/grown/soybeans,
+/obj/item/food/grown/citrus/lime,
+/obj/machinery/light/directional/south,
+/obj/effect/turf_decal/siding/green{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/station/service/hydroponics/garden)
 "lHU" = (
 /obj/structure/cable,
 /obj/effect/mapping_helpers/broken_floor,
@@ -33025,13 +33044,6 @@
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
 /area/station/maintenance/port/lower)
-"myW" = (
-/obj/effect/decal/cleanable/generic,
-/mob/living/basic/bot/secbot/beepsky{
-	name = "Officer Beepsky"
-	},
-/turf/open/floor/plating,
-/area/station/maintenance/department/security/brig)
 "mzc" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -38023,6 +38035,13 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/station/service/abandoned_gambling_den)
+"ooh" = (
+/obj/effect/decal/cleanable/generic,
+/mob/living/basic/bot/secbot/beepsky{
+	name = "Officer Beepsky"
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/department/security/brig)
 "oox" = (
 /obj/effect/turf_decal/bot,
 /obj/machinery/holopad,
@@ -43212,27 +43231,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/commons/fitness/recreation)
-"qjg" = (
-/obj/structure/table,
-/obj/item/stack/medical/wrap/sticky_tape{
-	pixel_x = 7;
-	pixel_y = 7
-	},
-/obj/item/stack/medical/wrap/sticky_tape{
-	pixel_x = 4;
-	pixel_y = 4
-	},
-/obj/item/stack/medical/wrap/sticky_tape,
-/obj/item/stack/medical/wrap/sticky_tape{
-	pixel_x = -4;
-	pixel_y = -4
-	},
-/obj/item/stack/medical/wrap/sticky_tape{
-	pixel_x = -7;
-	pixel_y = -7
-	},
-/turf/open/floor/plating,
-/area/station/maintenance/port/lower)
 "qjm" = (
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/engine/cult,
@@ -47814,24 +47812,6 @@
 /obj/structure/flora/bush/grassy/style_random,
 /turf/open/floor/grass,
 /area/station/service/hydroponics/park)
-"rSy" = (
-/obj/structure/table,
-/obj/item/food/grown/wheat,
-/obj/item/food/grown/watermelon,
-/obj/item/food/grown/citrus/orange,
-/obj/item/food/grown/grapes,
-/obj/item/food/grown/cocoapod,
-/obj/item/food/grown/apple,
-/obj/item/food/grown/chili,
-/obj/item/food/grown/cherries,
-/obj/item/food/grown/soybeans,
-/obj/item/food/grown/citrus/lime,
-/obj/machinery/light/directional/south,
-/obj/effect/turf_decal/siding/green{
-	dir = 1
-	},
-/turf/open/floor/iron,
-/area/station/service/hydroponics/garden)
 "rSQ" = (
 /obj/structure/reagent_dispensers/plumbed{
 	dir = 1
@@ -48099,6 +48079,12 @@
 	},
 /turf/open/floor/carpet/black,
 /area/station/commons/dorms)
+"rWM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/mob/living/basic/bot/secbot/beepsky/armsky,
+/turf/open/floor/iron/dark/smooth_large,
+/area/station/ai_monitored/security/armory)
 "rWU" = (
 /obj/structure/cable,
 /obj/effect/turf_decal/tile/yellow/opposingcorners{
@@ -57913,6 +57899,27 @@
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/cargo/storage)
+"vEt" = (
+/obj/structure/table,
+/obj/item/stack/medical/wrap/sticky_tape{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/item/stack/medical/wrap/sticky_tape{
+	pixel_x = 4;
+	pixel_y = 4
+	},
+/obj/item/stack/medical/wrap/sticky_tape,
+/obj/item/stack/medical/wrap/sticky_tape{
+	pixel_x = -4;
+	pixel_y = -4
+	},
+/obj/item/stack/medical/wrap/sticky_tape{
+	pixel_x = -7;
+	pixel_y = -7
+	},
+/turf/open/floor/plating,
+/area/station/maintenance/port/lower)
 "vEx" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
@@ -63281,13 +63288,6 @@
 /obj/machinery/meter,
 /turf/open/floor/iron,
 /area/station/engineering/atmos/upper)
-"xJU" = (
-/mob/living/basic/bot/secbot/pingsky,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron/dark,
-/area/station/ai_monitored/turret_protected/aisat_interior)
 "xKe" = (
 /obj/effect/turf_decal/trimline/purple/filled/corner{
 	dir = 8
@@ -84899,7 +84899,7 @@ jXw
 poG
 fDp
 iIH
-qjg
+vEt
 wDS
 xGE
 caJ
@@ -148606,7 +148606,7 @@ xcr
 udL
 bPS
 bPS
-lDw
+rWM
 bPS
 mOC
 uNe
@@ -150667,7 +150667,7 @@ nKX
 mTZ
 jYF
 uXV
-myW
+ooh
 mTZ
 qyF
 ngw
@@ -161444,7 +161444,7 @@ pLM
 xml
 pLM
 jIX
-rSy
+lHQ
 aCi
 qja
 fgv
@@ -174639,7 +174639,7 @@ uyr
 wGV
 dWL
 sQH
-xJU
+eOt
 xxh
 dWL
 wyy
