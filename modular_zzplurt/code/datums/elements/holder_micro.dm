@@ -307,12 +307,7 @@
 )
 	return null
 
-/obj/item/mob_holder/micro/verb/interact_with_held()
-	set name = "Interact With Held"
-	set desc = "Perform an interaction with the held mob."
-	set category = "IC"
-	set src in view(usr.client)
-
+GAME_VERB_SRC_DESC(/obj/item/mob_holder/micro, interact_with_held, view(usr.client), "Interact With Held", "Perform an interaction with the held mob.", "IC")
 	if(!held_mob)
 		to_chat(usr, span_warning("You're not holding anyone!"))
 		return

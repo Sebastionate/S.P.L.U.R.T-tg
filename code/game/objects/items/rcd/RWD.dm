@@ -1,5 +1,9 @@
+//SPLURT EDIT CHANGE BEGIN - RWD - Avoid Type::var infinite cross-reference loop
 //This represents the amount of materials (both iron and glass that the max_amount of cable would amount to
-#define MAX_CABLE_AMOUNT (SMALL_MATERIAL_AMOUNT * 0.1 * /obj/item/rwd/loaded::max_amount)
+//#define MAX_CABLE_AMOUNT (SMALL_MATERIAL_AMOUNT * 0.1 * /obj/item/rwd/loaded::max_amount) - SPLURT EDIT - ORIGINAL
+#define RWD_MAX_CABLE 210
+#define MAX_CABLE_AMOUNT (SMALL_MATERIAL_AMOUNT * 0.1 * RWD_MAX_CABLE)
+//SPLURT EDIT CHANGE END
 
 /obj/item/rwd
 	name = "rapid wiring device"
@@ -18,7 +22,10 @@
 	custom_materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5 - MAX_CABLE_AMOUNT, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 2.5 - MAX_CABLE_AMOUNT)
 
 	/// maximum amount of cable this device can hold
-	var/max_amount = 210
+	//SPLURT EDIT CHANGE BEGIN - RWD
+	//var/max_amount = 210 - SPLURT EDIT - ORIGINAL
+	var/max_amount = RWD_MAX_CABLE
+	//SPLURT EDIT CHANGE END
 	/// current amount of cable in the machine
 	var/current_amount = 0
 	/// are we dual wielding this machine
@@ -33,6 +40,9 @@
 	var/list/radial_menu = null
 
 #undef MAX_CABLE_AMOUNT
+//SPLURT EDIT ADDITION BEGIN - RWD
+#undef RWD_MAX_CABLE
+//SPLURT EDIT ADDITION END
 
 /obj/item/rwd/Initialize(mapload)
 	. = ..()

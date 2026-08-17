@@ -258,7 +258,8 @@
 		if(0 to 8)//If the enchanter is within range, increase enthrall_tally, remove withdrawl_active subproc and undo withdrawl_active effects.
 			if(phase <= PARTIALLY_ENTHRALLED)
 				// Collars speed up the enthralment process.
-				if(enthrall_victim.wear_neck?.kink_collar == TRUE)
+				var/mob/living/carbon/human/collared_victim = enthrall_victim
+				if(istype(collared_victim) && collared_victim.wear_neck?.kink_collar)
 					enthrall_tally += round(distance_multiplier[get_dist(enthrall_mob, owner) + 1] * 1.5, 0.1)
 				else
 					enthrall_tally += round(distance_multiplier[get_dist(enthrall_mob, owner) + 1], 0.1)
@@ -613,7 +614,8 @@
 	//Mental health could play a role too in the other direction
 
 	//If you've a collar, you get a sense of pride
-	if(enthrall_victim.wear_neck?.kink_collar == TRUE)
+	var/mob/living/carbon/human/collared_victim = enthrall_victim
+	if(istype(collared_victim) && collared_victim.wear_neck?.kink_collar)
 		delta_resist *= 0.5
 	if(HAS_TRAIT(enthrall_victim, TRAIT_MINDSHIELD) && !ignore_mindshield)
 		delta_resist += 5//even faster!

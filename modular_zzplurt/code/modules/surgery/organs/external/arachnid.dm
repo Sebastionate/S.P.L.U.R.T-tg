@@ -15,7 +15,7 @@
 	bodypart_overlay = /datum/bodypart_overlay/mutant/mandibles
 
 /datum/bodypart_overlay/mutant/mandibles
-	layers = EXTERNAL_FRONT|EXTERNAL_ADJACENT
+	layers = list (EXTERNAL_FRONT = BODY_FRONT_LAYER, EXTERNAL_ADJACENT = BODY_ADJ_LAYER)
 	feature_key = "mandibles"
 
 /datum/bodypart_overlay/mutant/mandibles/can_draw_on_bodypart(obj/item/bodypart/bodypart_owner, mob/living/carbon/owner, is_husked = FALSE)
@@ -42,7 +42,7 @@
 	bodypart_overlay = /datum/bodypart_overlay/mutant/spinneret
 
 /datum/bodypart_overlay/mutant/spinneret
-	layers = ALL_EXTERNAL_OVERLAYS
+	layers = list(EXTERNAL_FRONT = BODY_FRONT_LAYER, EXTERNAL_ADJACENT = BODY_ADJ_LAYER, EXTERNAL_BEHIND = BODY_BEHIND_LAYER)
 	feature_key = "spinneret"
 
 /datum/bodypart_overlay/mutant/spinneret/can_draw_on_bodypart(obj/item/bodypart/bodypart_owner, mob/living/carbon/owner, is_husked = FALSE)
@@ -69,7 +69,7 @@
 	bodypart_overlay = /datum/bodypart_overlay/mutant/arachnid_legs
 
 /datum/bodypart_overlay/mutant/arachnid_legs
-	layers = ALL_EXTERNAL_OVERLAYS
+	layers = list(EXTERNAL_FRONT = BODY_FRONT_LAYER, EXTERNAL_ADJACENT = BODY_ADJ_LAYER, EXTERNAL_BEHIND = BODY_BEHIND_LAYER)
 	feature_key = "arachnid_legs"
 
 /datum/bodypart_overlay/mutant/arachnid_legs/can_draw_on_bodypart(obj/item/bodypart/bodypart_owner, mob/living/carbon/owner, is_husked = FALSE)
