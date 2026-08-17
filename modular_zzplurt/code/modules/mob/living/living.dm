@@ -118,10 +118,7 @@
 
 	return ..()
 
-/mob/living/verb/switch_scaling()
-	set name = "Switch scaling mode"
-	set category = "IC"
-	set desc = "Switch sharp/fuzzy scaling for current mob."
+GAME_VERB_DESC(/mob/living, switch_scaling, "Switch scaling mode", "Switch sharp/fuzzy scaling for current mob.", "IC")
 	fuzzy = !fuzzy
 	regenerate_icons()
 

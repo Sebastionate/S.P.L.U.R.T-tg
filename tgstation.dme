@@ -610,6 +610,7 @@
 #include "code\__DEFINES\~~~splurt_defines\subsystems.dm"
 #include "code\__DEFINES\~~~splurt_defines\thirst.dm"
 #include "code\__DEFINES\~~~splurt_defines\underwear.dm"
+#include "code\__DEFINES\~~~splurt_defines\verb.dm"
 #include "code\__DEFINES\~~~splurt_defines\dcs\signals.dm"
 #include "code\__DEFINES\~~~splurt_defines\dcs\signals_hilbertshotel.dm"
 #include "code\__DEFINES\~~~splurt_defines\dcs\signals_reagents.dm"
