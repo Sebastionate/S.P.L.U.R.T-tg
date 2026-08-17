@@ -62,6 +62,7 @@
 	req_one_access = list()
 	icon_state = "nt"
 	icon = 'modular_zzplurt/icons/obj/closet.dmi'
+	storage_capacity = 31
 
 /obj/structure/closet/secure_closet/nanotrasen_consultant/PopulateContents()
 	..()

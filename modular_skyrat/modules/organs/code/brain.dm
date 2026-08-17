@@ -8,6 +8,13 @@
 	icon_state = "brain-c"
 	organ_flags = ORGAN_ORGANIC | ORGAN_ROBOTIC | ORGAN_VITAL | ORGAN_PROMINENT //it's a bit weird to be both organic and robotic, but yk
 	emp_dmg_mult = 1.5 //Note that the base damage is 20/10
+	custom_materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 0.6,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 0.6,
+		/datum/material/silver = HALF_SHEET_MATERIAL_AMOUNT,
+		/datum/material/gold = HALF_SHEET_MATERIAL_AMOUNT,
+		/datum/material/diamond = SMALL_MATERIAL_AMOUNT * 3,
+	)
 
 	//internal computer for cortical
 	var/obj/item/modular_computer/pda/synth/internal_computer

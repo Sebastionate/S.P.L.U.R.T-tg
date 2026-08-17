@@ -248,6 +248,10 @@
 	name = "detective kit module"
 	desc = "A forensics module for security cyborgs. Integrates a detective scanner and evidence bag directly into the unit's toolkit."
 	icon_state = "module_security"
+	custom_materials = list(
+		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 5,
+		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 2,
+	)
 	require_model = TRUE
 	model_type = list(/obj/item/robot_model/security)
 	model_flags = BORG_MODEL_SECURITY
