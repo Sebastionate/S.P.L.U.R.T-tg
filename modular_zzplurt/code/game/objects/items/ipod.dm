@@ -204,6 +204,13 @@ GLOBAL_VAR_INIT(ipod_last_play, 0) //last time of the last played track, to prev
 		return
 
 	lastfilechange = world.time
+	var/sound_length = SSsounds.get_sound_length(logged_filename) // this uses the rust-g library to check if file is valid
+	if(isnull(sound_length) || sound_length <= 20) // either an invalid file or 2 seconds or less, abort
+		to_chat(user, span_warning("The song codec was invalid, aborting!"))
+		user.log_message("uploaded an invalid song: [logged_filename]", LOG_GAME)
+		log_admin("[key_name(user)] attempted to upload an corrupted song to their headphones. The source filename was '[sanitize("[infile]")]'.")
+		fdel(logged_filename)
+		return
 	var/uploaded_song = file(logged_filename)
 	if(!uploaded_song || !fexists(uploaded_song))
 		to_chat(user, span_warning("Upload failed to finish, aborting!"))
@@ -213,13 +220,6 @@ GLOBAL_VAR_INIT(ipod_last_play, 0) //last time of the last played track, to prev
 		to_chat(user, span_warning("Upload failed to finish, aborting!"))
 		user.log_message("attempted to upload a song: [logged_filename]", LOG_GAME)
 		log_admin("[key_name(user)] attempted to upload an incomplete song to their headphones. The source filename was '[sanitize("[infile]")]'.")
-		fdel(logged_filename)
-		return
-	var/sound_length = SSsounds.get_sound_length(uploaded_song) // this uses the rust-g library to check if file is valid
-	if(isnull(sound_length) || sound_length <= 20) // either an invalid file or 2 seconds or less, abort
-		to_chat(user, span_warning("The song codec was invalid, aborting!"))
-		user.log_message("uploaded an invalid song: [logged_filename]", LOG_GAME)
-		log_admin("[key_name(user)] attempted to upload an corrupted song to their headphones. The source filename was '[sanitize("[infile]")]'.")
 		fdel(logged_filename)
 		return
 	if(loc != user) // headphones no longer on mob, abort
