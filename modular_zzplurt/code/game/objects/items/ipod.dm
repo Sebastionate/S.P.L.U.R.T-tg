@@ -177,7 +177,7 @@ GLOBAL_VAR_INIT(ipod_last_play, 0) //last time of the last played track, to prev
 		return
 	var/file_extension = LOWER_TEXT(copytext("[infile]", -4))
 	if(!(file_extension == ".ogg" || file_extension == ".mp3"))
-		to_chat(user, span_warning("File type must be OGG or MP3: [infile]"))
+		to_chat(user, span_warning("File type must be OGG or MP3: [sanitize("[infile]")]"))
 		return
 	var/filelength = length(infile)
 	if(radio_mode && filelength > 3242880) // radio broadcasting has a tighter file size limit
