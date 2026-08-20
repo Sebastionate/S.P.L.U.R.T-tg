@@ -20877,8 +20877,6 @@
 /area/station/hallway/secondary/entry)
 "dWs" = (
 /obj/item/stack/cable_coil,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/transfer)
 "dWt" = (
@@ -24144,14 +24142,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/transfer)
 "eDQ" = (
@@ -25930,13 +25921,6 @@
 "eTG" = (
 /turf/open/floor/carpet/blue,
 /area/station/command/heads_quarters/blueshield)
-"eTH" = (
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/iron,
-/area/station/security/execution/transfer)
 "eTI" = (
 /obj/structure/table,
 /obj/item/flashlight/lamp,
@@ -32547,17 +32531,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/station/science/circuits)
-"giG" = (
-/obj/effect/turf_decal/stripes/full,
-/obj/effect/turf_decal/stripes/white/full,
-/obj/machinery/door/poddoor/shutters{
-	id = "securitydock2";
-	name = "Security Dock 2"
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
-/area/station/security/execution/transfer)
 "giN" = (
 /obj/structure/table/wood,
 /obj/item/cigarette/syndicate,
@@ -54565,10 +54538,13 @@
 /turf/open/floor/stone,
 /area/station/common/wrestling/arena)
 "krP" = (
-/obj/effect/turf_decal/box/white/corners,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron,
 /area/station/security/execution/transfer)
 "krU" = (
 /obj/structure/cable,
@@ -56389,8 +56365,8 @@
 /turf/open/floor/iron,
 /area/station/commons/dorms)
 "kKk" = (
-/obj/structure/door_assembly/door_assembly_sec,
 /obj/machinery/door/firedoor,
+/obj/structure/door_assembly/door_assembly_sec/old,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/transfer)
 "kKm" = (
@@ -60037,14 +60013,7 @@
 /obj/structure/railing/corner/end/flip,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/merge_conflict_marker{
-	name = "---Merge Conflict Marker---";
-	
-	desc = "A best-effort merge was performed. You must resolve this conflict yourself (manually) and remove this object once complete."
-	},
 /obj/structure/railing/corner/end/flip,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/security/execution/transfer)
 "lwb" = (
@@ -62469,8 +62438,9 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
 /turf/open/floor/iron,
 /area/station/security/execution/transfer)
 "lTn" = (
@@ -73349,8 +73319,6 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/stairs,
 /area/station/security/execution/transfer)
 "obc" = (
@@ -76027,11 +75995,6 @@
 	},
 /turf/open/floor/carpet,
 /area/station/common/tailoring)
-"oyI" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
-/area/station/security/execution/transfer)
 "oyK" = (
 /obj/machinery/photocopier/prebuilt,
 /obj/effect/turf_decal/siding/wood{
@@ -100322,7 +100285,6 @@
 "tdB" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/transfer)
 "tdG" = (
@@ -120707,13 +120669,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/aft/upper)
-"wWj" = (
-/obj/structure/railing{
-	dir = 4
-	},
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/iron,
-/area/station/security/execution/transfer)
 "wWk" = (
 /obj/effect/turf_decal/trimline/blue/filled/line,
 /obj/machinery/airalarm/directional/south,
@@ -120789,12 +120744,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/command)
-"wXf" = (
-/obj/effect/decal/cleanable/blood/oil/slippery,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
-/area/station/security/execution/transfer)
 "wXj" = (
 /obj/structure/trash_pile,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -150510,14 +150459,14 @@ euE
 euE
 faw
 euE
-oyI
+euE
 dWs
-oyI
-oyI
-krP
-giG
-oyI
-sBh
+euE
+euE
+cgu
+sAN
+euE
+iHC
 tNz
 tNz
 tNz
@@ -150764,10 +150713,10 @@ mjE
 kzx
 doG
 doG
-eTH
+doG
 lTj
 oaL
-wXf
+faw
 mhN
 bdt
 mhN
@@ -151535,8 +151484,8 @@ mjE
 occ
 msT
 msT
-wWj
-lMz
+msT
+krP
 rFc
 euE
 mhN
