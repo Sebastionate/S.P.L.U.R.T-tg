@@ -38,7 +38,7 @@
 // 		TAG_HIGH = 1,
 // 		TAG_OPFOR_ONLY = 0
 // 	)
-
-/datum/storyteller_data/tracks/gamer/opfor
-	threshold_crewset = INFINITY
-	threshold_ghostset = INFINITY
+//
+// /datum/storyteller_data/tracks/gamer/opfor
+// 	threshold_crewset = INFINITY
+// 	threshold_ghostset = INFINITY

@@ -37,7 +37,7 @@
 // 		TAG_OPFOR_ONLY = 0
 // 	)
 // 	storyteller_type = STORYTELLER_TYPE_CALM | STORYTELLER_TYPE_OPFOR_ONLY
-
-/datum/storyteller_data/tracks/chill/opfor
-	threshold_crewset = INFINITY
-	threshold_ghostset = INFINITY
+//
+// /datum/storyteller_data/tracks/chill/opfor
+//	threshold_crewset = INFINITY
+//	threshold_ghostset = INFINITY
