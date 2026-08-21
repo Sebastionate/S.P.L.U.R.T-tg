@@ -24,7 +24,7 @@
  *
  * Body size is tracked via /mob/living/current_size (TG transform resize), not dna.features["body_size"].
 */
-/proc/get_size(mob/living/target, var/size_includes_limbloss = FALSE)
+/proc/get_size(mob/living/target, size_includes_limbloss = FALSE)
 	if(!target)
 		CRASH("get_size(NULL) was called")
 	if(!istype(target))
