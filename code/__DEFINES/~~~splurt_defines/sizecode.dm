@@ -24,14 +24,15 @@
  *
  * Body size is tracked via /mob/living/current_size (TG transform resize), not dna.features["body_size"].
 */
-/proc/get_size(mob/living/target)
+/proc/get_size(mob/living/target, var/size_includes_limbloss = FALSE)
 	if(!target)
 		CRASH("get_size(NULL) was called")
 	if(!istype(target))
 		CRASH("get_size() called with an invalid target, only use this for /mob/living!")
 	if(ishuman(target))
-		return target.current_size
+		return size_includes_limbloss && get_legs_missing(target) ? target.current_size * 0.6 : target.current_size
 	return target.size_multiplier
+
 
 /*
  * # COMPARE_SIZES(mob/living/user, mob/living/target)
@@ -44,3 +45,15 @@
  * - target = /mob/living
 */
 #define COMPARE_SIZES(user, target) abs((get_size(user) / get_size(target)))
+
+/*
+ * # COMPARE_SIZES_MODIFIED(mob/living/user, mob/living/target)
+ * Returns how bigger or smaller the target is in comparison to user keeping missing legs in mind
+ * Example:
+ * - user = 2, target = 1, result = 0.5
+ * - user = 1, target = 2, result = 2
+ * Args:
+ * - user = /mob/living
+ * - target = /mob/living
+*/
+#define COMPARE_SIZES_WITH_LIMBLOSS(user, target) abs((get_size(user, TRUE) / get_size(target, TRUE)))
