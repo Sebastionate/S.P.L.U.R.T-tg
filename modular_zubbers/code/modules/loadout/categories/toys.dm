@@ -265,7 +265,7 @@
 
 /datum/loadout_item/toys/lewd/ring_gag
 	name = "Ring Gag"
-	item_path = /obj/item/clothing/mask/muzzle/ring
+	item_path = /obj/item/clothing/mask/ballgag/ring // SPLURT EDIT - muzzle/ring moved to /obj/item/clothing/mask/ballgag/ring
 
 /datum/loadout_item/toys/lewd/choking_gag
 	name = "Phallic Ball Gag (Dangerous)"
