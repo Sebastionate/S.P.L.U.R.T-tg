@@ -20,7 +20,7 @@ GLOBAL_PROTECT(world_mem_log)
 SUBSYSTEM_DEF(memory_stats)
 	name = "Memory Stats"
 	wait = 30 SECONDS
-	flags = SS_BACKGROUND
+	ss_flags = SS_BACKGROUND
 	runlevels = RUNLEVEL_LOBBY | RUNLEVELS_DEFAULT
 	/// RSS (in MB) of the last sample, so users can see the current memory usage in the statpanel
 	var/last_rss_mb = 0
