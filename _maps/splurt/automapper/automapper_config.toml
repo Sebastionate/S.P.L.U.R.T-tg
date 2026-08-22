@@ -174,13 +174,13 @@ required_map = "BoxStation.dmm"
 coordinates = [101, 170, 1]
 trait_name = "Station"
 
-# Kilostation NTR Office
-[templates.kilostation_ntrep_office]
-map_files = ["kilostation_ntrep_office.dmm"]
-directory = "_maps/splurt/automapper/templates/kilostation/"
-required_map = "KiloStation.dmm"
-coordinates = [89, 147, 1]
-trait_name = "Station"
+# # Kilostation NTR Office
+# [templates.kilostation_ntrep_office]
+# map_files = ["kilostation_ntrep_office.dmm"]
+# directory = "_maps/splurt/automapper/templates/kilostation/"
+# required_map = "KiloStation.dmm"
+# coordinates = [89, 147, 1]
+# trait_name = "Station"
 
 # Kilostation Blueshield Office
 [templates.kilostation_blueshield_office]
