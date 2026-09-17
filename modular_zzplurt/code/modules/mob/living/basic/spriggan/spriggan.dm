@@ -39,21 +39,17 @@
 	unsuitable_atmos_damage = FALSE
 	pressure_resistance = 200
 
-	// Green nightvision effect
-	lighting_cutoff_red = 15
-	lighting_cutoff_green = 55
-	lighting_cutoff_blue = 20
-
 	hud_type = /datum/hud/dextrous/
 
-	//Thermal eyes sorta from voidwalker
-	sight = SEE_TURFS | SEE_MOBS
+#define SPRIGGAN_TELEPORT_ABILITY "spriggan_teleport"
+#define SPRIGGAN_SIGHT_ABILITY "spriggan_sight"
+#define SPRIGGAN_LIGHT_ABILITY "spriggan_light"
 
 	// variable from the guardian support type, used to determine how much healing is done per hit
 	var/healing_amount = 5
 
 	// the color of the overlay while regenerating health
-	var/regenerate_colour = COLOR_PALE_GREEN
+	var/regenerate_colour = LIGHT_COLOR_ELECTRIC_GREEN
 
 	var/heal_sound = 'sound/items/weapons/shrink_hit.ogg'
 
@@ -71,7 +67,9 @@
 
 //lets the dryan teleport around
 	var/static/list/innate_actions = list(
-		/datum/action/cooldown/mob_cooldown/spriggan_teleport = SPRIGAN_TELEPORT_ABILITY,
+		/datum/action/cooldown/mob_cooldown/spriggan_teleport = SPRIGGAN_TELEPORT_ABILITY,
+		/datum/action/cooldown/mob_cooldown/spriggan_sight = SPRIGGAN_SIGHT_ABILITY,
+		/datum/action/cooldown/mob_cooldown/spriggan_light = SPRIGGAN_LIGHT_ABILITY,
 	)
 	grant_actions_by_list(innate_actions)
 
