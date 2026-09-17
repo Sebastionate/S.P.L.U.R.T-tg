@@ -21,8 +21,8 @@
 	. = ..()
 	if(slime_crown)
 		add_overlay(mutable_appearance(
-			icon = 'icons/mob/slimes_with_crown_overlay_added.dmi',
-			icon_state = 'aslime-crown',
+			icon = 'modular_zzplurt/icons/mob/slimes_with_crown_overlay_added.dmi',
+			icon_state = life_stage == SLIME_LIFE_STAGE_BABY ? "aslime-crown-baby" : "aslime-crown",
 			layer = ABOVE_MOB_LAYER,
 		))
 
