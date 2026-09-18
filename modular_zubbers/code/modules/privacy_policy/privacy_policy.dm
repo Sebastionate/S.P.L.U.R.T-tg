@@ -40,6 +40,9 @@
 	ui.open()
 
 /client/proc/show_privacy_policy()
+	// SPLURT EDIT START
+	return
+	// SPLURT EDIT END
 	if(!CONFIG_GET(flag/sql_enabled))
 		return
 
