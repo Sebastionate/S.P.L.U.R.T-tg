@@ -329,6 +329,8 @@ GLOBAL_LIST_INIT(biotypes_to_scar_file, list(
 #define ACCEPTS_GAUZE (1<<2)
 /// If this wound allows the victim to grasp it
 #define CAN_BE_GRASPED (1<<3)
+/// SPLURT EDIT - If this wound, when bandaged, will cause a splint overlay to generate rather than a bandage overlay.
+#define SPLINT_OVERLAY (1<<16) // SPLURT EDIT - we use a big number since tg realistically wouldnt go to it
 
 // ~scar persistence defines
 // The following are the order placements for persistent scar save formats
