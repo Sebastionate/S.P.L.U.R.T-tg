@@ -200,6 +200,7 @@
 	dir = 5
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/wood/large,
 /area/station/command/heads_quarters/ce)
 "acH" = (
@@ -7275,6 +7276,7 @@
 	location = "Public Tool Storage"
 	},
 /obj/effect/turf_decal/bot_white,
+/turf/open/floor/mineral/plastitanium/pod/dark/large,
 /area/station/commons/storage/primary)
 "bFh" = (
 /obj/effect/turf_decal/siding/thinplating_new,
@@ -7997,6 +7999,7 @@
 	},
 /obj/structure/cable,
 /obj/effect/landmark/start/depsec/medical,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron/white/textured,
 /area/station/security/checkpoint/medical)
 "bMF" = (
@@ -13024,6 +13027,7 @@
 	pixel_x = -35
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron/dark,
 /area/station/security/execution/education)
 "cOW" = (
@@ -16350,11 +16354,6 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/platform/iron,
-/obj/structure/showcase/perfect_employee{
-	pixel_y = -1;
-	density = 0
-	},
 /obj/structure/cable,
 /turf/open/floor/iron/smooth_edge,
 /area/station/command/bridge/hallway)
@@ -22372,6 +22371,7 @@
 	dir = 1
 	},
 /obj/machinery/duct,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
 "eWB" = (
@@ -38334,6 +38334,7 @@
 	name = "station self-destruct terminal's campaign hat"
 	},
 /obj/structure/cable,
+/turf/open/floor/mineral/plastitanium/pod/dark/large,
 /area/station/command/vault)
 "iyq" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -39566,6 +39567,9 @@
 	},
 /obj/structure/cable,
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
+/obj/machinery/scanner_gate/preset_guns{
+	dir = 4
+	},
 /turf/open/floor/iron/smooth_half{
 	dir = 1
 	},
@@ -47852,6 +47856,7 @@
 /area/station/engineering/atmos)
 "kDy" = (
 /obj/effect/turf_decal/delivery/white,
+/turf/open/floor/mineral/plastitanium/pod/dark/large,
 /area/station/commons/storage/primary)
 "kDC" = (
 /obj/machinery/netpod,
@@ -53276,6 +53281,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/carpet/purple,
 /area/station/command/heads_quarters/rd)
 "lMZ" = (
@@ -59390,6 +59396,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron/checker,
 /area/station/service/bar/backroom)
 "ngS" = (
@@ -66350,6 +66357,23 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
+"oJI" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/duct,
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
+/turf/open/floor/iron/dark,
+/area/station/service/bar)
 "oJP" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
@@ -67025,6 +67049,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron/textured,
 /area/station/security/checkpoint/customs)
 "oPY" = (
@@ -68704,6 +68729,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron,
 /area/station/service/janitor)
 "phw" = (
@@ -71266,6 +71292,7 @@
 	desc = "An old prototype cloning pod, permanently decommissioned following the incident.";
 	name = "decommissioned cloner"
 	},
+/turf/open/floor/mineral/plastitanium/pod/dark/large,
 /area/station/medical/medbay/central)
 "pKg" = (
 /obj/structure/table/reinforced,
@@ -84309,6 +84336,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/duct,
+/obj/effect/turf_decal/siding/wideplating_new/light,
+/obj/effect/turf_decal/siding/wideplating_new/light{
+	dir = 1
+	},
 /turf/open/floor/iron/white/textured_half{
 	dir = 4
 	},
@@ -87261,6 +87292,7 @@
 "tjR" = (
 /obj/effect/landmark/event_spawn,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/engineering/engicargo)
 "tjU" = (
@@ -88780,6 +88812,10 @@
 	},
 /obj/structure/curtain,
 /obj/machinery/door/firedoor,
+/obj/effect/turf_decal/siding/wideplating_new/light,
+/obj/effect/turf_decal/siding/wideplating_new/light{
+	dir = 1
+	},
 /turf/open/floor/iron/white/textured_half{
 	dir = 4
 	},
@@ -91925,6 +91961,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron/dark,
 /area/station/security/checkpoint/service)
 "ukx" = (
@@ -94490,6 +94527,7 @@
 /obj/machinery/door/window/left/directional/east{
 	name = "Cloning Vat Access"
 	},
+/turf/open/floor/mineral/plastitanium/pod/large,
 /area/station/medical/medbay/central)
 "uNr" = (
 /obj/machinery/airalarm/directional/south,
@@ -96957,7 +96995,6 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/platform/iron,
 /obj/structure/cable,
 /turf/open/floor/iron/smooth_edge{
 	dir = 1
@@ -97648,6 +97685,7 @@
 /obj/structure/railing/corner/end{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron/dark/smooth_edge{
 	dir = 8
 	},
@@ -99085,6 +99123,9 @@
 	cycle_id = "bridge"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/command/general,
+/obj/machinery/scanner_gate/preset_guns{
+	dir = 4
+	},
 /turf/open/floor/iron/smooth_half{
 	dir = 1
 	},
@@ -101589,6 +101630,7 @@
 	dir = 1
 	},
 /obj/machinery/firealarm/directional/north,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/wood/large,
 /area/station/service/library/private)
 "wov" = (
@@ -103525,6 +103567,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
 /turf/open/floor/iron/dark,
 /area/station/science/cytology)
 "wLb" = (
@@ -140457,7 +140500,7 @@ vNh
 ajW
 lPh
 ioS
-ugs
+oJI
 blQ
 ugs
 dwI
