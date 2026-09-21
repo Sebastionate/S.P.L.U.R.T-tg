@@ -51474,7 +51474,8 @@
 "lth" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "supplybridge";
-	dir = 4
+	dir = 4;
+	name = "Shuttle Bay Space Bridge Shutters"
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -58121,7 +58122,8 @@
 "mRA" = (
 /obj/machinery/door/poddoor/shutters{
 	id = "supplybridge";
-	dir = 8
+	dir = 8;
+	name = "Shuttle Bay Space Bridge Shutters"
 	},
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -61309,7 +61311,8 @@
 	},
 /obj/machinery/door/poddoor/shutters{
 	id = "supplybridge";
-	dir = 4
+	dir = 4;
+	name = "Shuttle Bay Space Bridge Shutters"
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
@@ -66357,23 +66360,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
-"oJI" = (
-/obj/structure/disposalpipe/segment{
-	dir = 2
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/obj/machinery/duct,
-/obj/effect/turf_decal/tile/neutral/opposingcorners{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/dark{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
-/turf/open/floor/iron/dark,
-/area/station/service/bar)
 "oJP" = (
 /obj/effect/turf_decal/tile/green{
 	dir = 8
@@ -68229,7 +68215,8 @@
 	},
 /obj/machinery/door/poddoor/shutters{
 	id = "supplybridge";
-	dir = 8
+	dir = 8;
+	name = "Shuttle Bay Space Bridge Shutters"
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
@@ -68750,7 +68737,8 @@
 	},
 /obj/machinery/door/poddoor/shutters{
 	id = "supplybridge";
-	dir = 4
+	dir = 4;
+	name = "Shuttle Bay Space Bridge Shutters"
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
@@ -72272,6 +72260,23 @@
 /obj/item/food/grown/banana,
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
+"pVW" = (
+/obj/structure/disposalpipe/segment{
+	dir = 2
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/duct,
+/obj/effect/turf_decal/tile/neutral/opposingcorners{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/turn_off_lights_with_lightswitch,
+/turf/open/floor/iron/dark,
+/area/station/service/bar)
 "pWb" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8
@@ -104738,7 +104743,8 @@
 	},
 /obj/machinery/door/poddoor/shutters{
 	id = "supplybridge";
-	dir = 8
+	dir = 8;
+	name = "Shuttle Bay Space Bridge Shutters"
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/central)
@@ -140500,7 +140506,7 @@ vNh
 ajW
 lPh
 ioS
-oJI
+pVW
 blQ
 ugs
 dwI
