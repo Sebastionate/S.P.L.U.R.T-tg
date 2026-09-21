@@ -1,0 +1,3385 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/structure/cable,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/effect/decal/cleanable/garbage,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/template_noop)
+"ba" = (
+/turf/closed/wall,
+/area/template_noop)
+"bc" = (
+/obj/machinery/door/airlock/external/glass,
+/turf/open/floor/plating,
+/area/template_noop)
+"bd" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/decorative/fluff{
+	icon_state = "largecrate";
+	icon = 'modular_skyrat/modules/company_imports/icons/import_crate.dmi';
+	name = "munitions crate";
+	desc = "A wooden crate filled with aged artillery shells.";
+	pixel_x = -1;
+	anchored = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"bi" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/cable,
+/obj/machinery/light/broken/directional/south,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"bk" = (
+/obj/machinery/power/smes/full,
+/turf/open/floor/plating,
+/area/template_noop)
+"bn" = (
+/obj/structure/fluff/metalpole/anchor{
+	dir = 8
+	},
+/turf/template_noop,
+/area/template_noop)
+"br" = (
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"bu" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"bw" = (
+/obj/structure/chair/stool/bar/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"cm" = (
+/obj/effect/decal/cleanable/blood/oil/slippery,
+/turf/open/floor/plating,
+/area/template_noop)
+"cH" = (
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"cK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"cN" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"dl" = (
+/obj/structure/mineral_door/wood{
+	color = "#6b6536"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"dp" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"dV" = (
+/obj/effect/decal/cleanable/greenglow,
+/turf/open/floor/plating,
+/area/template_noop)
+"eP" = (
+/obj/structure/door_assembly/door_assembly_grunge,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"ft" = (
+/obj/structure/broken_flooring/plating{
+	dir = 8
+	},
+/obj/structure/broken_flooring/singular/directional/north,
+/turf/template_noop,
+/area/template_noop)
+"fz" = (
+/obj/structure/table/wood,
+/obj/machinery/reagentgrinder{
+	pixel_x = -1;
+	pixel_y = 10
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"fW" = (
+/obj/item/restraints/handcuffs{
+	pixel_x = 8;
+	pixel_y = 9
+	},
+/obj/item/knife/combat/survival{
+	pixel_x = -10;
+	pixel_y = 8
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"gn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"gw" = (
+/obj/machinery/power/shuttle_engine/propulsion,
+/turf/open/floor/plating,
+/area/template_noop)
+"gC" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"gY" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"gZ" = (
+/obj/machinery/light/warm/dim/directional/west,
+/turf/open/floor/wood,
+/area/template_noop)
+"hb" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"hl" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/broken/directional/east,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"hq" = (
+/obj/structure/bed/maint,
+/obj/item/toy/plush/toaste_plushy,
+/turf/open/floor/wood,
+/area/template_noop)
+"hH" = (
+/obj/structure/bed{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 14
+	},
+/obj/machinery/light/small/broken/directional/north,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"hL" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/machinery/computer/old{
+	dir = 8;
+	name = "Defense Terminal";
+	desc = "A device that monitors the armaments and shielding of a space-faring vessel. The diagnostics on its screen indicate a critical shield failure.";
+	icon_screen = "command"
+	},
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"hM" = (
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/obj/effect/mapping_helpers/damaged_window,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"hX" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"is" = (
+/obj/structure/broken_flooring/singular/directional/north,
+/turf/template_noop,
+/area/template_noop)
+"iE" = (
+/obj/structure/cable,
+/obj/machinery/light/small/dim/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"iM" = (
+/obj/machinery/power/solar{
+	id = "starboardsolar";
+	name = "Starboard Solar Array"
+	},
+/obj/machinery/power/solar{
+	id = "starboardsolar";
+	name = "Starboard Solar Array"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"iW" = (
+/obj/structure/fluff/metalpole{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"je" = (
+/obj/structure/decorative/shelf/soda_multipacks,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"jn" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/engineering,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/template_noop)
+"jt" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lantern/on{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"jw" = (
+/obj/structure/decorative/shelf/alcohol,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"jD" = (
+/obj/machinery/light/small/red/directional/north,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/plating,
+/area/template_noop)
+"jQ" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/template_noop)
+"kh" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"ki" = (
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"kj" = (
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet/pirate{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"kA" = (
+/obj/structure/broken_flooring/pile/directional/west,
+/turf/template_noop,
+/area/template_noop)
+"kB" = (
+/obj/structure/bed{
+	dir = 1;
+	pixel_x = -1;
+	pixel_y = 14
+	},
+/obj/item/bedsheet/pirate{
+	dir = 1;
+	pixel_x = -1;
+	pixel_y = 14
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"kT" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/decorative/shelf/soda,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"le" = (
+/obj/structure/emergency_shield,
+/turf/template_noop,
+/area/template_noop)
+"lh" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/decorative/fluff{
+	icon_state = "largecrate";
+	icon = 'modular_skyrat/modules/company_imports/icons/import_crate.dmi';
+	name = "munitions crate";
+	desc = "A wooden crate filled with aged artillery shells.";
+	pixel_x = -1;
+	anchored = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"lo" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/template_noop)
+"lv" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"ly" = (
+/obj/structure/door_assembly/door_assembly_grunge,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"lZ" = (
+/obj/structure/cable,
+/obj/machinery/power/solar_control{
+	id = "starboardsolar";
+	name = "Starboard Quarter Solar Control"
+	},
+/turf/open/floor/plating,
+/area/template_noop)
+"ma" = (
+/obj/item/gun/ballistic/shotgun/doublebarrel,
+/obj/structure/table/wood,
+/obj/item/ammo_box/advanced/s12gauge/buckshot{
+	pixel_x = -5;
+	pixel_y = 10
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"mF" = (
+/obj/structure/decorative/fluff{
+	icon_state = "turret_bofors";
+	icon = 'icons/obj/weapons/naval_cannon.dmi';
+	name = "exterior flak cannon";
+	desc = "An aged, unkept weapon manufactured for the purpose of ship warfare.";
+	pixel_x = -28;
+	anchored = 1;
+	pixel_y = -16;
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"mX" = (
+/obj/machinery/power/shuttle_engine/large,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"nk" = (
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
+/area/template_noop)
+"np" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/broken/directional/south,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"nq" = (
+/obj/structure/fermenting_barrel/gunpowder,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"nw" = (
+/obj/machinery/power/port_gen/pacman/super,
+/turf/open/floor/plating,
+/area/template_noop)
+"oC" = (
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"oV" = (
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/obj/structure/curtain/bounty,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"oY" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/light/small/dim/directional/south,
+/obj/machinery/computer/old{
+	dir = 4;
+	name = "Defense Terminal";
+	desc = "A device that monitors the armaments and shielding of a space-faring vessel. The diagnostics on its screen indicate a critical shield failure.";
+	icon_screen = "command"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"pg" = (
+/obj/machinery/computer/old{
+	name = "Targeting Computer";
+	desc = "An outdated machine that appears to have once been utilized to pilot a shuttle."
+	},
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"pj" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"pt" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"pu" = (
+/obj/machinery/light/small/dim/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"pE" = (
+/obj/machinery/door/airlock/engineering,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/template_noop)
+"pX" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood,
+/area/template_noop)
+"pZ" = (
+/obj/effect/decal/cleanable/cum,
+/turf/open/floor/wood,
+/area/template_noop)
+"qe" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"qf" = (
+/obj/structure/girder/displaced,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"qy" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"qB" = (
+/obj/structure/decorative/shelf/crates1,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"qG" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"rn" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/plating,
+/area/template_noop)
+"rr" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"rv" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"rz" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/shaker{
+	pixel_x = -6
+	},
+/obj/item/storage/fancy/cigarettes/cigars{
+	pixel_y = 10;
+	pixel_x = 4
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"rK" = (
+/obj/structure/cable,
+/obj/structure/chair/stool/bar/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"rN" = (
+/obj/structure/decorative/fluff{
+	icon_state = "turret_bofors";
+	icon = 'icons/obj/weapons/naval_cannon.dmi';
+	name = "exterior flak cannon";
+	desc = "An aged, unkept weapon manufactured for the purpose of ship warfare.";
+	pixel_x = -28;
+	anchored = 1;
+	pixel_y = -16;
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"rW" = (
+/obj/structure/closet/crate/wooden{
+	anchored = 1
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"rZ" = (
+/obj/structure/mineral_door/wood{
+	color = "#6b6536"
+	},
+/obj/structure/fans/tiny,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"sc" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"so" = (
+/obj/machinery/light/broken/directional/south,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"sz" = (
+/obj/structure/decorative/shelf/alcohol,
+/turf/open/floor/wood,
+/area/template_noop)
+"sC" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"sJ" = (
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/plating,
+/area/template_noop)
+"sP" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"tc" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"te" = (
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet/pirate{
+	dir = 1
+	},
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"ty" = (
+/obj/item/stack/cannonball/four,
+/obj/machinery/light/broken/directional/north,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"ur" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"ut" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"uu" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass{
+	pixel_x = -4;
+	pixel_y = 10
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"uJ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"uQ" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/decorative/fluff{
+	icon_state = "power_box";
+	icon = 'icons/obj/machines/particle_accelerator.dmi';
+	name = "munitions loader";
+	desc = "A mechanical device that formerly loaded munitions into a heavy weapons system of some sort.";
+	pixel_x = 1;
+	anchored = 1;
+	pixel_y = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"uV" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/decorative/fluff{
+	icon_state = "largecrate";
+	icon = 'modular_skyrat/modules/company_imports/icons/import_crate.dmi';
+	name = "munitions crate";
+	desc = "A wooden crate filled with aged artillery shells.";
+	pixel_x = 1;
+	anchored = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"vj" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"vx" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks/fullupgrade{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"wy" = (
+/obj/machinery/door/airlock/grunge,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"wF" = (
+/obj/machinery/power/tracker,
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"xa" = (
+/obj/item/beacon{
+	name = "Galloway Pirate Vessel"
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"xe" = (
+/obj/machinery/light/warm/dim/directional/east,
+/obj/structure/table/wood,
+/obj/item/claymore/cutlass/old,
+/turf/open/floor/wood,
+/area/template_noop)
+"xj" = (
+/obj/structure/closet/crate/wooden{
+	anchored = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"xs" = (
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/wood,
+/area/template_noop)
+"xV" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"xZ" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"yf" = (
+/obj/machinery/door/airlock/grunge,
+/obj/structure/cable,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"yZ" = (
+/obj/item/stack/rods/shuttle/five{
+	pixel_x = 12;
+	pixel_y = 13
+	},
+/obj/structure/lattice,
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
+"zh" = (
+/obj/machinery/light/small/dim/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"zk" = (
+/obj/structure/closet/crate/wooden{
+	anchored = 1;
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"zw" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/decorative/shelf/crates,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"zI" = (
+/obj/structure/broken_flooring/plating{
+	dir = 8
+	},
+/turf/template_noop,
+/area/template_noop)
+"zR" = (
+/obj/structure/door_assembly/door_assembly_grunge,
+/obj/structure/lattice,
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
+"zU" = (
+/obj/structure/girder/displaced,
+/turf/template_noop,
+/area/template_noop)
+"zV" = (
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet/pirate{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"zW" = (
+/obj/structure/cable,
+/obj/machinery/light/warm/dim/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"Ag" = (
+/obj/structure/emergency_shield,
+/turf/open/floor/plating,
+/area/template_noop)
+"As" = (
+/obj/machinery/door/airlock/external,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"Av" = (
+/obj/machinery/light/small/dim/directional/north,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"Ax" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/decorative/fluff{
+	icon_state = "power_box";
+	icon = 'icons/obj/machines/particle_accelerator.dmi';
+	name = "munitions loader";
+	desc = "A mechanical device that formerly loaded munitions into a heavy weapons system of some sort.";
+	pixel_x = 1;
+	anchored = 1;
+	pixel_y = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"Br" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/structure/decorative/fluff{
+	icon_state = "power_box";
+	icon = 'icons/obj/machines/particle_accelerator.dmi';
+	name = "munitions loader";
+	desc = "A mechanical device that formerly loaded munitions into a heavy weapons system of some sort.";
+	pixel_x = 1;
+	anchored = 1;
+	pixel_y = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"Bw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood,
+/area/template_noop)
+"BC" = (
+/obj/structure/cable,
+/obj/machinery/light/small/red/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/template_noop)
+"BY" = (
+/obj/structure/cable,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"Cl" = (
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/obj/effect/mapping_helpers/damaged_window,
+/turf/open/floor/plating,
+/area/template_noop)
+"Cn" = (
+/obj/structure/closet/crate/wooden{
+	anchored = 1
+	},
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"CU" = (
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"CY" = (
+/obj/structure/decorative/shelf/milk_big,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"Da" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"DA" = (
+/obj/structure/fluff/metalpole/anchor{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"DJ" = (
+/obj/item/reagent_containers/cup/bucket/wooden,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"DL" = (
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"DM" = (
+/obj/structure/decorative/shelf/alcohol_small,
+/turf/open/floor/wood,
+/area/template_noop)
+"DT" = (
+/obj/item/stack/rods/ten,
+/turf/template_noop,
+/area/template_noop)
+"Ev" = (
+/obj/structure/cable,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/template_noop)
+"EC" = (
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
+/area/template_noop)
+"EJ" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/wood,
+/area/template_noop)
+"EU" = (
+/obj/structure/cable,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/effect/decal/cleanable/fuel_pool/hivis,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/template_noop)
+"Fr" = (
+/obj/structure/fluff/metalpole/end/left{
+	dir = 4;
+	pixel_x = 17;
+	pixel_y = 0
+	},
+/turf/template_noop,
+/area/template_noop)
+"Fz" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/red/directional/north,
+/turf/open/floor/plating,
+/area/template_noop)
+"FX" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"Gu" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"GF" = (
+/obj/structure/cable,
+/turf/closed/wall,
+/area/template_noop)
+"Hd" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/bottle/rum/aged,
+/turf/open/floor/wood,
+/area/template_noop)
+"Hp" = (
+/obj/machinery/door/airlock/grunge,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"Hw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"Hx" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/template_noop)
+"HV" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/machinery/computer/old{
+	dir = 4;
+	name = "Defense Terminal";
+	desc = "A device that monitors the armaments and shielding of a space-faring vessel. The diagnostics on its screen indicate a critical shield failure.";
+	icon_screen = "command"
+	},
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"Il" = (
+/obj/machinery/power/shuttle_engine/huge,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"Is" = (
+/obj/machinery/vending/boozeomat/cafe,
+/turf/open/floor/wood,
+/area/template_noop)
+"IA" = (
+/obj/structure/broken_flooring/plating{
+	dir = 1
+	},
+/turf/template_noop,
+/area/template_noop)
+"IG" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"IJ" = (
+/obj/machinery/power/shuttle_engine/heater,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"IU" = (
+/obj/machinery/light/warm/dim/directional/south,
+/turf/open/floor/wood,
+/area/template_noop)
+"IV" = (
+/obj/structure/decorative/fluff{
+	icon_state = "turret_bofors";
+	icon = 'icons/obj/weapons/naval_cannon.dmi';
+	name = "exterior flak cannon";
+	desc = "An aged, unkept weapon manufactured for the purpose of ship warfare.";
+	pixel_x = -5;
+	anchored = 1;
+	pixel_y = -15;
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"Je" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"Jl" = (
+/obj/structure/fluff/metalpole/end/left{
+	dir = 4
+	},
+/turf/template_noop,
+/area/template_noop)
+"Jx" = (
+/obj/machinery/computer/old{
+	name = "Defense Terminal";
+	desc = "A device that monitors the armaments and shielding of a space-faring vessel. The diagnostics on its screen indicate a critical shield failure.";
+	icon_screen = "command"
+	},
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"Jy" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"Jz" = (
+/obj/structure/closet/crate/wooden{
+	anchored = 1;
+	pixel_x = 0;
+	pixel_y = 8
+	},
+/obj/machinery/light/small/dim/directional/north,
+/turf/open/floor/wood,
+/area/template_noop)
+"JA" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"JD" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"JS" = (
+/obj/structure/cable,
+/obj/structure/mineral_door/wood{
+	color = "#6b6536"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"Kd" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
+	pixel_x = 8;
+	pixel_y = 3
+	},
+/obj/item/toy/cards/deck{
+	pixel_x = -6;
+	pixel_y = 5
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"Kr" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"Kw" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"Kx" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"KA" = (
+/obj/structure/decorative/fluff{
+	icon_state = "turret_bofors";
+	icon = 'icons/obj/weapons/naval_cannon.dmi';
+	name = "exterior flak cannon";
+	desc = "An aged, unkept weapon manufactured for the purpose of ship warfare.";
+	pixel_x = -5;
+	anchored = 1;
+	pixel_y = -15;
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"KG" = (
+/obj/item/stack/rods/shuttle/five{
+	pixel_x = 12;
+	pixel_y = 13
+	},
+/turf/template_noop,
+/area/template_noop)
+"Lw" = (
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"LE" = (
+/obj/machinery/light/directional/north,
+/obj/structure/decorative/shelf/alcohol_assortment,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"LF" = (
+/obj/structure/sink/kitchen/directional/west,
+/turf/open/floor/wood,
+/area/template_noop)
+"LK" = (
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/template_noop)
+"LP" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"LQ" = (
+/obj/machinery/computer/old{
+	name = "Alert Terminal";
+	desc = "A terminal that presumably shows diagnostics of the shuttle. It's currently displaying an alert: 'EMERGENCY. ENEMY WEAPON SYSTEMS LOCK-ON DETECTED. ENGAGE EVASIVE MANEUVER OR DIVERT THRUSTER ENERGY TO SHIELDS.";
+	icon_screen = "commsyndie"
+	},
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"Mk" = (
+/obj/structure/cable,
+/obj/machinery/light/warm/dim/directional/east,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"Mz" = (
+/obj/structure/medieval/wine_barrel,
+/turf/open/floor/wood,
+/area/template_noop)
+"MB" = (
+/obj/structure/cable,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/template_noop)
+"ME" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"MH" = (
+/obj/structure/cable,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/template_noop)
+"Na" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/template_noop)
+"Nc" = (
+/obj/structure/fluff/metalpole{
+	dir = 8
+	},
+/turf/template_noop,
+/area/template_noop)
+"Ni" = (
+/turf/closed/wall/mineral/wood/nonmetal,
+/area/template_noop)
+"Nu" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/structure/decorative/fluff{
+	icon_state = "power_box";
+	icon = 'icons/obj/machines/particle_accelerator.dmi';
+	name = "munitions loader";
+	desc = "A mechanical device that formerly loaded munitions into a heavy weapons system of some sort.";
+	pixel_x = 1;
+	anchored = 1;
+	pixel_y = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"Nw" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/red/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/template_noop)
+"NL" = (
+/obj/structure/lattice,
+/obj/structure/cable,
+/turf/template_noop,
+/area/template_noop)
+"NP" = (
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/obj/structure/curtain/bounty,
+/obj/effect/mapping_helpers/damaged_window,
+/turf/open/floor/plating,
+/area/template_noop)
+"NU" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/decorative/fluff{
+	icon_state = "largecrate";
+	icon = 'modular_skyrat/modules/company_imports/icons/import_crate.dmi';
+	name = "munitions crate";
+	desc = "A wooden crate filled with aged artillery shells.";
+	pixel_x = 1;
+	anchored = 1;
+	pixel_y = 6
+	},
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"Of" = (
+/turf/template_noop,
+/area/template_noop)
+"Oi" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"PF" = (
+/obj/structure/cable,
+/obj/machinery/light/warm/dim/directional/north,
+/turf/open/floor/wood,
+/area/template_noop)
+"PI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"PT" = (
+/obj/effect/decal/cleanable/blood/gibs/robot_debris,
+/obj/machinery/light/small/red/directional/north,
+/obj/item/stack/sheet/mineral/uranium/fifty,
+/obj/structure/closet/crate/radiation,
+/turf/open/floor/plating,
+/area/template_noop)
+"Qb" = (
+/obj/effect/decal/cleanable/glass,
+/obj/structure/frame/computer{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"Qg" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"Qm" = (
+/obj/machinery/light/broken/directional/north,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"Qp" = (
+/obj/structure/door_assembly/door_assembly_grunge,
+/turf/open/floor/plating,
+/area/template_noop)
+"Qx" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"QM" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"QO" = (
+/obj/machinery/light/small/dim/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"QP" = (
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"Rb" = (
+/obj/structure/cannon,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"Rc" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/wood,
+/area/template_noop)
+"Rk" = (
+/obj/structure/mineral_door/wood{
+	color = "#6b6536"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"Rt" = (
+/obj/structure/mineral_door/wood{
+	color = "#6b6536"
+	},
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"Rw" = (
+/obj/machinery/door/airlock/grunge,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/template_noop)
+"RM" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"RN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"RW" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"Sb" = (
+/obj/structure/mineral_door/wood{
+	color = "#6b6536"
+	},
+/obj/structure/fans/tiny,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"Sc" = (
+/obj/machinery/door/airlock/external,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"Sw" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"SF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/broken/directional/west,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"SJ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"SS" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/machinery/light/small/dim/directional/south,
+/obj/machinery/computer/old{
+	dir = 8;
+	name = "Defense Terminal";
+	desc = "A device that monitors the armaments and shielding of a space-faring vessel. The diagnostics on its screen indicate a critical shield failure.";
+	icon_screen = "command"
+	},
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"SU" = (
+/turf/open/floor/wood,
+/area/template_noop)
+"Tc" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"TK" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"TO" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/plating,
+/area/template_noop)
+"TS" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/template_noop)
+"Ub" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"Us" = (
+/obj/structure/table/wood,
+/obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"UP" = (
+/turf/open/floor/plating,
+/area/template_noop)
+"UQ" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"US" = (
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron/dark/airless,
+/area/template_noop)
+"Vc" = (
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"Vi" = (
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"Vv" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/template_noop)
+"VJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"VQ" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass{
+	pixel_x = -7;
+	pixel_y = 9
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"Wl" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/wood,
+/area/template_noop)
+"Wq" = (
+/obj/structure/bed{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 13
+	},
+/obj/item/bedsheet/pirate{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"Wx" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"Wy" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
+	pixel_x = 7;
+	pixel_y = 8
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"WE" = (
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/template_noop)
+"WI" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/template_noop)
+"WN" = (
+/obj/machinery/door/window/elevator/left/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"WS" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/bottle/wine,
+/turf/open/floor/wood,
+/area/template_noop)
+"WV" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet/pirate{
+	dir = 1
+	},
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"WW" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"Xk" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"XN" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/plating,
+/area/template_noop)
+"XW" = (
+/obj/machinery/power/solar{
+	id = "starboardsolar";
+	name = "Starboard Solar Array"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"Yi" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"Yr" = (
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"Yt" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"Yz" = (
+/obj/machinery/light/directional/north,
+/obj/structure/closet/crate/large,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"YV" = (
+/obj/structure/bed{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 14
+	},
+/obj/item/bedsheet/pirate{
+	dir = 1;
+	pixel_x = 0;
+	pixel_y = 13
+	},
+/turf/open/floor/wood,
+/area/template_noop)
+"Zq" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/wood,
+/area/template_noop)
+"Zx" = (
+/obj/structure/cable,
+/turf/open/floor/plating/airless,
+/area/template_noop)
+"ZM" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
+/area/template_noop)
+"ZQ" = (
+/obj/effect/spawner/structure/window/hollow/reinforced,
+/obj/structure/curtain/bounty,
+/turf/open/floor/plating,
+/area/template_noop)
+
+(1,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+"}
+(2,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+"}
+(3,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+"}
+(4,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+"}
+(5,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+iM
+XW
+XW
+ba
+ba
+Of
+Of
+Of
+ba
+oV
+ba
+oV
+ba
+oV
+ba
+oV
+ba
+DL
+WE
+Hx
+Hx
+KG
+Of
+kA
+IA
+ba
+NP
+ba
+ba
+ba
+ZQ
+ba
+ba
+Of
+Of
+Of
+ba
+NP
+ba
+ba
+ba
+ba
+ba
+le
+Of
+Of
+Of
+Of
+"}
+(6,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+XW
+XW
+XW
+XW
+ba
+bd
+DL
+Of
+DL
+ba
+nq
+CU
+CU
+CU
+CU
+CU
+xZ
+qy
+DL
+WE
+Of
+Of
+zU
+Of
+IA
+ba
+kB
+Vv
+zV
+Ni
+SU
+zV
+ba
+lh
+UP
+Of
+UP
+ba
+PT
+jQ
+pE
+jQ
+nw
+ba
+Ag
+le
+Of
+Of
+Of
+"}
+(7,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+XW
+XW
+ki
+Yr
+ba
+Kw
+Zx
+rN
+Zx
+ba
+Vi
+Rb
+CU
+Vi
+Xk
+Vi
+qy
+DL
+oC
+zI
+Of
+is
+Of
+Of
+US
+ba
+Jz
+Zq
+xj
+Ni
+QO
+xj
+ba
+gY
+Da
+mF
+lv
+ba
+TO
+jQ
+ba
+Nw
+nw
+ba
+Ag
+Ag
+le
+le
+Of
+"}
+(8,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Zx
+XW
+hM
+hM
+Vc
+ba
+DL
+Yi
+uQ
+HV
+ba
+ty
+bu
+bu
+bu
+bu
+gn
+qy
+DL
+qy
+DT
+Of
+Of
+Of
+IA
+qy
+ba
+YV
+IG
+kj
+Ni
+Je
+kj
+ba
+pu
+tc
+Nu
+oY
+ba
+sJ
+jQ
+ba
+pE
+ba
+ba
+ba
+hb
+Jy
+le
+Of
+"}
+(9,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Zx
+Zx
+oC
+hM
+CU
+bi
+ba
+DL
+Zx
+Zx
+DL
+ba
+DJ
+bu
+Vi
+Oi
+Vi
+DL
+DL
+DL
+zI
+zU
+Of
+Hx
+Hx
+qy
+qy
+ba
+zk
+sC
+xj
+Ni
+sC
+xj
+ba
+rr
+Kr
+Qg
+Wx
+ba
+ba
+pE
+ba
+Na
+aa
+IJ
+UP
+Da
+Il
+le
+le
+"}
+(10,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Zx
+Zx
+oC
+qG
+hM
+CU
+Vc
+ba
+ba
+Rw
+ba
+ba
+ba
+Vi
+bu
+CU
+CU
+CU
+oC
+DL
+zI
+Of
+EC
+Of
+Of
+IA
+qy
+cH
+ba
+Ni
+Rk
+Ni
+Ni
+Rk
+Ni
+ba
+ba
+wy
+ba
+ba
+ba
+SU
+sC
+ba
+lo
+MB
+IJ
+UP
+Da
+sc
+le
+le
+"}
+(11,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+br
+oC
+qG
+qG
+UQ
+xZ
+SJ
+SJ
+SJ
+hl
+SJ
+SJ
+SJ
+SJ
+gC
+Zx
+ba
+ba
+ba
+pj
+kA
+Of
+Of
+KG
+zU
+ly
+ba
+ba
+ba
+LK
+sC
+zW
+sC
+sC
+xV
+sC
+sC
+sC
+sC
+zW
+sC
+sC
+sC
+GF
+Da
+MB
+IJ
+UP
+Da
+sc
+le
+le
+"}
+(12,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+wF
+Zx
+oC
+qG
+UQ
+UQ
+Vi
+JA
+Ni
+Ni
+Ni
+Ni
+Ni
+Ni
+DL
+CU
+Vc
+ba
+cH
+cH
+qy
+Of
+Of
+Of
+Of
+IA
+pj
+CU
+Ni
+LK
+LK
+SU
+dp
+TS
+Hd
+TS
+Ni
+Ni
+Ni
+Ni
+Ni
+Ni
+Ni
+Ni
+ba
+dV
+MB
+IJ
+gw
+Da
+sc
+le
+le
+"}
+(13,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Zx
+DL
+DL
+hM
+xZ
+xZ
+CU
+np
+Ni
+jw
+CU
+zw
+CU
+Ni
+DL
+Vi
+Zx
+ba
+Qm
+DL
+ft
+Of
+zU
+NL
+NL
+Zx
+Zx
+CU
+Ni
+PF
+nk
+RN
+dp
+WN
+dp
+vx
+Ni
+sz
+gZ
+jt
+Mz
+Ni
+WS
+TS
+ba
+Fz
+MB
+IJ
+UP
+mX
+sc
+le
+le
+"}
+(14,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Zx
+DL
+DL
+hM
+CU
+kh
+hX
+ZM
+Ni
+LE
+kh
+qB
+CU
+Ni
+DL
+Vi
+Zx
+eP
+ut
+Qx
+NL
+yZ
+NL
+zR
+IA
+qy
+QM
+Hw
+rZ
+Wl
+pX
+Bw
+bw
+VQ
+dp
+Us
+Ni
+DM
+Vv
+WW
+dp
+dl
+LP
+VJ
+ba
+cm
+MB
+IJ
+UP
+Da
+sc
+le
+le
+"}
+(15,1,1) = {"
+Jl
+bn
+bn
+Nc
+Nc
+Nc
+Nc
+Zx
+DL
+DL
+hM
+LQ
+CU
+Ub
+JA
+Ni
+nq
+Vi
+Vi
+CU
+Ni
+Vi
+DL
+Vc
+ba
+DL
+zI
+Of
+Of
+EC
+Of
+qy
+DL
+Oi
+CU
+Ni
+LK
+qe
+nk
+bw
+Wy
+dp
+IU
+Ni
+SU
+Yt
+LP
+SU
+Ni
+qe
+RM
+ba
+JD
+MB
+IJ
+gw
+Da
+sc
+le
+le
+"}
+(16,1,1) = {"
+Fr
+DA
+DA
+iW
+iW
+iW
+iW
+Zx
+DL
+DL
+ki
+Jx
+Vi
+CU
+JA
+Ni
+kh
+CU
+Vc
+cK
+Rt
+Zx
+Vi
+Vc
+ba
+oC
+Hx
+Hx
+Of
+DT
+Of
+DL
+CU
+Vi
+Vi
+Ni
+LK
+LK
+LK
+rK
+Ev
+sC
+sC
+JS
+sC
+sC
+sC
+nk
+Ni
+SU
+Vv
+ba
+rn
+MH
+IJ
+gw
+Da
+sc
+le
+le
+"}
+(17,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Zx
+DL
+DL
+ki
+pg
+CU
+kh
+np
+Ni
+Yz
+CU
+kT
+CU
+Ni
+Vi
+DL
+Zx
+ba
+zI
+Of
+Of
+Of
+Of
+IA
+DL
+oC
+CU
+CU
+Ni
+LK
+nk
+xa
+bw
+TS
+Vv
+rz
+Ni
+SU
+qe
+Vv
+SU
+Ni
+pZ
+fW
+ba
+XN
+MB
+IJ
+UP
+mX
+sc
+le
+le
+"}
+(18,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Zx
+DL
+DL
+ki
+CU
+kh
+CU
+JA
+Ni
+je
+Vi
+CY
+nq
+Ni
+DL
+oC
+qf
+qy
+is
+Of
+zU
+is
+IA
+qy
+DL
+DL
+Vc
+cN
+Sb
+LK
+Vv
+nk
+bw
+uu
+SU
+Is
+Ni
+ma
+xe
+LF
+fz
+Ni
+hq
+EJ
+ba
+jD
+EU
+IJ
+UP
+Da
+sc
+le
+le
+"}
+(19,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Zx
+Zx
+DL
+ki
+CU
+CU
+CU
+JA
+Ni
+Ni
+Ni
+Ni
+Ni
+Ni
+Zx
+DL
+DL
+zI
+Of
+Of
+Of
+IA
+qy
+DL
+CU
+CU
+Vc
+CU
+Ni
+PF
+SU
+SU
+bw
+TS
+Kd
+TS
+Ni
+Ni
+Ni
+Ni
+Ni
+Ni
+Ni
+Ni
+GF
+lZ
+MB
+IJ
+gw
+Da
+sc
+le
+le
+"}
+(20,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Zx
+DL
+ki
+ki
+CU
+CU
+Gu
+JA
+JA
+SF
+JA
+JA
+TK
+TK
+Vi
+DL
+Hx
+EC
+Of
+Hx
+qy
+cH
+CU
+Vi
+CU
+Vc
+Vi
+Ni
+LK
+LK
+sC
+Mk
+sC
+sC
+xV
+sC
+sC
+xV
+sC
+Mk
+sC
+sC
+rv
+ba
+lo
+MB
+IJ
+UP
+Da
+Il
+le
+le
+"}
+(21,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Zx
+Zx
+XW
+ki
+ki
+CU
+CU
+ba
+ba
+Qp
+ba
+ba
+WE
+Vi
+DL
+zI
+Of
+kA
+Of
+zU
+qy
+Ni
+Ni
+ba
+ba
+yf
+ba
+ba
+ba
+Ni
+Rk
+Ni
+Ni
+Rk
+Ni
+ba
+ba
+Hp
+ba
+ba
+ba
+dp
+BY
+ba
+lo
+MB
+IJ
+UP
+Da
+sc
+le
+le
+"}
+(22,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Zx
+XW
+XW
+ki
+CU
+CU
+ba
+cH
+cH
+cH
+cH
+ba
+Zx
+qy
+zU
+Of
+Of
+KG
+IA
+xZ
+Vi
+te
+ba
+ME
+Lw
+WI
+QP
+ba
+Wq
+sC
+kj
+Ni
+sC
+kj
+ba
+vj
+Kr
+Lw
+ur
+ba
+qe
+sC
+ba
+Na
+MB
+IJ
+UP
+Da
+sc
+le
+le
+"}
+(23,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+XW
+XW
+ki
+CU
+so
+ba
+Kx
+FX
+Ax
+Qb
+WE
+qy
+zI
+DT
+is
+UP
+IA
+qy
+CU
+CU
+Cn
+ba
+QP
+RW
+Br
+hL
+ba
+Jz
+Tc
+xj
+Ni
+zh
+xj
+ba
+Av
+Sw
+Br
+SS
+ba
+ba
+Sc
+ba
+jn
+ba
+ba
+ba
+pt
+PI
+le
+Of
+"}
+(24,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+XW
+ki
+ki
+CU
+ba
+Kx
+Zx
+KA
+Zx
+WE
+DL
+Hx
+Hx
+Of
+Of
+Ni
+hH
+Ni
+CU
+WV
+ba
+gY
+Zx
+IV
+Zx
+ba
+YV
+Zq
+kj
+Ni
+Zq
+kj
+ba
+gY
+Da
+IV
+Da
+ba
+Rc
+iE
+ba
+BC
+bk
+ba
+Ag
+Ag
+le
+le
+Of
+"}
+(25,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+XW
+XW
+ki
+ki
+ba
+uV
+DL
+Of
+DL
+WE
+zI
+Of
+zU
+Of
+IA
+DL
+Vi
+DL
+CU
+Cn
+ba
+NU
+DL
+Of
+DL
+ba
+zk
+SU
+rW
+Ni
+SU
+rW
+ba
+NU
+UP
+Of
+UP
+ba
+xs
+uJ
+As
+Da
+sP
+ba
+Ag
+le
+Of
+Of
+Of
+"}
+(26,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+XW
+XW
+XW
+ba
+ba
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+WE
+ba
+Cl
+ba
+Cl
+ba
+ba
+ba
+Of
+Of
+Of
+ba
+ba
+ZQ
+ba
+ba
+ba
+NP
+ba
+ba
+Of
+Of
+Of
+ba
+ba
+bc
+ba
+ba
+ba
+ba
+le
+Of
+Of
+Of
+Of
+"}
+(27,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+"}
+(28,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+"}
+(29,1,1) = {"
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+Of
+"}
