@@ -77,11 +77,6 @@
 	dir = 8
 	},
 /turf/template_noop,
-/area/template_noop)
-"br" = (
-/obj/structure/cable,
-/obj/structure/cable,
-/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "bu" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -291,24 +286,12 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
-"iM" = (
-/obj/machinery/power/solar{
-	id = "starboardsolar";
-	name = "Starboard Solar Array"
-	},
-/obj/machinery/power/solar{
-	id = "starboardsolar";
-	name = "Starboard Solar Array"
-	},
-/obj/structure/cable,
-/turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/galloway_ship)
 "iW" = (
 /obj/structure/fluff/metalpole{
 	dir = 4
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/ruin/space/has_grav/galloway_ship)
 "je" = (
 /obj/structure/decorative/shelf/soda_multipacks{
 	density = 1
@@ -431,7 +414,7 @@
 "le" = (
 /obj/structure/emergency_shield,
 /turf/template_noop,
-/area/template_noop)
+/area/ruin/space/has_grav/galloway_ship)
 "lh" = (
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/structure/decorative/fluff{
@@ -1113,7 +1096,7 @@
 "Ag" = (
 /obj/structure/emergency_shield,
 /turf/open/floor/plating,
-/area/template_noop)
+/area/ruin/space/has_grav/galloway_ship)
 "As" = (
 /obj/machinery/door/airlock/external{
 	name = "Maintenance"
@@ -1204,14 +1187,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
-"BY" = (
-/obj/structure/cable,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/siding/wood,
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/galloway_ship)
 "Ch" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
@@ -1262,7 +1237,7 @@
 	dir = 4
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/ruin/space/has_grav/galloway_ship)
 "DJ" = (
 /obj/item/reagent_containers/cup/bucket/wooden,
 /turf/open/floor/wood/airless,
@@ -1320,7 +1295,7 @@
 	pixel_y = 0
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/ruin/space/has_grav/galloway_ship)
 "Fz" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small/red/directional/north,
@@ -1498,7 +1473,7 @@
 	dir = 4
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/ruin/space/has_grav/galloway_ship)
 "Jn" = (
 /obj/structure/cable,
 /obj/machinery/light/warm/dim/directional/west,
@@ -1756,7 +1731,7 @@
 	dir = 8
 	},
 /turf/template_noop,
-/area/template_noop)
+/area/ruin/space/has_grav/galloway_ship)
 "Nh" = (
 /obj/structure/table/wood,
 /turf/open/floor/wood/airless,
@@ -2191,14 +2166,6 @@
 /obj/effect/turf_decal/caution/stand_clear,
 /turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
-"WN" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/door/window{
-	dir = 1
-	},
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/galloway_ship)
 "WP" = (
 /turf/template_noop,
 /area/ruin/space/has_grav/galloway_ship)
@@ -2591,7 +2558,7 @@ Of
 Of
 Of
 Of
-iM
+XW
 XW
 XW
 ba
@@ -2959,7 +2926,7 @@ Of
 Of
 Of
 Of
-br
+Zx
 oC
 qG
 qG
@@ -3115,7 +3082,7 @@ Ul
 nk
 RN
 dp
-WN
+dp
 dp
 vx
 Ni
@@ -3621,7 +3588,7 @@ ba
 ba
 ba
 BM
-BY
+LC
 ba
 lo
 MB
