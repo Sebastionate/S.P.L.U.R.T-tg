@@ -193,8 +193,6 @@
 #define ANNOUNCER_COMMAND_REPORT "announcer_command_report"
 #define ANNOUNCER_RANDOM_ALERT "announcer_random_alert"
 #define ANNOUNCER_RANDOM_WELCOME "announcer_random_welcome"
-
-#define AMBIENCE_GALLOWAY "galloway_ambience" // custom ambience for SPLURT ruin abandoned_pirate_ship
 // SPLURT EDIT ADDITION END
 
 /// Global list of all of our announcer keys.

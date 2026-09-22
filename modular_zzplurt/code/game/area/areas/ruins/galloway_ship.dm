@@ -4,5 +4,9 @@
 	name = "Galloway Pirate Fleet Vessel"
 	mood_bonus = 10
 	mood_message = "It's a pirate ship! I feel like a swashbuckler!"
-	ambience_index = AMBIENCE_GALLOWAY
+	ambientsounds = list(
+		'modular_zzplurt/sound/music/galloway_ruin/galloway.ogg',
+		'modular_zzplurt/sound/music/galloway_ruin/galloway2.ogg',
+		'modular_zzplurt/sound/music/galloway_ruin/galloway3.ogg',
+)
 
