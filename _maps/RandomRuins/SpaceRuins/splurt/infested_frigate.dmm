@@ -1487,9 +1487,9 @@
 /turf/open/floor/iron/white/small_checker,
 /area/ruin/space/has_grav/infested_frigate/lounge)
 "no" = (
-/obj/structure/sign/flag/syndicate/directional/south,
-/turf/template_noop,
-/area/template_noop)
+/obj/structure/sign/syndicate,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/space/has_grav/infested_frigate)
 "nr" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /obj/structure/table/reinforced,
@@ -1941,6 +1941,10 @@
 /obj/structure/barricade/security,
 /turf/open/floor/mineral/plastitanium,
 /area/ruin/space/has_grav/infested_frigate)
+"sE" = (
+/obj/structure/sign/syndicate,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/space/has_grav/infested_frigate/brig)
 "sF" = (
 /obj/machinery/newscaster/directional/north,
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -1986,10 +1990,6 @@
 /obj/effect/turf_decal/tile/dark_red/diagonal_centre,
 /turf/open/floor/iron/dark/diagonal,
 /area/ruin/space/has_grav/infested_frigate/armory)
-"tE" = (
-/obj/structure/sign/flag/syndicate/directional/north,
-/turf/template_noop,
-/area/template_noop)
 "tJ" = (
 /obj/machinery/vending/cola/red,
 /obj/structure/cable,
@@ -2856,6 +2856,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ruin/space/has_grav/infested_frigate)
+"Ex" = (
+/obj/structure/sign/syndicate,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/space/has_grav/infested_frigate/cargo)
 "EB" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 1
@@ -3639,6 +3643,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark/small_checker,
 /area/ruin/space/has_grav/infested_frigate/brig)
+"Nj" = (
+/obj/structure/sign/syndicate,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/space/has_grav/infested_frigate/lounge)
 "Nq" = (
 /obj/effect/turf_decal/tile/dark_red/opposingcorners,
 /obj/structure/table/reinforced,
@@ -4893,7 +4901,7 @@ zX
 (8,1,1) = {"
 zX
 zX
-CC
+sE
 tZ
 Mt
 CC
@@ -4905,7 +4913,7 @@ bE
 gg
 lE
 gg
-gg
+Nj
 zX
 zX
 "}
@@ -5100,8 +5108,8 @@ jM
 zX
 "}
 (19,1,1) = {"
+zX
 no
-pp
 Yh
 pp
 aa
@@ -5115,8 +5123,8 @@ cz
 hr
 pp
 Yh
-pp
-tE
+no
+zX
 "}
 (20,1,1) = {"
 zX
@@ -5235,7 +5243,7 @@ zX
 (26,1,1) = {"
 zX
 zX
-pp
+no
 pp
 pp
 jX
@@ -5247,7 +5255,7 @@ Ny
 Eo
 pp
 pp
-pp
+no
 zX
 zX
 "}
@@ -5502,7 +5510,7 @@ zX
 zX
 zX
 zX
-dC
+Ex
 dC
 yG
 Pm
@@ -5512,7 +5520,7 @@ CW
 Pm
 nh
 dC
-dC
+Ex
 zX
 zX
 zX
