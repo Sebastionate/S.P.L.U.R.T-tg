@@ -5,13 +5,38 @@
 /obj/effect/decal/cleanable/garbage,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
-"aQ" = (
-/obj/machinery/power/shuttle_engine/heater,
+"aF" = (
+/obj/structure/cable,
+/obj/machinery/light/warm/dim/directional/east,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"aL" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
+/area/ruin/space/has_grav/galloway_ship)
+"aN" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "ba" = (
 /turf/closed/wall,
@@ -32,16 +57,10 @@
 	desc = "A wooden crate filled with aged artillery shells.";
 	pixel_x = -1;
 	anchored = 1;
-	pixel_y = 6
+	pixel_y = 6;
+	density = 1
 	},
 /turf/open/floor/iron/dark/airless,
-/area/ruin/space/has_grav/galloway_ship)
-"bf" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
-	dir = 1
-	},
-/turf/open/floor/plating,
 /area/ruin/space/has_grav/galloway_ship)
 "bi" = (
 /obj/effect/mapping_helpers/broken_floor,
@@ -75,9 +94,26 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
+"bV" = (
+/obj/item/stack/rods,
+/turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"cd" = (
+/obj/structure/closet/crate/wooden{
+	anchored = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
 "cm" = (
 /obj/effect/decal/cleanable/blood/oil/slippery,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/galloway_ship)
+"cA" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/machinery/light/broken/directional/south,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "cH" = (
 /turf/open/floor/iron/dark/airless,
@@ -110,6 +146,11 @@
 /obj/effect/decal/cleanable/greenglow,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/galloway_ship)
+"ew" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/vg_decals/atmos/air,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/galloway_ship)
 "eP" = (
 /obj/structure/door_assembly/door_assembly_grunge,
 /obj/structure/cable,
@@ -128,7 +169,10 @@
 	pixel_x = -1;
 	pixel_y = 10
 	},
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "fW" = (
 /obj/item/restraints/handcuffs{
@@ -139,7 +183,14 @@
 	pixel_x = -10;
 	pixel_y = 8
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"gf" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "gn" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -156,6 +207,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/galloway_ship)
+"gS" = (
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/large,
+/area/ruin/space/has_grav/galloway_ship)
 "gY" = (
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/structure/decorative/fluff{
@@ -165,18 +220,16 @@
 	desc = "A bunch of upright heavy munitions with red tips and bands. A lot of them look rusted and are missing primers. Best not to touch these.";
 	pixel_x = 1;
 	anchored = 1;
-	pixel_y = 6
+	pixel_y = 6;
+	density = 1
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "gZ" = (
-/obj/machinery/light/small/dim/directional/north,
-/obj/structure/closet/crate/wooden{
-	anchored = 1;
-	pixel_x = 1;
-	pixel_y = 0
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "hb" = (
 /obj/effect/turf_decal/stripes/line{
@@ -195,6 +248,9 @@
 "hq" = (
 /obj/structure/bed/maint,
 /obj/item/toy/plush/toaste_plushy,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "hH" = (
@@ -212,20 +268,11 @@
 /turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "hM" = (
-/obj/effect/spawner/structure/window/reinforced,
-/obj/effect/mapping_helpers/damaged_window,
+/obj/structure/girder,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "hX" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/wood/airless,
-/area/ruin/space/has_grav/galloway_ship)
-"ik" = (
-/obj/structure/table/wood,
-/obj/item/clothing/head/costume/pirate/armored{
-	pixel_x = 4;
-	pixel_y = 7
-	},
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "is" = (
@@ -238,6 +285,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"iL" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/table/wood,
+/turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "iM" = (
 /obj/machinery/power/solar{
@@ -258,7 +310,9 @@
 /turf/template_noop,
 /area/template_noop)
 "je" = (
-/obj/structure/decorative/shelf/soda_multipacks,
+/obj/structure/decorative/shelf/soda_multipacks{
+	density = 1
+	},
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "jn" = (
@@ -266,7 +320,7 @@
 /obj/machinery/door/airlock/engineering,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
 "jt" = (
 /obj/structure/table/wood,
@@ -274,11 +328,19 @@
 	pixel_x = -6;
 	pixel_y = 7
 	},
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "jw" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Maintenance"
+	},
 /obj/structure/cable,
-/turf/open/floor/plating,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
 "jD" = (
 /obj/machinery/light/small/red/directional/north,
@@ -290,7 +352,18 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/catwalk_floor/wood_smooth,
+/area/ruin/space/has_grav/galloway_ship)
+"kc" = (
+/obj/structure/table/wood,
+/obj/item/clothing/suit/costume/pirate/captain/armored{
+	pixel_x = 5;
+	pixel_y = 5
+	},
+/turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "kh" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -310,11 +383,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
-"kA" = (
-/obj/structure/broken_flooring/pile/directional/west,
-/turf/template_noop,
-/area/ruin/space/has_grav/galloway_ship)
-"kB" = (
+"kz" = (
 /obj/structure/mineral_door/wood{
 	color = "#6b6536";
 	name = "Barracks 4"
@@ -324,9 +393,39 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
+"kA" = (
+/obj/structure/broken_flooring/pile/directional/west,
+/turf/template_noop,
+/area/ruin/space/has_grav/galloway_ship)
+"kB" = (
+/obj/structure/cable,
+/obj/effect/spawner/random/trash/bin,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"kD" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"kL" = (
+/obj/item/toy/plush/lizard_plushie/space/green{
+	name = "Pacu Galloway"
+	},
+/turf/template_noop,
+/area/ruin/space/has_grav/galloway_ship)
 "kT" = (
 /obj/effect/mapping_helpers/broken_floor,
-/obj/structure/decorative/shelf/soda,
+/obj/structure/decorative/shelf/soda{
+	density = 1
+	},
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "le" = (
@@ -342,7 +441,8 @@
 	desc = "A wooden crate filled with aged artillery shells.";
 	pixel_x = -1;
 	anchored = 1;
-	pixel_y = 6
+	pixel_y = 6;
+	density = 1
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/galloway_ship)
@@ -350,16 +450,29 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/galloway_ship)
+"lp" = (
+/obj/structure/chair/bronze{
+	dir = 1
+	},
+/turf/open/floor/wood/airless,
+/area/ruin/space/has_grav/galloway_ship)
 "lv" = (
-/turf/open/floor/plating,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/decorative/fluff{
+	icon_state = "artillery";
+	icon = 'modular_zzplurt/icons/obj/objects.dmi';
+	name = "HE Artillery Shells";
+	desc = "A bunch of upright heavy munitions with red tips and bands. A lot of them look rusted and are missing primers. Best not to touch these.";
+	pixel_x = 1;
+	anchored = 1;
+	pixel_y = 6;
+	density = 1
+	},
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/galloway_ship)
 "ly" = (
 /obj/structure/door_assembly/door_assembly_grunge,
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav/galloway_ship)
-"lE" = (
-/obj/structure/table/wood,
-/turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "lZ" = (
 /obj/structure/cable,
@@ -371,6 +484,17 @@
 /area/ruin/space/has_grav/galloway_ship)
 "ma" = (
 /obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood/large,
+/area/ruin/space/has_grav/galloway_ship)
+"mk" = (
+/obj/structure/closet/crate/wooden{
+	anchored = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/clothing/shoes/pirate/armored,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "mF" = (
@@ -382,7 +506,8 @@
 	pixel_x = -28;
 	anchored = 1;
 	pixel_y = -16;
-	dir = 8
+	dir = 8;
+	density = 1
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -391,6 +516,12 @@
 /obj/machinery/power/shuttle_engine/large,
 /obj/structure/cable,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/galloway_ship)
+"ng" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood/stairs,
 /area/ruin/space/has_grav/galloway_ship)
 "nk" = (
 /obj/effect/mapping_helpers/broken_floor,
@@ -407,17 +538,47 @@
 /obj/structure/fermenting_barrel/gunpowder,
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
+"nr" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
 "nw" = (
 /obj/machinery/power/port_gen/pacman/super,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/galloway_ship)
-"nz" = (
-/obj/structure/sign/poster/contraband/busty_backdoor_xeno_babes_6/directional/east,
+"nx" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/wood/stairs,
+/area/ruin/space/has_grav/galloway_ship)
+"oo" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
 /turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"oA" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "oC" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"oK" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "oV" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -445,7 +606,16 @@
 /area/ruin/space/has_grav/galloway_ship)
 "pj" = (
 /obj/item/stack/rods,
+/obj/structure/girder,
 /turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"pn" = (
+/obj/structure/cable,
+/obj/machinery/light/broken/directional/north,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "pt" = (
 /obj/effect/turf_decal/stripes/line{
@@ -457,20 +627,25 @@
 "pu" = (
 /obj/machinery/light/small/dim/directional/north,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/arrows,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/galloway_ship)
 "pE" = (
-/obj/machinery/door/airlock/engineering{
-	name = "Maintenance"
+/obj/machinery/door/airlock/engineering,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/wood_smooth,
+/area/ruin/space/has_grav/galloway_ship)
+"pR" = (
+/obj/structure/mineral_door/wood{
+	color = "#6b6536";
+	name = "Barracks 3"
 	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/galloway_ship)
-"pI" = (
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/iron/dark/airless,
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "pX" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -480,6 +655,9 @@
 /area/ruin/space/has_grav/galloway_ship)
 "pZ" = (
 /obj/effect/decal/cleanable/cum,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "qe" = (
@@ -497,17 +675,20 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "qB" = (
-/obj/structure/decorative/shelf/crates1,
+/obj/structure/decorative/shelf/crates1{
+	density = 1
+	},
 /turf/open/floor/wood/airless,
-/area/ruin/space/has_grav/galloway_ship)
-"qC" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/machinery/light/broken/directional/south,
-/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "qG" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"qP" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "rn" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -515,6 +696,9 @@
 /obj/effect/mapping_helpers/airalarm/all_access,
 /obj/effect/mapping_helpers/airalarm/unlocked,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/galloway_ship)
+"rp" = (
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "rr" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
@@ -524,6 +708,9 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
@@ -536,6 +723,7 @@
 	pixel_y = 10;
 	pixel_x = 4
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "rK" = (
@@ -554,10 +742,18 @@
 	pixel_x = -28;
 	anchored = 1;
 	pixel_y = -16;
-	dir = 8
+	dir = 8;
+	density = 1
 	},
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"rV" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
+	dir = 1
+	},
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/galloway_ship)
 "rW" = (
 /obj/structure/closet/crate/wooden{
@@ -583,11 +779,15 @@
 /area/ruin/space/has_grav/galloway_ship)
 "so" = (
 /obj/machinery/light/broken/directional/south,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "sz" = (
 /obj/structure/decorative/shelf/alcohol,
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "sC" = (
 /obj/structure/cable,
@@ -597,14 +797,17 @@
 /area/ruin/space/has_grav/galloway_ship)
 "sJ" = (
 /obj/structure/closet/firecloset/full,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "sP" = (
 /obj/machinery/power/terminal{
 	dir = 8
 	},
 /obj/structure/cable,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
 "tc" = (
 /obj/structure/window/reinforced/spawner/directional/west,
@@ -622,31 +825,61 @@
 	},
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
+"tx" = (
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet/pirate{
+	dir = 1
+	},
+/obj/structure/sign/poster/contraband/barbaro/directional/north,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
 "ty" = (
 /obj/item/stack/cannonball/four,
 /obj/machinery/light/broken/directional/north,
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
+"um" = (
+/obj/structure/cable,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/trash_pile,
+/turf/open/floor/catwalk_floor/wood_smooth,
+/area/ruin/space/has_grav/galloway_ship)
 "ur" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/galloway_ship)
 "ut" = (
 /obj/structure/cable,
-/turf/open/floor/iron/dark/airless,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "uu" = (
-/obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass{
 	pixel_x = -4;
 	pixel_y = 10
 	},
+/obj/structure/table/wood/poker,
 /turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"uC" = (
+/obj/structure/trash_pile,
+/turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "uJ" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"uK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/broken/directional/north,
+/turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "uQ" = (
 /obj/structure/window/reinforced/spawner/directional/west,
@@ -657,7 +890,8 @@
 	desc = "A mechanical device that formerly loaded munitions into a heavy weapons system of some sort.";
 	pixel_x = 1;
 	anchored = 1;
-	pixel_y = 1
+	pixel_y = 1;
+	density = 1
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark/airless,
@@ -671,31 +905,58 @@
 	desc = "A wooden crate filled with aged artillery shells.";
 	pixel_x = 1;
 	anchored = 1;
-	pixel_y = 6
+	pixel_y = 6;
+	density = 1
 	},
 /turf/open/floor/iron/dark/airless,
-/area/ruin/space/has_grav/galloway_ship)
-"ve" = (
-/obj/structure/mineral_door/wood{
-	color = "#6b6536";
-	name = "Barracks 2"
-	},
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "vj" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/galloway_ship)
+"vn" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"vu" = (
+/obj/structure/table/wood,
+/obj/item/clothing/head/costume/pirate/armored{
+	pixel_x = 4;
+	pixel_y = 7
+	},
+/turf/open/floor/wood/airless,
+/area/ruin/space/has_grav/galloway_ship)
 "vx" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/fullupgrade{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"vV" = (
+/obj/machinery/light/small/dim/directional/north,
+/obj/structure/closet/crate/wooden{
+	anchored = 1;
+	pixel_x = 1;
+	pixel_y = 0
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"vZ" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/wood/large,
+/area/ruin/space/has_grav/galloway_ship)
+"wo" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/damaged_window,
+/turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "wy" = (
 /obj/machinery/door/airlock/grunge{
@@ -719,29 +980,54 @@
 "xe" = (
 /obj/structure/table/wood,
 /obj/item/claymore/cutlass/old,
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/large,
+/area/ruin/space/has_grav/galloway_ship)
+"xi" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "xj" = (
 /obj/structure/closet/crate/wooden{
 	anchored = 1
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/clothing/head/helmet/space/pirate,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "xs" = (
 /obj/structure/closet/firecloset/full,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
+"xA" = (
+/obj/effect/decal/cleanable/wrapping,
+/turf/open/floor/wood/airless,
+/area/ruin/space/has_grav/galloway_ship)
 "xV" = (
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "xZ" = (
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/wood/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"yb" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
 "yf" = (
 /obj/machinery/door/airlock/grunge{
@@ -777,8 +1063,18 @@
 /area/ruin/space/has_grav/galloway_ship)
 "zw" = (
 /obj/effect/mapping_helpers/broken_floor,
-/obj/structure/decorative/shelf/crates,
+/obj/structure/decorative/shelf/crates{
+	density = 1
+	},
 /turf/open/floor/wood/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"zA" = (
+/obj/structure/cable,
+/obj/structure/sign/poster/contraband/nri_pistol/directional/north,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "zI" = (
 /obj/structure/broken_flooring/plating{
@@ -797,19 +1093,21 @@
 /turf/template_noop,
 /area/ruin/space/has_grav/galloway_ship)
 "zV" = (
-/obj/structure/bed{
-	dir = 1
+/obj/structure/closet/crate/wooden{
+	anchored = 1;
+	pixel_x = 1;
+	pixel_y = 0
 	},
-/obj/item/bedsheet/pirate{
-	dir = 1
-	},
+/obj/item/language_manual/piratespeak,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "zW" = (
 /obj/structure/cable,
-/obj/machinery/light/warm/dim/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Ag" = (
@@ -821,10 +1119,11 @@
 	name = "Maintenance"
 	},
 /obj/structure/cable,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
 "Av" = (
 /obj/machinery/light/small/dim/directional/north,
+/obj/effect/turf_decal/arrows,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/galloway_ship)
 "Ax" = (
@@ -836,9 +1135,23 @@
 	desc = "A mechanical device that formerly loaded munitions into a heavy weapons system of some sort.";
 	pixel_x = 1;
 	anchored = 1;
-	pixel_y = 1
+	pixel_y = 1;
+	density = 1
 	},
 /obj/structure/cable,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"AE" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/open/floor/wood/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"AZ" = (
+/obj/effect/turf_decal/arrows,
 /turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "Br" = (
@@ -850,7 +1163,8 @@
 	desc = "A mechanical device that formerly loaded munitions into a heavy weapons system of some sort.";
 	pixel_x = 1;
 	anchored = 1;
-	pixel_y = 1
+	pixel_y = 1;
+	density = 1
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
@@ -860,24 +1174,51 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
-"Bz" = (
-/obj/machinery/door/airlock/engineering,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/galloway_ship)
 "BC" = (
 /obj/structure/cable,
 /obj/machinery/light/small/red/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/wood_smooth,
+/area/ruin/space/has_grav/galloway_ship)
+"BM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"BN" = (
+/obj/machinery/power/shuttle_engine/heater,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/galloway_ship)
+"BO" = (
+/obj/structure/mineral_door/wood{
+	color = "#6b6536";
+	name = "Barracks 2"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "BY" = (
 /obj/structure/cable,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"Ch" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Cl" = (
@@ -891,28 +1232,30 @@
 	},
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
+"CJ" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/space/has_grav/galloway_ship)
 "CU" = (
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "CY" = (
-/obj/structure/decorative/shelf/milk_big,
+/obj/structure/decorative/shelf/milk_big{
+	density = 1
+	},
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "Da" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/galloway_ship)
-"Dq" = (
-/obj/structure/closet/crate/wooden{
-	anchored = 1;
-	pixel_x = 1;
-	pixel_y = 0
+"Dm" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/paper/crumpled{
+	default_raw_text = "In a World without credits, we could have been heroes, matey."
 	},
-/obj/item/language_manual/piratespeak,
-/turf/open/floor/wood,
+/turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "DA" = (
 /obj/structure/fluff/metalpole/anchor{
@@ -929,11 +1272,22 @@
 /area/ruin/space/has_grav/galloway_ship)
 "DM" = (
 /obj/structure/decorative/shelf/alcohol_small,
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "DT" = (
 /obj/item/stack/rods/ten,
 /turf/template_noop,
+/area/ruin/space/has_grav/galloway_ship)
+"DV" = (
+/obj/structure/closet/crate/wooden{
+	anchored = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/gun/energy/laser/musket,
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Ev" = (
 /obj/structure/cable,
@@ -946,6 +1300,9 @@
 /area/ruin/space/has_grav/galloway_ship)
 "EJ" = (
 /obj/effect/decal/cleanable/blood/old,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "EU" = (
@@ -954,7 +1311,7 @@
 /obj/effect/decal/cleanable/fuel_pool/hivis,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
 "Fr" = (
 /obj/structure/fluff/metalpole/end/left{
@@ -971,7 +1328,23 @@
 /area/ruin/space/has_grav/galloway_ship)
 "FX" = (
 /obj/structure/window/reinforced/spawner/directional/east,
+/obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/iron/dark/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"Gb" = (
+/obj/structure/closet/crate/wooden{
+	anchored = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/spawner/random/entertainment/plushie,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"Gr" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
 "Gu" = (
 /obj/effect/mapping_helpers/broken_floor,
@@ -984,15 +1357,10 @@
 /obj/structure/cable,
 /turf/closed/wall,
 /area/ruin/space/has_grav/galloway_ship)
-"GQ" = (
-/obj/structure/mineral_door/wood{
-	color = "#6b6536";
-	name = "Barracks 3"
-	},
+"GI" = (
 /obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/wood,
+/obj/machinery/atmospherics/components/tank/air/layer4,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/galloway_ship)
 "Hd" = (
 /obj/structure/table/wood,
@@ -1018,6 +1386,23 @@
 /obj/structure/lattice,
 /turf/template_noop,
 /area/ruin/space/has_grav/galloway_ship)
+"HF" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/chair/bronze{
+	dir = 1
+	},
+/turf/open/floor/wood/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"HN" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/catwalk_floor/wood_smooth,
+/area/ruin/space/has_grav/galloway_ship)
 "HV" = (
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/machinery/computer/old{
@@ -1028,6 +1413,19 @@
 	},
 /turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
+"Ih" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
 "Il" = (
 /obj/machinery/power/shuttle_engine/huge,
 /obj/effect/turf_decal/stripes/line,
@@ -1036,6 +1434,7 @@
 /area/ruin/space/has_grav/galloway_ship)
 "Is" = (
 /obj/machinery/vending/boozeomat/cafe,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "IA" = (
@@ -1055,8 +1454,21 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/galloway_ship)
+"IS" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
 "IU" = (
 /obj/machinery/light/broken/directional/south,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "IV" = (
@@ -1068,7 +1480,8 @@
 	pixel_x = -5;
 	anchored = 1;
 	pixel_y = -15;
-	dir = 4
+	dir = 4;
+	density = 1
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
@@ -1086,6 +1499,19 @@
 	},
 /turf/template_noop,
 /area/template_noop)
+"Jn" = (
+/obj/structure/cable,
+/obj/machinery/light/warm/dim/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
 "Jx" = (
 /obj/machinery/computer/old{
 	name = "Defense Terminal";
@@ -1108,12 +1534,16 @@
 	pixel_y = 0
 	},
 /obj/machinery/light/small/dim/directional/north,
+/obj/effect/spawner/random/entertainment/plushie,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "JA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
+/obj/structure/railing{
+	dir = 4
+	},
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "JD" = (
@@ -1124,6 +1554,15 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/apc/unlocked,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/galloway_ship)
+"JF" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "JS" = (
 /obj/structure/cable,
@@ -1136,7 +1575,6 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Kd" = (
-/obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/drinkingglass/shotglass{
 	pixel_x = 8;
 	pixel_y = 3
@@ -1145,6 +1583,7 @@
 	pixel_x = -6;
 	pixel_y = 5
 	},
+/obj/structure/table/wood/poker,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Kr" = (
@@ -1154,29 +1593,19 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/galloway_ship)
 "Kw" = (
-/obj/structure/window/reinforced/spawner/directional/south,
-/obj/structure/decorative/fluff{
-	icon_state = "artillery";
-	icon = 'modular_zzplurt/icons/obj/objects.dmi';
-	name = "HE Artillery Shells";
-	desc = "A bunch of upright heavy munitions with red tips and bands. A lot of them look rusted and are missing primers. Best not to touch these.";
-	pixel_x = 1;
-	anchored = 1;
-	pixel_y = 6
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
 	},
-/turf/open/floor/iron/dark/airless,
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Kx" = (
 /obj/effect/decal/cleanable/glass,
-/obj/structure/decorative/fluff{
-	icon_state = "artillery";
-	icon = 'modular_zzplurt/icons/obj/objects.dmi';
-	name = "HE Artillery Shells";
-	desc = "A bunch of upright heavy munitions with red tips and bands. A lot of them look rusted and are missing primers. Best not to touch these.";
-	pixel_x = 1;
-	anchored = 1;
-	pixel_y = 6
-	},
+/obj/effect/turf_decal/arrows,
 /turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "KA" = (
@@ -1188,7 +1617,8 @@
 	pixel_x = -5;
 	anchored = 1;
 	pixel_y = -15;
-	dir = 4
+	dir = 4;
+	density = 1
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark/airless,
@@ -1200,14 +1630,35 @@
 	},
 /turf/template_noop,
 /area/ruin/space/has_grav/galloway_ship)
-"KU" = (
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/light/broken/directional/north,
-/turf/open/floor/wood/airless,
+"KV" = (
+/obj/structure/bed{
+	dir = 1
+	},
+/obj/item/bedsheet/pirate{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/sign/poster/contraband/crocin_pool/directional/west,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"Lg" = (
+/obj/structure/table/wood,
+/obj/item/flashlight/lantern/on{
+	pixel_x = 5;
+	pixel_y = 6
+	},
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Lw" = (
 /obj/structure/cable,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"LC" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "LE" = (
 /obj/structure/decorative/fluff{
@@ -1217,24 +1668,30 @@
 	desc = "A bunch of upright heavy munitions with red tips and bands. A lot of them look rusted and are missing primers. Best not to touch these.";
 	pixel_x = 1;
 	anchored = 1;
-	pixel_y = 6
+	pixel_y = 6;
+	density = 1
 	},
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "LF" = (
 /obj/structure/sink/kitchen/directional/west,
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "LK" = (
 /obj/structure/cable,
-/obj/machinery/light/broken/directional/north,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "LP" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/wood,
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "LQ" = (
 /obj/machinery/computer/old{
@@ -1246,21 +1703,35 @@
 /area/ruin/space/has_grav/galloway_ship)
 "Mk" = (
 /obj/structure/cable,
-/obj/machinery/light/warm/dim/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Mz" = (
 /obj/structure/medieval/wine_barrel,
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "MB" = (
 /obj/structure/cable,
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor/wood_smooth,
+/area/ruin/space/has_grav/galloway_ship)
+"MC" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "ME" = (
 /obj/effect/mapping_helpers/burnt_floor,
@@ -1272,13 +1743,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
 "Na" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
 "Nc" = (
 /obj/structure/fluff/metalpole{
@@ -1286,6 +1757,10 @@
 	},
 /turf/template_noop,
 /area/template_noop)
+"Nh" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood/airless,
+/area/ruin/space/has_grav/galloway_ship)
 "Ni" = (
 /turf/closed/wall/mineral/wood/nonmetal,
 /area/ruin/space/has_grav/galloway_ship)
@@ -1298,7 +1773,8 @@
 	desc = "A mechanical device that formerly loaded munitions into a heavy weapons system of some sort.";
 	pixel_x = 1;
 	anchored = 1;
-	pixel_y = 1
+	pixel_y = 1;
+	density = 1
 	},
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
@@ -1309,15 +1785,7 @@
 /obj/machinery/light/small/red/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/galloway_ship)
-"NA" = (
-/obj/structure/closet/crate/wooden{
-	anchored = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/item/clothing/shoes/pirate/armored,
-/turf/open/floor/wood,
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
 "NL" = (
 /obj/structure/lattice,
@@ -1339,9 +1807,24 @@
 	desc = "A wooden crate filled with aged artillery shells.";
 	pixel_x = 1;
 	anchored = 1;
-	pixel_y = 6
+	pixel_y = 6;
+	density = 1
 	},
 /turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/galloway_ship)
+"Oa" = (
+/obj/effect/decal/cleanable/glass,
+/obj/structure/decorative/fluff{
+	icon_state = "artillery";
+	icon = 'modular_zzplurt/icons/obj/objects.dmi';
+	name = "HE Artillery Shells";
+	desc = "A bunch of upright heavy munitions with red tips and bands. A lot of them look rusted and are missing primers. Best not to touch these.";
+	pixel_x = 1;
+	anchored = 1;
+	pixel_y = 6;
+	density = 1
+	},
+/turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "Of" = (
 /turf/template_noop,
@@ -1352,8 +1835,35 @@
 	},
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
+"Ov" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"OK" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"ON" = (
+/obj/structure/cable,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/open/floor/wood/airless,
+/area/ruin/space/has_grav/galloway_ship)
 "PF" = (
 /obj/structure/cable,
+/obj/structure/sign/poster/contraband/double_rainbow/directional/north,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "PI" = (
@@ -1368,7 +1878,10 @@
 /obj/machinery/light/small/red/directional/north,
 /obj/item/stack/sheet/mineral/uranium/fifty,
 /obj/structure/closet/crate/radiation,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "Qb" = (
 /obj/effect/decal/cleanable/glass,
@@ -1391,6 +1904,17 @@
 /obj/structure/door_assembly/door_assembly_grunge,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/galloway_ship)
+"Qr" = (
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/dark/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"Qs" = (
+/obj/machinery/light/broken/directional/north,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
 "Qx" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/structure/cable,
@@ -1410,7 +1934,9 @@
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "QP" = (
-/turf/template_noop,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/turf_decal/bot,
+/turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "Rb" = (
 /obj/structure/cannon,
@@ -1420,12 +1946,18 @@
 /obj/structure/closet/emcloset/anchored,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
-"Rd" = (
-/obj/effect/mapping_helpers/broken_floor,
-/obj/structure/chair/bronze{
+"Rg" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/turf/open/floor/wood/airless,
+/turf/open/floor/wood/large,
+/area/ruin/space/has_grav/galloway_ship)
+"Ri" = (
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "Rk" = (
 /obj/structure/mineral_door/wood{
@@ -1455,6 +1987,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "RN" = (
@@ -1485,6 +2018,10 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"Se" = (
+/obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Sw" = (
@@ -1519,7 +2056,12 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/galloway_ship)
+"ST" = (
+/obj/structure/sign/poster/contraband/busty_backdoor_xeno_babes_6/directional/east,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
 "SU" = (
+/obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Tc" = (
@@ -1537,37 +2079,42 @@
 /area/ruin/space/has_grav/galloway_ship)
 "TO" = (
 /obj/structure/closet/emcloset/anchored,
-/turf/open/floor/plating,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "TS" = (
 /obj/structure/table/wood,
-/obj/item/flashlight/lantern/on{
-	pixel_x = 5;
-	pixel_y = 6
-	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Ub" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
+"Uc" = (
+/obj/machinery/power/shuttle_engine/propulsion,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/galloway_ship)
+"Ul" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
 "Us" = (
 /obj/structure/table/wood,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "UP" = (
-/obj/structure/bed{
-	dir = 1
-	},
-/obj/item/bedsheet/pirate{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/sign/poster/contraband/crocin_pool/directional/west,
-/turf/open/floor/wood,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/galloway_ship)
 "UQ" = (
 /obj/effect/decal/cleanable/glass,
@@ -1577,14 +2124,13 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
-"Vb" = (
-/obj/machinery/power/shuttle_engine/propulsion,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/galloway_ship)
 "Vc" = (
 /obj/structure/cable,
 /turf/open/floor/wood/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"Vd" = (
+/obj/structure/table/wood/poker,
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Vi" = (
 /obj/effect/mapping_helpers/broken_floor,
@@ -1592,24 +2138,13 @@
 /area/ruin/space/has_grav/galloway_ship)
 "Vv" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/galloway_ship)
-"VF" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/components/tank/air/layer4,
-/turf/open/floor/plating,
 /area/ruin/space/has_grav/galloway_ship)
 "VJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood,
-/area/ruin/space/has_grav/galloway_ship)
-"VP" = (
-/obj/structure/table/wood,
-/obj/item/clothing/suit/costume/pirate/captain/armored{
-	pixel_x = 5;
-	pixel_y = 5
-	},
-/turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "VQ" = (
 /obj/structure/table/wood,
@@ -1619,24 +2154,23 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
-"VR" = (
-/obj/machinery/light/broken/directional/north,
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/galloway_ship)
 "Wl" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Wq" = (
-/obj/structure/chair/bronze{
-	dir = 1
-	},
-/turf/open/floor/wood/airless,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "Wx" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/galloway_ship)
 "Wy" = (
@@ -1654,6 +2188,7 @@
 "WI" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/structure/cable,
+/obj/effect/turf_decal/caution/stand_clear,
 /turf/open/floor/iron/dark/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "WN" = (
@@ -1664,9 +2199,15 @@
 	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
+"WP" = (
+/turf/template_noop,
+/area/ruin/space/has_grav/galloway_ship)
 "WS" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/bottle/wine,
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "WV" = (
@@ -1683,31 +2224,13 @@
 /obj/effect/mapping_helpers/broken_floor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/wood,
-/area/ruin/space/has_grav/galloway_ship)
-"Xa" = (
-/obj/effect/mapping_helpers/burnt_floor,
-/obj/structure/table/wood,
-/turf/open/floor/wood/airless,
-/area/ruin/space/has_grav/galloway_ship)
-"Xb" = (
-/obj/structure/closet/crate/wooden{
-	anchored = 1
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/item/gun/energy/laser/musket,
-/turf/open/floor/wood,
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "Xk" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/wood/airless,
-/area/ruin/space/has_grav/galloway_ship)
-"XG" = (
-/obj/structure/cable,
-/obj/structure/sign/poster/contraband/nri_pistol/directional/north,
-/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "XN" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1735,7 +2258,7 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/turf/open/floor/wood,
+/turf/open/floor/wood/large,
 /area/ruin/space/has_grav/galloway_ship)
 "Yz" = (
 /obj/structure/closet/crate/large,
@@ -1748,22 +2271,51 @@
 /obj/item/bedsheet/pirate{
 	dir = 1
 	},
-/obj/structure/sign/poster/contraband/barbaro/directional/north,
 /turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"Zc" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/turf_decal/caution/stand_clear,
+/turf/open/floor/iron/dark,
+/area/ruin/space/has_grav/galloway_ship)
+"Zn" = (
+/obj/structure/cable,
+/turf/open/floor/wood,
+/area/ruin/space/has_grav/galloway_ship)
+"Zo" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/turf/open/floor/wood/airless,
 /area/ruin/space/has_grav/galloway_ship)
 "Zq" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
-"Zv" = (
+"Zu" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/large,
+/area/ruin/space/has_grav/galloway_ship)
+"Zw" = (
 /obj/structure/cable,
-/obj/structure/sign/poster/contraband/double_rainbow/directional/north,
-/turf/open/floor/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/siding/wood,
+/turf/open/floor/catwalk_floor/wood_smooth,
 /area/ruin/space/has_grav/galloway_ship)
 "Zx" = (
 /obj/structure/cable,
 /turf/open/floor/plating/airless,
+/area/ruin/space/has_grav/galloway_ship)
+"ZF" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/turf/open/floor/wood,
 /area/ruin/space/has_grav/galloway_ship)
 "ZM" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2061,7 +2613,7 @@ WE
 Hx
 Hx
 KG
-QP
+WP
 kA
 IA
 ba
@@ -2112,7 +2664,7 @@ DL
 ba
 nq
 CU
-CU
+Vi
 CU
 CU
 CU
@@ -2120,28 +2672,28 @@ xZ
 qy
 DL
 WE
-QP
-QP
+WP
+WP
 zU
-QP
+WP
 IA
 ba
-zV
-Vv
-zV
+YV
+Se
+YV
 Ni
-SU
-zV
+rp
+YV
 ba
 lh
-lv
+UP
 Of
-lv
+UP
 ba
 PT
 jQ
-Bz
-jQ
+pE
+yb
 nw
 ba
 Ag
@@ -2164,10 +2716,10 @@ Of
 Of
 XW
 XW
-ki
+ba
 Yr
 ba
-Kw
+gY
 DL
 rN
 DL
@@ -2179,29 +2731,29 @@ Vi
 Xk
 Vi
 qy
-DL
+ly
 oC
 zI
-QP
+WP
 is
-QP
-QP
+Hx
+Hx
 US
 ba
-gZ
+vV
 Zq
 xj
 Ni
 QO
-Xb
+DV
 ba
-gY
 lv
+UP
 mF
-lv
+UP
 ba
 TO
-jQ
+Zw
 ba
 Nw
 nw
@@ -2225,11 +2777,11 @@ Of
 Of
 Zx
 XW
-hM
-ki
+ba
+ba
 Vc
 ba
-cH
+AZ
 Yi
 uQ
 HV
@@ -2241,16 +2793,16 @@ bu
 bu
 gn
 qy
-DL
+qf
 qy
 DT
-QP
-QP
-QP
+WP
+WP
+WP
 IA
 qy
 ba
-YV
+tx
 IG
 kj
 Ni
@@ -2263,9 +2815,9 @@ Nu
 oY
 ba
 sJ
-jQ
+HN
 ba
-Bz
+pE
 ba
 ba
 ba
@@ -2287,14 +2839,14 @@ Of
 Zx
 Zx
 oC
-hM
-CU
+ki
+Vi
 bi
 ba
-cH
-ut
-ut
-cH
+Ri
+Lw
+oK
+Qr
 ba
 DJ
 bu
@@ -2302,11 +2854,11 @@ Vi
 Oi
 Vi
 DL
-DL
+hM
 oC
 zI
 zU
-QP
+WP
 Hx
 Hx
 qy
@@ -2314,10 +2866,10 @@ qy
 ba
 zk
 sC
-NA
+mk
 Ni
 sC
-xj
+Gb
 ba
 rr
 Kr
@@ -2325,13 +2877,13 @@ Qg
 Wx
 ba
 ba
-pE
+jw
 ba
 Na
 aa
 IJ
-lv
-jw
+UP
+Da
 Il
 le
 le
@@ -2350,8 +2902,8 @@ Zx
 oC
 qG
 hM
-CU
-Vc
+kh
+ON
 ba
 ba
 Rw
@@ -2360,22 +2912,22 @@ ba
 ba
 Vi
 bu
+Vi
 CU
-CU
-CU
+uC
 oC
-DL
+hM
 zI
-QP
+WP
 EC
-QP
-QP
+WP
+WP
 IA
 qy
 cH
 ba
 Ni
-ve
+BO
 Ni
 Ni
 Rk
@@ -2386,14 +2938,14 @@ wy
 ba
 ba
 ba
-SU
-sC
+OK
+nr
 ba
-lo
+ew
 MB
 IJ
-lv
-jw
+UP
+Da
 sc
 le
 le
@@ -2414,7 +2966,7 @@ qG
 UQ
 xZ
 SJ
-SJ
+ng
 SJ
 hl
 SJ
@@ -2428,34 +2980,34 @@ ba
 ba
 pj
 kA
-QP
-QP
+WP
+WP
 KG
 zU
 ly
 ba
 ba
 ba
-PF
-sC
-sC
-sC
-sC
-xV
-sC
-sC
-sC
-sC
+LK
+kD
 zW
-sC
-sC
-sC
+zW
+zW
+Kw
+ng
+IS
+Ih
+IS
+Jn
+IS
+Mk
+JF
 GF
-VF
+GI
 MB
 IJ
-lv
-jw
+UP
+Da
 sc
 le
 le
@@ -2475,7 +3027,7 @@ qG
 UQ
 UQ
 Vi
-JA
+AE
 Ni
 Ni
 Ni
@@ -2483,27 +3035,27 @@ Ni
 Ni
 Ni
 DL
-CU
+xi
 Vc
 ba
 cH
-cH
+Ri
 qy
-QP
-QP
-QP
-QP
+WP
+WP
+WP
+WP
 IA
-pj
+bV
 CU
 Ni
-XG
-PF
-SU
+zA
+Wq
+rp
 dp
-TS
+Lg
 Hd
-ma
+TS
 Ni
 Ni
 Ni
@@ -2517,7 +3069,7 @@ dV
 MB
 IJ
 gw
-jw
+Da
 sc
 le
 le
@@ -2533,25 +3085,25 @@ Of
 Zx
 DL
 DL
-hM
-Xa
+wo
+iL
 xZ
-CU
+kh
 np
 Ni
 LE
-CU
+Vi
 zw
-CU
+Vi
 Ni
-DL
+oC
 Vi
 Zx
 ba
 Qm
 DL
 ft
-QP
+WP
 zU
 NL
 NL
@@ -2559,7 +3111,7 @@ Zx
 Zx
 CU
 Ni
-PF
+Ul
 nk
 RN
 dp
@@ -2568,17 +3120,17 @@ dp
 vx
 Ni
 sz
-SU
+gZ
 jt
 Mz
 Ni
 WS
-ma
+ZF
 ba
 Fz
 MB
 IJ
-lv
+UP
 mX
 sc
 le
@@ -2595,8 +3147,8 @@ Of
 Zx
 DL
 DL
-hM
-ik
+wo
+vu
 kh
 hX
 ZM
@@ -2604,13 +3156,13 @@ Ni
 LE
 kh
 qB
-CU
+Vi
 Ni
-DL
+oC
 Vi
 Zx
 eP
-ut
+Lw
 Qx
 NL
 yZ
@@ -2630,18 +3182,18 @@ dp
 Us
 Ni
 DM
-Vv
+Zu
 WW
-dp
+qP
 dl
-LP
+MC
 VJ
 ba
 cm
 MB
 IJ
-lv
-jw
+UP
+Da
 sc
 le
 le
@@ -2657,33 +3209,33 @@ Nc
 Zx
 DL
 DL
-hM
+wo
 LQ
-Wq
+lp
 Ub
-JA
+Zo
 Ni
 nq
 Vi
 Vi
-CU
+kh
 Ni
 Vi
-DL
+oC
 Vc
 ba
 DL
 zI
-QP
-QP
+WP
+WP
 EC
-QP
+WP
 qy
 DL
 Oi
 CU
 Ni
-PF
+Ul
 qe
 nk
 bw
@@ -2691,19 +3243,19 @@ Wy
 dp
 IU
 Ni
-SU
+aL
 Yt
 LP
-SU
+gS
 Ni
-qe
+Ch
 RM
 ba
 JD
 MB
 IJ
 gw
-jw
+Da
 sc
 le
 le
@@ -2721,11 +3273,11 @@ DL
 DL
 ki
 Jx
-Rd
+HF
 CU
-JA
+Zo
 Ni
-KU
+uK
 CU
 Vc
 cK
@@ -2737,35 +3289,35 @@ ba
 oC
 Hx
 Hx
-QP
+kL
 DT
-QP
+WP
 DL
-CU
+xi
 Vi
 Vi
 Ni
-LK
-PF
-PF
+pn
+Zn
+Zn
 rK
 Ev
 sC
-sC
+LC
 JS
-sC
-sC
-sC
-qC
+Rg
+ut
+ut
+cA
 Ni
-VR
+Qs
 Vv
 ba
 rn
 MH
 IJ
 gw
-jw
+Da
 sc
 le
 le
@@ -2783,42 +3335,42 @@ DL
 DL
 ki
 pg
-Wq
+lp
 kh
 np
 Ni
 Yz
-CU
+xA
 kT
-CU
+DJ
 Ni
 Vi
 DL
 Zx
 ba
 zI
-QP
-QP
-QP
-QP
+WP
+WP
+WP
+WP
 IA
 DL
 oC
 CU
-CU
+Vi
 Ni
-PF
+Ul
 nk
 xa
 bw
-ma
-Vv
+Vd
+Se
 rz
 Ni
-SU
-qe
-Vv
-SU
+aL
+vZ
+Zu
+gS
 Ni
 pZ
 fW
@@ -2826,7 +3378,7 @@ ba
 XN
 MB
 IJ
-lv
+UP
 mX
 sc
 le
@@ -2844,10 +3396,10 @@ Zx
 DL
 DL
 ki
-VP
-kh
+kc
+Dm
 CU
-JA
+Zo
 Ni
 je
 Vi
@@ -2859,7 +3411,7 @@ oC
 qf
 qy
 is
-QP
+WP
 zU
 is
 IA
@@ -2869,12 +3421,12 @@ DL
 Vc
 cN
 Sb
-PF
-Vv
+Ul
+Se
 nk
 bw
 uu
-SU
+rp
 Is
 Ni
 ma
@@ -2888,8 +3440,8 @@ ba
 jD
 EU
 IJ
-lv
-jw
+UP
+Da
 sc
 le
 le
@@ -2906,9 +3458,9 @@ Zx
 Zx
 DL
 ki
-lE
+Nh
 CU
-CU
+Vi
 JA
 Ni
 Ni
@@ -2920,24 +3472,24 @@ Zx
 DL
 DL
 zI
-QP
-QP
-QP
+WP
+WP
+WP
 IA
 qy
 DL
 CU
-CU
+Vi
 Vc
 CU
 Ni
-Zv
+PF
 SU
-SU
+rp
 bw
-ma
+Vd
 Kd
-ma
+TS
 Ni
 Ni
 Ni
@@ -2949,9 +3501,9 @@ Ni
 GF
 lZ
 MB
-aQ
-Vb
-bf
+BN
+Uc
+rV
 sc
 le
 le
@@ -2969,21 +3521,21 @@ Zx
 DL
 ki
 ba
-CU
+xi
 CU
 Gu
-JA
-JA
+nx
+Zo
 SF
-JA
-JA
+Zo
+Zo
 TK
 TK
 Vi
 DL
 Hx
 EC
-QP
+WP
 Hx
 qy
 cH
@@ -2993,27 +3545,27 @@ CU
 Vc
 Vi
 Ni
-PF
-PF
-sC
-sC
-sC
-sC
-xV
-sC
-sC
-xV
-sC
+kB
+vn
 Mk
-sC
-sC
+Mk
+Mk
+Mk
+Ov
+ng
+aN
+xV
+aN
+aF
+aN
+zW
 rv
 ba
 lo
 MB
 IJ
-lv
-jw
+UP
+Da
 Il
 le
 le
@@ -3032,8 +3584,8 @@ Zx
 XW
 ba
 ba
-CU
-CU
+Vi
+gf
 ba
 ba
 Qp
@@ -3043,9 +3595,9 @@ WE
 Vi
 DL
 zI
-QP
+WP
 kA
-QP
+WP
 zU
 qy
 Ni
@@ -3057,10 +3609,10 @@ ba
 ba
 ba
 Ni
-GQ
+pR
 Ni
 Ni
-kB
+kz
 Ni
 ba
 ba
@@ -3068,14 +3620,14 @@ Hp
 ba
 ba
 ba
-dp
+BM
 BY
 ba
 lo
 MB
 IJ
-lv
-jw
+UP
+Da
 sc
 le
 le
@@ -3095,18 +3647,18 @@ XW
 XW
 ki
 CU
-CU
+Vi
 ba
-cH
-cH
-cH
-cH
+US
+US
+oA
+CJ
 ba
 Zx
 qy
 zU
-QP
-QP
+WP
+WP
 KG
 IA
 xZ
@@ -3114,30 +3666,30 @@ Vi
 te
 ba
 ME
-ut
+Lw
 WI
-cH
+QP
 ba
-zV
+YV
 sC
 kj
 Ni
 sC
-UP
+KV
 ba
 vj
 Kr
-Lw
+Zc
 ur
 ba
-qe
-sC
+oo
+JF
 ba
 Na
-MB
+um
 IJ
-lv
-jw
+UP
+Da
 sc
 le
 le
@@ -3155,11 +3707,11 @@ Of
 Of
 XW
 XW
-ki
+ba
 CU
 so
 ba
-pI
+Kx
 FX
 Ax
 Qb
@@ -3168,10 +3720,10 @@ qy
 zI
 DT
 is
-lv
+UP
 IA
 qy
-CU
+Vi
 CU
 Cn
 ba
@@ -3182,10 +3734,10 @@ hL
 ba
 Jz
 Tc
-xj
+cd
 Ni
 zh
-xj
+cd
 ba
 Av
 Sw
@@ -3217,11 +3769,11 @@ Of
 Of
 Of
 XW
-ki
-ki
+ba
+ba
 CU
 ba
-Kx
+Oa
 DL
 KA
 DL
@@ -3229,30 +3781,30 @@ WE
 DL
 Hx
 Hx
-QP
-QP
+WP
+WP
 Ni
 hH
 Ni
-CU
+Vi
 WV
 ba
-Kw
+gY
 DL
 IV
 DL
 ba
-zV
+YV
 Zq
 kj
 Ni
 Zq
 kj
 ba
-gY
 lv
+UP
 IV
-lv
+UP
 ba
 Rc
 iE
@@ -3280,7 +3832,7 @@ Of
 Of
 XW
 XW
-ki
+ba
 ki
 ba
 uV
@@ -3289,37 +3841,37 @@ Of
 DL
 WE
 zI
-QP
+WP
 zU
-QP
+WP
 IA
 DL
 Vi
 DL
-CU
+Vi
 Cn
 ba
 uV
 DL
-QP
+WP
 DL
 ba
-Dq
-SU
+zV
+rp
 rW
 Ni
-nz
+ST
 rW
 ba
 NU
-lv
+UP
 Of
-lv
+UP
 ba
 xs
 uJ
 As
-Da
+Gr
 sP
 ba
 Ag
@@ -3349,11 +3901,11 @@ ba
 Of
 Of
 Of
-QP
-QP
-QP
-QP
-QP
+WP
+WP
+WP
+WP
+WP
 WE
 ba
 Cl
@@ -3362,9 +3914,9 @@ Cl
 ba
 ba
 ba
-QP
-QP
-QP
+WP
+WP
+WP
 ba
 ba
 ZQ
