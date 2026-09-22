@@ -194,7 +194,7 @@
 #define ANNOUNCER_RANDOM_ALERT "announcer_random_alert"
 #define ANNOUNCER_RANDOM_WELCOME "announcer_random_welcome"
 
-#define GALLOWAY_AMBIENCE "galloway_ambience" // custom ambience for SPLURT ruin galloway_ship
+#define AMBIENCE_GALLOWAY "galloway" // custom ambience for SPLURT ruin galloway_ship
 // SPLURT EDIT ADDITION END
 
 /// Global list of all of our announcer keys.

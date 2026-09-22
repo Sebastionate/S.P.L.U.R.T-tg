@@ -1,6 +1,6 @@
 // SPLURT ambience files
-GLOBAL_LIST_INIT(galloway_ambience, list(
-	'modular_zzplurt/sound/sound/music/galloway1.ogg',
-	'modular_zzplurt/sound/sound/music/galloway2.ogg',
-	'modular_zzplurt/sound/sound/music/galloway3.ogg',
+GLOBAL_LIST_INIT(galloway, list(
+	'modular_zzplurt/sound/music/galloway_ruin/galloway.ogg',
+	'modular_zzplurt/sound/music/galloway_ruin/galloway2.ogg',
+	'modular_zzplurt/sound/music/galloway_ruin/galloway3.ogg',
 ))
