@@ -13,7 +13,7 @@ GLOBAL_LIST_INIT(generic_ambience, list(
 //SKYRAT EDIT END
 
 // SPLURT EDIT BEGIN - Added custom ruin ambience
-GLOBAL_LIST_INIT(galloway, list(
+GLOBAL_LIST_INIT(galloway_ambience, list(
 	'modular_zzplurt/sound/music/galloway_ruin/galloway.ogg',
 	'modular_zzplurt/sound/music/galloway_ruin/galloway2.ogg',
 	'modular_zzplurt/sound/music/galloway_ruin/galloway3.ogg',
