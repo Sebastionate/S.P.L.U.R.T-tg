@@ -3,8 +3,11 @@
 /obj/item/claymore/cutlass_enchanted
 	name = "Mavarian Threat"
 	desc = "A cutlass with a blackened blade and a hilt wrapped in red leather. The blade is engraved with runes that glow faintly in the dark."
-	icon_state = "cutla"
-	inhand_icon_state = "cutlass"
+	icon = 'modular_zzplurt/icons/obj/weapons.dmi'
+	lefthand_file = 'modular_zzplurt/icons/obj/weapons/guns/inhands/right32x32.dmi'
+	righthand_file = 'modular_zzplurt/icons/obj/weapons/guns/inhands/left32x32.dmi'
+	icon_state = "enchanted_cutlass"
+	inhand_icon_state = "enchanted_cutlass"
 	worn_icon_state = "cutlass"
 	slot_flags = ITEM_SLOT_BACK
 	force = 15
