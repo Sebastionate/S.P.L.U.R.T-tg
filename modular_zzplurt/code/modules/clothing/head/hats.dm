@@ -294,7 +294,7 @@
 	icon_state = "ntps_cap"
 	armor_type = /datum/armor/hats_hos
 
-/obj/item/clothing/head/soft/tricorn
+/obj/item/clothing/head/tricorn
 	name = "tricorn pirate hat"
 	desc = "A classic tricorn pirate hat with three triangular sides of its brim pinned to its crown. This one is black and features a blue feather."
 	icon = 'modular_zzplurt/icons/obj/clothing/hats.dmi'
