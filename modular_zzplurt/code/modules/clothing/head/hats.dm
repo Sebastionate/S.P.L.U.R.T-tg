@@ -300,5 +300,4 @@
 	icon = 'modular_zzplurt/icons/obj/clothing/hats.dmi'
 	worn_icon = 'modular_zzplurt/icons/mob/clothing/hats.dmi'
 	icon_state = "tricorn"
-	soft_type = "tricorn"
 	dog_fashion = null
