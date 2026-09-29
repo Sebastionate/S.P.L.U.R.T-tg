@@ -48,10 +48,6 @@
 
 	hud_type = /datum/hud/dextrous/
 
-#define SPRIGGAN_TELEPORT_ABILITY "spriggan_teleport"
-#define SPRIGGAN_SIGHT_ABILITY "spriggan_sight"
-#define SPRIGGAN_LIGHT_ABILITY "spriggan_light"
-
 	// variable from the guardian support type, used to determine how much healing is done per hit
 	var/healing_amount = 5
 
