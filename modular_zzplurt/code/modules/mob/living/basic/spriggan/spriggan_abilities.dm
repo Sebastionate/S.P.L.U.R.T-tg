@@ -43,14 +43,14 @@
 		owner.lighting_cutoff_red = 15
 		owner.lighting_cutoff_green = 55
 		owner.lighting_cutoff_blue = 20
-		owner.balloon_alert(owner, "You can now see in the dark and through walls!")
+		owner.balloon_alert(owner, "you can now see in the dark and through walls!")
 		StartCooldown()
 	else
 		owner.sight = initial(owner.sight)
 		owner.lighting_cutoff_red = initial(owner.lighting_cutoff_red)
 		owner.lighting_cutoff_green = initial(owner.lighting_cutoff_green)
 		owner.lighting_cutoff_blue = initial(owner.lighting_cutoff_blue)
-		owner.balloon_alert(owner, "Your clerical sight fades.")
+		owner.balloon_alert(owner, "your clerical sight fades.")
 	owner.update_sight()
 	return TRUE
 
@@ -68,9 +68,9 @@
 	light_enabled = !light_enabled
 	if(light_enabled)
 		owner.set_light(l_range = 3, l_power = 1.5, l_color = LIGHT_COLOR_ELECTRIC_GREEN, l_on = TRUE)
-		owner.balloon_alert(owner, "You emit a dim green glow.")
+		owner.balloon_alert(owner, "you emit a dim green glow.")
 		StartCooldown()
 	else
 		owner.set_light(l_range = 0)
-		owner.balloon_alert(owner, "Your dim green glow fades.")
+		owner.balloon_alert(owner, "your dim green glow fades.")
 	return TRUE
