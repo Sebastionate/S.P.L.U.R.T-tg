@@ -131,12 +131,13 @@
 /obj/structure/flora/bush/reed/style_random,
 /turf/open/floor/grass,
 /area/ruin/space/has_grav)
+"P" = (
+/turf/open/floor/grass,
+/area/ruin/space/has_grav)
 "Q" = (
-/obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/decal/remains/human{
 	pixel_x = 17;
-	pixel_y = 1;
-	layer = 10085
+	pixel_y = 1
 	},
 /turf/open/floor/grass,
 /area/ruin/space/has_grav)
@@ -344,7 +345,7 @@ E
 h
 L
 b
-h
+P
 b
 C
 C
