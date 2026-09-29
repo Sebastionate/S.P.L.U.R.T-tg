@@ -46,6 +46,7 @@
 		owner.balloon_alert(owner, "You can now see in the dark and through walls!")
 		StartCooldown()
 	else
+		owner.sight = initial(owner.sight)
 		owner.lighting_cutoff_red = initial(owner.lighting_cutoff_red)
 		owner.lighting_cutoff_green = initial(owner.lighting_cutoff_green)
 		owner.lighting_cutoff_blue = initial(owner.lighting_cutoff_blue)

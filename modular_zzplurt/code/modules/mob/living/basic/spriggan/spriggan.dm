@@ -14,6 +14,11 @@
 		/obj/item/stack/sheet/mineral/wood
 )
 
+	pixel_x = -15
+	base_pixel_x = -15
+	maptext_height = 64
+	maptext_width = 64
+
 	mob_biotypes = MOB_SPECIAL
 	maxHealth = 100
 	health = 100
@@ -35,7 +40,9 @@
 
 	habitable_atmos = null
 	minimum_survivable_temperature = 0
-	unsuitable_heat_damage = 20
+	maximum_survivable_temperature = 1500
+	unsuitable_cold_damage = 0
+	unsuitable_heat_damage = 0
 	unsuitable_atmos_damage = FALSE
 	pressure_resistance = 200
 
@@ -57,7 +64,9 @@
 
 /mob/living/basic/spriggan/Initialize(mapload)
 	ADD_TRAIT(src, TRAIT_FREE_HYPERSPACE_MOVEMENT, INNATE_TRAIT)
+	ADD_TRAIT(src, TRAIT_SPACEWALK, INNATE_TRAIT)
 	. = ..()
+	ADD_TRAIT(src, TRAIT_RESISTCOLD, INNATE_TRAIT)
 
 	AddComponent(/datum/component/ghost_direct_control,\
 		poll_candidates = FALSE,\
@@ -105,7 +114,7 @@
 	if(.)
 		update_appearance(UPDATE_OVERLAYS)
 
-/mob/living/basic/spriggan/update_overlays()
+/mob/living/basic/spriggan/update_overlays() //adds its sparkly overlays on spawn and deletes them on death
 	. = ..()
 	if(stat == DEAD)
 		return
