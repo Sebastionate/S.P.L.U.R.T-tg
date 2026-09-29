@@ -46,7 +46,7 @@
 	unsuitable_atmos_damage = FALSE
 	pressure_resistance = 200
 
-	hud_type = /datum/hud/dextrous/
+	hud_type = /datum/hud/dextrous
 
 	// variable from the guardian support type, used to determine how much healing is done per hit
 	var/healing_amount = 5
