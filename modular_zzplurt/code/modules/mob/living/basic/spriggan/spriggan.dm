@@ -3,10 +3,10 @@
 
 	name = "Wandering Dryad"
 	desc = "A creature made up of warped vinery and petrified oak. It possesses a form comparable to that of a female humanoid, and between the openings in its wooden exterior is an arcane glow of some sort."
-	icon = 'icons/mob/nonhuman-player/alien.dmi'
-	icon_state = "alienh" //edit this to spriggan icon later
-	icon_living = "alienh" //edit this to spriggan icon later
-	icon_dead = "alienh_dead" //edit this to spriggan icon later
+	icon = 'modular_zzplurt/icons/mobs/spriggan.dmi'
+	icon_state = "spriggan"
+	icon_living = "spriggan"
+	icon_dead = "spriggan_dead"
 	icon_gib = "syndicate_gib"
 	gender = FEMALE
 	status_flags = CANPUSH
@@ -98,6 +98,20 @@
 	)
 
 	ADD_TRAIT(src, TRAIT_MEDICAL_HUD, INNATE_TRAIT)
+	update_appearance(UPDATE_OVERLAYS)
+
+/mob/living/basic/spriggan/death(gibbed)
+	. = ..()
+	if(.)
+		update_appearance(UPDATE_OVERLAYS)
+
+/mob/living/basic/spriggan/update_overlays()
+	. = ..()
+	if(stat == DEAD)
+		return
+
+	. += mutable_appearance(icon, "spriggan-glow")
+	. += mutable_appearance(icon, "spriggan-glow-particles")
 
 /// Called after we heal someone, show some visuals
 /mob/living/basic/spriggan/proc/after_healed(mob/living/healed)
