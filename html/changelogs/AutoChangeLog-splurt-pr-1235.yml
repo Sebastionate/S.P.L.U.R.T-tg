@@ -1,0 +1,4 @@
+author: "Lucky"
+delete-after: True
+changes:
+  - rscadd: "The Warden's locker now contains a security megaphone on roundstart."
