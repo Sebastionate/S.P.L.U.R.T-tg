@@ -1,3 +1,8 @@
+//defines for the spriggan abilities
+#define SPRIGGAN_TELEPORT_ABILITY "spriggan_teleport"
+#define SPRIGGAN_SIGHT_ABILITY "spriggan_sight"
+#define SPRIGGAN_LIGHT_ABILITY "spriggan_light"
+
 /// A random ghost role that can be spawned; can float around and heal people.
 /mob/living/basic/spriggan
 
@@ -133,3 +138,7 @@
 // adds bloodsplatter when attacked
 /mob/living/basic/chryssalid/create_splatter(splatter_dir)
 	new /obj/effect/temp_visual/dir_setting/bloodsplatter(get_turf(src), splatter_dir, BLOOD_COLOR_XENO)
+
+#undef SPRIGGAN_TELEPORT_ABILITY
+#undef SPRIGGAN_SIGHT_ABILITY
+#undef SPRIGGAN_LIGHT_ABILITY
